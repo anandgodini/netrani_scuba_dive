@@ -1,0 +1,423 @@
+@import "tailwindcss";
+
+:root {
+  /* Slush Colors with Sea Blue Primary Canvas */
+  --color-carbon: #000000;
+  --color-paper-white: #ffffff;
+  --color-sky-wash: #bfe5ff;       /* Vibrant Sea Blue Pastel Canvas */
+  --color-sea-blue: #b3dcff;       /* Oceanic Sea Blue Ground */
+  --color-sea-blue-surface: #d8efff;
+  --color-sea-blue-deep: #0e3b66;   /* Deep Oceanic Anchor */
+  --color-concrete-gray: #d0ebff;   /* Replaced muddy gray with fresh light sea wash */
+  --color-soft-mist: #e5f4ff;
+  --color-electric-blue: #4da2ff;
+  --color-mint-pop: #55db9c;
+  --color-lavender: #e9ccff;
+  --color-ember: #fb4903;
+  --color-sunburst: #ffd731;
+  --color-voltage-violet: #5c4ade;
+
+  /* Typography — Font Families */
+  --font-lateral: var(--font-antonio), 'Antonio', 'Bowlby One', Impact, sans-serif;
+  --font-aeonik-pro: var(--font-inter), 'Inter', 'Satoshi', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Typography — Scale */
+  --text-caption: 12px;
+  --leading-caption: 1.56;
+  --tracking-caption: -0.01px;
+  --text-body-lg: 15px;
+  --leading-body-lg: 1.39;
+  --tracking-body-lg: -0.01px;
+  --text-subheading: 24px;
+  --leading-subheading: 1.2;
+  --tracking-subheading: -0.01px;
+  --text-heading-sm: 30px;
+  --leading-heading-sm: 1.1;
+  --tracking-heading-sm: -0.01px;
+  --text-heading: 64px;
+  --leading-heading: 1;
+  --tracking-heading: -0.01px;
+  --text-display: 200px;
+  --leading-display: 0.8;
+  --tracking-display: 0px;
+  --text-display-lg: 640px;
+  --leading-display-lg: 0.75;
+  --tracking-display-lg: 0px;
+
+  /* Typography — Weights */
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-44: 44px;
+  --spacing-48: 48px;
+  --spacing-60: 60px;
+  --spacing-80: 80px;
+  --spacing-128: 128px;
+  --spacing-180: 180px;
+  --spacing-224: 224px;
+
+  /* Layout */
+  --page-max-width: 1440px;
+  --section-gap: 56px;
+  --card-padding: 28px;
+  --element-gap: 12px;
+
+  /* Border Radius */
+  --radius-nav: 1600px;
+  --radius-body: 30px;
+  --radius-cards: 24px;
+  --radius-pills: 1600px;
+  --radius-buttons: 1600px;
+  --radius-wallet-icon: 16px;
+  --radius-cards-elevated: 40px;
+
+  /* Surfaces */
+  --surface-sky-wash: #bfe5ff;
+  --surface-paper-white: #ffffff;
+  --surface-concrete-gray: #d0ebff;
+  --surface-sticker-surfaces: #e9ccff;
+}
+
+@theme {
+  --color-carbon: #000000;
+  --color-paper-white: #ffffff;
+  --color-sky-wash: #bfe5ff;
+  --color-sea-blue: #b3dcff;
+  --color-sea-blue-surface: #d8efff;
+  --color-sea-blue-deep: #0e3b66;
+  --color-concrete-gray: #d0ebff;
+  --color-soft-mist: #e5f4ff;
+  --color-electric-blue: #4da2ff;
+  --color-mint-pop: #55db9c;
+  --color-lavender: #e9ccff;
+  --color-ember: #fb4903;
+  --color-sunburst: #ffd731;
+  --color-voltage-violet: #5c4ade;
+
+  --font-lateral: var(--font-antonio), 'Antonio', 'Bowlby One', Impact, sans-serif;
+  --font-aeonik-pro: var(--font-inter), 'Inter', 'Satoshi', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-sky-wash);
+  color: var(--color-carbon);
+  overflow-x: hidden;
+  font-family: var(--font-aeonik-pro);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================================================
+   ANIMATIONS & DYNAMIC MICRO-INTERACTIONS
+   ========================================================================= */
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(2deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(12px) rotate(-2.5deg);
+  }
+}
+
+@keyframes ribbonBreathe {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.02);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes bubbleFloat {
+  0% {
+    transform: translateY(0px) translateX(0px);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-60px) translateX(12px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-130px) translateX(-8px);
+    opacity: 0;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.85;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 6s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: floatSlow 3.5s ease-in-out infinite;
+}
+
+.animate-ribbon-wave {
+  animation: ribbonBreathe 7s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes fishSwim {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(-3deg);
+  }
+}
+
+.animate-fish-swim {
+  animation: fishSwim 4s ease-in-out infinite;
+}
+
+/* =========================================================================
+   SLUSH STYLE ARCHITECTURE: INFLATABLE STICKER UNIVERSE ON SEA BLUE PASTEL
+   ========================================================================= */
+
+/* Display Headlines: Lateral 800, crushed 0.78 line-height */
+.slush-display {
+  font-family: var(--font-lateral);
+  font-weight: 800;
+  line-height: 0.78;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: var(--color-carbon);
+}
+
+.slush-display-hero {
+  font-family: var(--font-lateral);
+  font-weight: 800;
+  font-size: clamp(3rem, 9.5vw, 9.5rem);
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: var(--color-carbon);
+}
+
+.slush-subheading {
+  font-family: var(--font-aeonik-pro);
+  font-weight: 500;
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  color: var(--color-carbon);
+}
+
+/* Sticker Cards: 1px solid black border, 24px–36px rounded, no box shadows */
+.slush-card {
+  border: 1px solid var(--color-carbon);
+  border-radius: 28px;
+  background-color: var(--color-paper-white);
+  color: var(--color-carbon);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.slush-card:hover {
+  transform: translateY(-3px);
+}
+
+.slush-card-elevated {
+  border: 1px solid var(--color-carbon);
+  border-radius: 36px;
+  background-color: var(--color-paper-white);
+  color: var(--color-carbon);
+  transition: transform 0.25s ease;
+}
+
+.slush-card-elevated:hover {
+  transform: translateY(-4px);
+}
+
+.slush-card-lavender {
+  border: 1px solid var(--color-carbon);
+  border-radius: 28px;
+  background-color: var(--color-lavender);
+  color: var(--color-carbon);
+}
+
+.slush-card-sky {
+  border: 1px solid var(--color-carbon);
+  border-radius: 28px;
+  background-color: var(--color-sky-wash);
+  color: var(--color-carbon);
+}
+
+.slush-card-mint {
+  border: 1px solid var(--color-carbon);
+  border-radius: 28px;
+  background-color: var(--color-mint-pop);
+  color: var(--color-carbon);
+}
+
+/* Nav & Pill Buttons: 1600px radius, 1px solid black border */
+.slush-pill-btn {
+  border-radius: 1600px;
+  border: 1px solid var(--color-carbon);
+  background-color: var(--color-paper-white);
+  color: var(--color-carbon);
+  font-family: var(--font-aeonik-pro);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.032em;
+  padding: 12px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s ease;
+}
+
+.slush-pill-btn:hover {
+  background-color: var(--color-soft-mist);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.slush-pill-btn:active {
+  transform: scale(0.97);
+}
+
+/* Primary Filled CTA Button */
+.slush-btn-black {
+  border-radius: 1600px;
+  border: 1px solid var(--color-carbon);
+  background-color: var(--color-carbon);
+  color: var(--color-paper-white);
+  font-family: var(--font-aeonik-pro);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.032em;
+  padding: 13px 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s ease;
+}
+
+.slush-btn-black:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-2px) scale(1.02);
+}
+
+.slush-btn-black:active {
+  transform: scale(0.97);
+}
+
+/* Sticker Tags & Badges: Hand-cut feel, 1px black outline, 16–20px radius */
+.slush-sticker-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--color-carbon);
+  border-radius: 1600px;
+  padding: 7px 16px;
+  font-family: var(--font-aeonik-pro);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.032em;
+  text-transform: uppercase;
+  transition: transform 0.2s ease;
+}
+
+.slush-sticker-badge:hover {
+  transform: scale(1.05);
+}
+
+.slush-sticker-badge-mint {
+  background-color: var(--color-mint-pop);
+  color: var(--color-carbon);
+}
+
+.slush-sticker-badge-sunburst {
+  background-color: var(--color-sunburst);
+  color: var(--color-carbon);
+}
+
+.slush-sticker-badge-ember {
+  background-color: var(--color-ember);
+  color: var(--color-paper-white);
+}
+
+.slush-sticker-badge-lavender {
+  background-color: var(--color-lavender);
+  color: var(--color-carbon);
+}
+
+.slush-sticker-badge-violet {
+  background-color: var(--color-voltage-violet);
+  color: var(--color-paper-white);
+}
+
+.slush-sticker-badge-blue {
+  background-color: var(--color-electric-blue);
+  color: var(--color-carbon);
+}
+
+/* Infinite Marquee Strip */
+@keyframes slushMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slush-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: slushMarquee 24s linear infinite;
+}
+
+.slush-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* 3D Inflatable Ribbon Tube Texture Filter */
+.slush-inflatable-tube {
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.08));
+}
