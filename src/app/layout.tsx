@@ -22,6 +22,7 @@ const inter = Inter({
 });
 
 
+
 export const metadata: Metadata = {
   title: "Netrani Scuba Dive | Premier Scuba Diving Packages & Netrani Island Booking",
   description:
