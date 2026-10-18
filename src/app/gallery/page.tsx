@@ -258,10 +258,10 @@ export default function Gallery() {
               <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
             </Link>
             <a
-              href="tel:+917829975777"
+              href="tel:+917406329777"
               className="slush-pill-btn bg-white hover:bg-[#55db9c] text-black border border-black text-xs md:text-sm px-8 py-4"
             >
-              <span>Call to Book (+91 78299 75777)</span>
+              <span>Call to Book (+91 74063 29777)</span>
               <span className="w-2 h-2 rounded-full bg-[#55db9c] border border-black"></span>
             </a>
           </div>

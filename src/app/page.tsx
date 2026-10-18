@@ -111,7 +111,7 @@ export default function Home() {
     },
     {
       q: "How can I connect with your direct Murudeshwar dive coordinators?",
-      a: "You can reach our Netrani Scuba Dive booking desk directly at +91 78299 75777 or message us on WhatsApp (+91 74063 29777). Our coordinators are local divers who provide immediate slot confirmations, boat reporting locations, and live sea condition reports.",
+      a: "You can reach our Netrani Scuba Dive booking desk directly at +91 74063 29777 or message us on WhatsApp (+91 74063 29777). Our coordinators are local divers who provide immediate slot confirmations, boat reporting locations, and live sea condition reports.",
       link: "/blog/murudeshwar-scuba-diving-photos-videos",
       linkText: "View Live Photos & Videos ->",
     },
@@ -178,7 +178,7 @@ export default function Home() {
       "@id": "https://www.murudeshwarscubadive.in/#location",
       "name": "Netrani Scuba Dive",
       "image": "https://www.murudeshwarscubadive.in/hero.webp",
-      "telephone": "+917829975777",
+      "telephone": "+917406329777",
       "email": "murudeshwar.scuba.dive@gmail.com",
       "url": "https://www.murudeshwarscubadive.in",
       "address": {
@@ -260,7 +260,7 @@ export default function Home() {
       "sameAs": ["https://www.instagram.com/murudeshwar_scuba_dive/"],
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-78299-75777",
+        "telephone": "+91-74063-29777",
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": ["English", "Kannada", "Hindi"],
@@ -393,7 +393,7 @@ export default function Home() {
             </a>
 
             <a
-              href="tel:+917829975777"
+              href="tel:+917406329777"
               data-cta="call"
               className="slush-pill-btn bg-white text-black text-sm md:text-base px-8 py-4 shadow-[4px_4px_0px_#000000] hover:shadow-[2px_2px_0px_#000000] hover:bg-[#ffd731]"
             >
@@ -402,7 +402,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://wa.me/917829975777?text=I%20want%20to%20book%20Scuba%20Diving"
+              href="https://wa.me/917406329777?text=I%20want%20to%20book%20Scuba%20Diving"
               target="_blank"
               rel="noopener noreferrer"
               className="slush-pill-btn bg-[#55db9c] text-black text-sm md:text-base px-8 py-4 shadow-[4px_4px_0px_#000000] hover:shadow-[2px_2px_0px_#000000] hover:bg-[#45cb8c]"
@@ -659,7 +659,7 @@ export default function Home() {
                       Deep Dive Details
                     </Link>
                     <a
-                      href="tel:+917829975777"
+                      href="tel:+917406329777"
                       className="flex-1 flex items-center justify-center gap-2 bg-[#000000] hover:bg-neutral-800 text-white font-bold text-xs py-3.5 px-4 rounded-full border border-black transition-transform active:scale-95 text-center uppercase tracking-[0.032em]"
                     >
                       <span>Book Deep Dive</span>
@@ -1390,10 +1390,10 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-3.5 pt-2">
               <a
-                href="tel:+917829975777"
+                href="tel:+917406329777"
                 className="bg-black hover:bg-neutral-800 text-white text-xs font-bold py-3.5 px-7 rounded-full border border-black transition-transform active:scale-95 uppercase tracking-[0.032em] inline-flex items-center gap-2"
               >
-                <span>Call Now (+91 78299 75777)</span>
+                <span>Call Now (+91 74063 29777)</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-[#55db9c]"></span>
               </a>
               <Link
@@ -1429,10 +1429,10 @@ export default function Home() {
           <span className="text-[10px] font-bold text-black/70 uppercase tracking-[0.032em]">
             Netrani Scuba Desk
           </span>
-          <span className="text-xs font-bold text-black">+91 78299 75777</span>
+          <span className="text-xs font-bold text-black">+91 74063 29777</span>
         </div>
         <a
-          href="tel:+917829975777"
+          href="tel:+917406329777"
           className="bg-black text-white px-5 py-2 rounded-full text-xs font-bold uppercase tracking-[0.032em] border border-black"
         >
           Call Now

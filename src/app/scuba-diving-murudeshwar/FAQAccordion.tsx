@@ -92,7 +92,7 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
       <div className="mt-8 pt-6 border-t border-black/10 text-center">
         <p className="text-black/70 font-medium mb-4">Still have questions? We are here to help.</p>
         <a
-          href="https://wa.me/917829975777?text=I%20want%20to%20book%20Scuba%20Diving"
+          href="https://wa.me/917406329777?text=I%20want%20to%20book%20Scuba%20Diving"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-black text-white px-7 py-3 rounded-full text-xs md:text-sm font-bold border border-black hover:bg-black/85 transition-all tracking-wider uppercase"

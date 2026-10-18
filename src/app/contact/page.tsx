@@ -58,7 +58,7 @@ export default function Contact() {
       "description": "Direct Netrani scuba diving contact number, WhatsApp desk, map directions, and reporting location details.",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+917829975777",
+        "telephone": "+917406329777",
         "contactType": "customer service",
         "email": "murudeshwar.scuba.dive@gmail.com",
         "areaServed": "IN",
@@ -129,7 +129,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-6">
           {/* Card 1: Call */}
           <a
-            href="tel:+917829975777"
+            href="tel:+917406329777"
             className="group bg-white border border-black rounded-[28px] p-8 md:p-10 flex flex-col items-center text-center transition-all duration-300 hover:bg-[#d8efff] text-black shadow-[4px_4px_0px_#000000] hover:shadow-[6px_6px_0px_#000000] hover:-translate-y-1"
           >
             <div className="w-16 h-16 bg-[#ffd731] border border-black rounded-full flex items-center justify-center mb-6 text-black shadow-[2px_2px_0px_#000000]">
@@ -150,7 +150,7 @@ export default function Contact() {
             </div>
             <h2 className="text-xs uppercase tracking-[0.032em] text-neutral-600 font-bold mb-1">Call Booking Desk</h2>
             <p className="text-black text-2xl md:text-3xl font-extrabold mb-2 tracking-tight">
-              +91 78299 75777
+              +91 74063 29777
             </p>
             <p className="text-neutral-700 text-sm font-medium">Direct desk &amp; boat slot reservations</p>
             <span className="mt-6 slush-btn-black text-xs px-6 py-2.5 inline-flex items-center gap-2">

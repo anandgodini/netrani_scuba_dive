@@ -331,7 +331,7 @@ export default function NetraniScubaDiving() {
         "@type": "SportsActivityLocation",
         "name": "Netrani Scuba Dive",
         "url": "https://www.murudeshwarscubadive.in",
-        "telephone": "+917829975777",
+        "telephone": "+917406329777",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Temple Main Road, Murudeshwar Beach",
@@ -456,10 +456,10 @@ export default function NetraniScubaDiving() {
 
           <div className="pt-2 flex flex-wrap gap-4">
             <a
-              href="tel:+917829975777"
+              href="tel:+917406329777"
               className="slush-btn-black text-xs md:text-sm px-8 py-3.5 shadow-[4px_4px_0px_#000000]"
             >
-              <span>Book Dive Slot (+91 78299 75777)</span>
+              <span>Book Dive Slot (+91 74063 29777)</span>
               <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
             </a>
             <a
@@ -667,10 +667,10 @@ export default function NetraniScubaDiving() {
               </p>
               <div className="pt-2">
                 <a
-                  href="tel:+917829975777"
+                  href="tel:+917406329777"
                   className="slush-btn-black text-xs md:text-sm px-10 py-4 inline-flex"
                 >
-                  <span>Call to Book Now (+91 78299 75777)</span>
+                  <span>Call to Book Now (+91 74063 29777)</span>
                   <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
                 </a>
               </div>

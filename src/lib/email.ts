@@ -178,7 +178,7 @@ export function generateBookingEmailHtml(data: BookingNotificationData): string 
           <tr>
             <td style="background-color: #fafafa; border-top: 1px solid #000000; padding: 18px 32px; text-align: center; font-size: 11px; color: #666666; line-height: 1.5;">
               <strong>Netrani Scuba Dive</strong> • Murudeshwar Beach, Murudeshwar, Karnataka 581350<br>
-              Helpline: +91 78299 75777 • Official Portal: <a href="https://www.murudeshwarscubadive.in" style="color: #000000; text-decoration: underline;">murudeshwarscubadive.in</a>
+              Helpline: +91 74063 29777 • Official Portal: <a href="https://www.murudeshwarscubadive.in" style="color: #000000; text-decoration: underline;">murudeshwarscubadive.in</a>
             </td>
           </tr>
         </table>
@@ -214,7 +214,7 @@ Quick Actions:
 - Email: mailto:${data.email}
 
 Netrani Scuba Dive Booking Desk
-Helpline: +91 78299 75777
+Helpline: +91 74063 29777
 Website: https://www.murudeshwarscubadive.in
 =============================================
   `.trim();

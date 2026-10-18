@@ -191,10 +191,10 @@ export default function BulkBooking() {
 
           <div className="pt-2 flex flex-wrap justify-center gap-4">
             <a
-              href="tel:+917829975777"
+              href="tel:+917406329777"
               className="slush-btn-black text-xs md:text-sm px-8 py-4 inline-flex items-center gap-2"
             >
-              <span>Call Coordinator (+91 78299 75777)</span>
+              <span>Call Coordinator (+91 74063 29777)</span>
               <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
             </a>
             <a
@@ -269,10 +269,10 @@ export default function BulkBooking() {
           </p>
           <div className="flex flex-wrap justify-center items-center gap-4 pt-2">
             <a
-              href="tel:+917829975777"
+              href="tel:+917406329777"
               className="slush-btn-black text-xs md:text-sm px-8 py-4 inline-flex items-center gap-2"
             >
-              <span>Call Coordinator (+91 78299 75777)</span>
+              <span>Call Coordinator (+91 74063 29777)</span>
               <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
             </a>
             <a

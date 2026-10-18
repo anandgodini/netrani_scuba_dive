@@ -145,7 +145,7 @@ export default function BookingSection() {
     } catch (err: any) {
       setServerError(
         err.message ||
-          "A network or server error occurred. Please call our dive desk directly at +91 78299 75777."
+          "A network or server error occurred. Please call our dive desk directly at +91 74063 29777."
       );
     } finally {
       setIsSubmitting(false);
@@ -267,7 +267,7 @@ export default function BookingSection() {
                 {/* Action CTA Buttons */}
                 <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
                   <a
-                    href={`https://wa.me/917829975777?text=Hi%2C%20I%20just%20submitted%20a%20booking%20enquiry%20for%20${encodeURIComponent(
+                    href={`https://wa.me/917406329777?text=Hi%2C%20I%20just%20submitted%20a%20booking%20enquiry%20for%20${encodeURIComponent(
                       confirmedBooking.fullName
                     )}%20on%20${encodeURIComponent(confirmedBooking.bookingDate)}.`}
                     target="_blank"
@@ -279,10 +279,10 @@ export default function BookingSection() {
                   </a>
 
                   <a
-                    href="tel:+917829975777"
+                    href="tel:+917406329777"
                     className="inline-flex items-center gap-2 bg-black hover:bg-neutral-800 border border-black text-white px-6 py-3.5 rounded-full font-bold text-xs uppercase tracking-[0.032em] shadow-[3px_3px_0px_#000000] active:scale-95 transition-all"
                   >
-                    <span>Call +91 78299 75777</span>
+                    <span>Call +91 74063 29777</span>
                     <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
                   </a>
 
@@ -533,14 +533,14 @@ export default function BookingSection() {
                   <p className="text-black/75 text-xs font-semibold">
                     Prefer direct booking over the phone?{" "}
                     <a
-                      href="tel:+917829975777"
+                      href="tel:+917406329777"
                       className="text-black font-extrabold underline hover:text-[#fb4903] transition-colors"
                     >
-                      Call +91 78299 75777
+                      Call +91 74063 29777
                     </a>{" "}
                     or{" "}
                     <a
-                      href="https://wa.me/917829975777?text=I%20want%20to%20book%20Scuba%20Diving"
+                      href="https://wa.me/917406329777?text=I%20want%20to%20book%20Scuba%20Diving"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-black font-extrabold underline hover:text-[#55db9c] transition-colors"

@@ -181,7 +181,7 @@ export async function POST(request: Request) {
       {
         success: false,
         error:
-          "An unexpected server error occurred while processing your booking. Please call our Murudeshwar dive desk directly at +91 78299 75777.",
+          "An unexpected server error occurred while processing your booking. Please call our Murudeshwar dive desk directly at +91 74063 29777.",
       },
       { status: 500 }
     );

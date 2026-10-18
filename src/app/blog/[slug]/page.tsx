@@ -509,7 +509,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       "@type": "LocalBusiness",
       "name": "Netrani Scuba Dive",
       "image": "https://www.murudeshwarscubadive.in/images/netrani-scuba-cover.png",
-      "telephone": "+917829975777",
+      "telephone": "+917406329777",
       "email": "murudeshwar.scuba.dive@gmail.com",
       "address": {
         "@type": "PostalAddress",
@@ -730,10 +730,10 @@ export default async function BlogPostPage({ params }: PageProps) {
                       <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
                     </Link>
                     <a
-                      href="tel:+917829975777"
+                      href="tel:+917406329777"
                       className="slush-pill-btn bg-white hover:bg-[#55db9c] text-black border border-black text-xs uppercase tracking-[0.032em] px-6 py-4 inline-flex items-center gap-2"
                     >
-                      <span>Call +91 78299 75777</span>
+                      <span>Call +91 74063 29777</span>
                       <span className="w-2 h-2 rounded-full bg-[#55db9c] border border-black"></span>
                     </a>
                   </div>
@@ -825,7 +825,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
                 <div className="space-y-3 text-xs font-bold">
                   <a
-                    href="tel:+917829975777"
+                    href="tel:+917406329777"
                     className="w-full flex items-center justify-center gap-2 slush-btn-black py-3.5 rounded-full uppercase tracking-[0.032em]"
                   >
                     <span>Call Booking Desk</span>
@@ -969,10 +969,10 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <span className="w-2 h-2 rounded-full bg-[#55db9c]"></span>
               </Link>
               <a
-                href="tel:+917829975777"
+                href="tel:+917406329777"
                 className="w-full sm:w-auto slush-pill-btn bg-white hover:bg-[#55db9c] text-black border border-black text-xs md:text-sm uppercase tracking-[0.032em] px-8 py-4 inline-flex items-center justify-center gap-2"
               >
-                <span>Direct Desk: +91 78299 75777</span>
+                <span>Direct Desk: +91 74063 29777</span>
                 <span className="w-2 h-2 rounded-full bg-[#55db9c] border border-black"></span>
               </a>
             </div>

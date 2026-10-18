@@ -41,12 +41,12 @@ export default function Navbar() {
           <span className="text-[#ffd731]">• SLOTS FROM ₹3,500</span>
           <span>• PADI CERTIFIED OCEAN GUIDES</span>
           <span className="text-[#55db9c]">• 100% TRANSPARENT PRICING</span>
-          <span>• CALL +91 78299 75777</span>
+          <span>• CALL +91 74063 29777</span>
           <span>★ NETRANI SCUBA DIVE • KARNATAKA’S HEART-SHAPED CORAL REEF</span>
           <span className="text-[#ffd731]">• SLOTS FROM ₹3,500</span>
           <span>• PADI CERTIFIED OCEAN GUIDES</span>
           <span className="text-[#55db9c]">• 100% TRANSPARENT PRICING</span>
-          <span>• CALL +91 78299 75777</span>
+          <span>• CALL +91 74063 29777</span>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ export default function Navbar() {
 
             {/* Filled CTA Button */}
             <a
-              href="tel:+917829975777"
+              href="tel:+917406329777"
               data-cta="call"
               className="hidden sm:inline-flex items-center gap-2 bg-[#000000] hover:bg-[#222222] text-[#ffffff] text-[13px] font-bold tracking-[0.032em] py-2.5 px-5 rounded-full border border-black transition-all hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_#55db9c] uppercase"
             >
@@ -141,10 +141,10 @@ export default function Navbar() {
 
         <div className="max-w-[600px] mx-auto w-full flex flex-col gap-3">
           <a
-            href="tel:+917829975777"
+            href="tel:+917406329777"
             className="w-full py-4 text-center rounded-full bg-[#000000] text-[#ffffff] font-bold text-sm uppercase tracking-[0.032em] border border-black shadow-[3px_3px_0px_#000000]"
           >
-            Call Desk: +91 78299 75777
+            Call Desk: +91 74063 29777
           </a>
         </div>
       </div>
