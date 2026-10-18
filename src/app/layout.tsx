@@ -21,6 +21,7 @@ const inter = Inter({
   weight: ["400", "500", "600", "700", "800"],
 });
 
+
 export const metadata: Metadata = {
   title: "Netrani Scuba Dive | Premier Scuba Diving Packages & Netrani Island Booking",
   description:
