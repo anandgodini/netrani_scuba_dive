@@ -2,6 +2,7 @@ import Link from "next/link";
 import WeatherStats from "./WeatherStats";
 import BrandLogo from "./BrandLogo";
 import { StarfishSticker, DiverMaskSticker } from "./SlushElements";
+import NewsletterForm from "./NewsletterForm";
 
 export default function Footer() {
   return (
@@ -33,28 +34,7 @@ export default function Footer() {
             <p className="text-black/80 mb-6 text-sm md:text-base leading-relaxed font-medium">
               Get seasonal updates on <strong className="text-black font-bold">Netrani diving</strong> conditions, underwater visibility, seasonal coral blooms, and advance slot booking.
             </p>
-            <form
-              action="mailto:murudeshwar.scuba.dive@gmail.com?subject=Netrani%20Scuba%20Dive%20Inquiry%20/%20Join%20Us"
-              method="get"
-              className="flex w-full max-w-md items-center bg-[#ffffff] rounded-full border border-black p-1.5 shadow-[3px_3px_0px_#000000] focus-within:shadow-[1px_1px_0px_#000000] transition-all"
-            >
-              <input
-                id="newsletter-email"
-                type="email"
-                name="body"
-                placeholder="Enter your email"
-                aria-label="Email Address for newsletter updates"
-                required
-                className="bg-transparent text-black px-4 py-2.5 outline-none w-full placeholder:text-black/50 text-xs font-bold"
-              />
-              <button
-                type="submit"
-                className="bg-black hover:bg-neutral-800 text-white font-bold px-7 py-3 text-xs rounded-full whitespace-nowrap transition-transform active:scale-95 inline-flex items-center gap-2 uppercase tracking-[0.032em] shrink-0"
-              >
-                <span>Join Us</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#55db9c]"></span>
-              </button>
-            </form>
+            <NewsletterForm />
           </div>
 
           {/* Conditions / Live Marine Stats Widget */}

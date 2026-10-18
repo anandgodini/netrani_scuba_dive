@@ -169,8 +169,11 @@ export async function POST(request: Request) {
           submittedAt: submissionTimestamp,
         },
         emailDelivered: emailResult.delivered,
+        provider: emailResult.provider,
+        messageId: emailResult.messageId,
         recipient: emailResult.recipient,
-        needsSmtpConfig: emailResult.needsSmtpConfig || false,
+        needsApiKey: emailResult.needsApiKey || false,
+        customerConfirmationSent: emailResult.customerConfirmationSent || false,
         note: emailResult.note,
       },
       { status: 200 }

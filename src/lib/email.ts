@@ -1,3 +1,4 @@
+import { Resend } from "resend";
 import nodemailer from "nodemailer";
 
 export interface BookingNotificationData {
@@ -13,10 +14,13 @@ export interface BookingNotificationData {
 export interface EmailDispatchResult {
   success: boolean;
   delivered: boolean;
+  provider: "resend" | "smtp" | "test" | "console";
   recipient: string;
   messageId?: string;
   previewUrl?: string;
+  needsApiKey?: boolean;
   needsSmtpConfig?: boolean;
+  customerConfirmationSent?: boolean;
   error?: string;
   note?: string;
 }
@@ -27,6 +31,7 @@ export interface EmailDispatchResult {
  */
 export function getOwnerEmail(): string {
   return (
+    process.env.RESEND_TO ||
     process.env.BOOKING_NOTIFICATION_EMAIL ||
     process.env.OWNER_EMAIL ||
     "murudeshwar.scuba.dive@gmail.com"
@@ -34,7 +39,30 @@ export function getOwnerEmail(): string {
 }
 
 /**
- * Generates high-contrast, brand-aligned HTML email template for booking notifications.
+ * Returns the configured sender email address.
+ * Resend Sandbox default is onboarding@resend.dev.
+ * When domain is verified, use e.g. bookings@murudeshwarscubadive.in
+ */
+export function getSenderEmail(): string {
+  return (
+    process.env.RESEND_FROM ||
+    "Netrani Scuba Dive <onboarding@resend.dev>"
+  );
+}
+
+/**
+ * Returns an instance of the Resend client if RESEND_API_KEY is configured.
+ */
+export function getResendClient(): Resend | null {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey || apiKey.trim() === "" || apiKey === "re_your_api_key_here") {
+    return null;
+  }
+  return new Resend(apiKey);
+}
+
+/**
+ * Generates high-contrast, brand-aligned HTML email template for booking notifications to the owner.
  */
 export function generateBookingEmailHtml(data: BookingNotificationData): string {
   const cleanPhone = data.phone.replace(/\D/g, "");
@@ -61,7 +89,7 @@ export function generateBookingEmailHtml(data: BookingNotificationData): string 
                 <tr>
                   <td>
                     <div style="display: inline-block; background-color: #55db9c; color: #000000; border: 1px solid #000000; padding: 4px 12px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 8px;">
-                      ● NEW BOOKING ENQUIRY
+                      ● NEW BOOKING ENQUIRY (VIA RESEND)
                     </div>
                     <h1 style="margin: 0; font-size: 26px; font-weight: 900; letter-spacing: -0.02em; color: #000000; text-transform: uppercase; line-height: 1.1;">
                       Netrani Scuba Dive
@@ -80,19 +108,19 @@ export function generateBookingEmailHtml(data: BookingNotificationData): string 
             <td style="padding: 28px 32px;">
               <p style="margin: 0 0 20px 0; font-size: 15px; line-height: 1.5; color: #111111;">
                 Hello <strong>Netrani Scuba Team</strong>,<br>
-                A new customer has submitted an advance scuba diving booking enquiry. Below are the complete customer and trip details:
+                A customer has submitted a new scuba diving booking enquiry form. Below are the complete entered details:
               </p>
 
               <!-- Booking Details Table -->
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border: 1px solid #000000; border-radius: 16px; overflow: hidden; background-color: #ffffff; margin-bottom: 24px;">
                 <tr style="background-color: #ffd731; border-bottom: 1px solid #000000;">
                   <td colspan="2" style="padding: 12px 18px; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; color: #000000; border-bottom: 1px solid #000000;">
-                    Trip & Customer Summary
+                    Form Input Values
                   </td>
                 </tr>
                 <tr>
                   <td style="padding: 12px 18px; font-size: 13px; font-weight: 700; color: #555555; width: 38%; border-bottom: 1px solid #e0e0e0; background-color: #fafafa;">
-                    Customer Name
+                    Customer Full Name
                   </td>
                   <td style="padding: 12px 18px; font-size: 14px; font-weight: 800; color: #000000; border-bottom: 1px solid #e0e0e0;">
                     ${data.fullName}
@@ -196,7 +224,7 @@ export function generateBookingEmailHtml(data: BookingNotificationData): string 
 export function generateBookingEmailText(data: BookingNotificationData): string {
   return `
 =============================================
-NEW NETRANI SCUBA DIVE BOOKING ENQUIRY
+NEW NETRANI SCUBA DIVE BOOKING ENQUIRY (VIA RESEND)
 =============================================
 
 A new customer booking enquiry was submitted via murudeshwarscubadive.in:
@@ -221,16 +249,131 @@ Website: https://www.murudeshwarscubadive.in
 }
 
 /**
- * Dispatches the booking notification email.
- * - Uses SMTP credentials if configured in environment variables (SMTP_HOST, SMTP_USER, SMTP_PASS, etc.).
- * - If optional testAccount is specified, creates an Ethereal SMTP test account to verify transmission.
- * - If SMTP is not yet configured, logs the full payload for the administrator.
+ * Generates customer confirmation HTML email sent to the user who filled the form.
+ */
+export function generateCustomerConfirmationHtml(data: BookingNotificationData): string {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Scuba Booking Enquiry Received</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #e5f4ff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #000000;">
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #e5f4ff; padding: 32px 16px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="100%" style="max-width: 600px; background-color: #ffffff; border: 2px solid #000000; border-radius: 24px; overflow: hidden; box-shadow: 6px 6px 0px #000000;" cellspacing="0" cellpadding="0" border="0">
+          
+          <tr>
+            <td style="background-color: #ffd731; border-bottom: 2px solid #000000; padding: 28px 32px; text-align: left;">
+              <div style="display: inline-block; background-color: #000000; color: #ffffff; padding: 4px 12px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 8px;">
+                ✓ ENQUIRY CONFIRMATION
+              </div>
+              <h1 style="margin: 0; font-size: 26px; font-weight: 900; color: #000000; text-transform: uppercase;">
+                Thank You, ${data.fullName}!
+              </h1>
+              <p style="margin: 6px 0 0 0; font-size: 13px; color: #111111; font-weight: 600;">
+                We have received your advance scuba diving booking request for Netrani Island.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 28px 32px;">
+              <p style="margin: 0 0 20px 0; font-size: 15px; line-height: 1.5; color: #111111;">
+                Our certified dive coordinator is reviewing your preferred slot and will call/WhatsApp you shortly to confirm boat seating and give you the Murudeshwar beach reporting directions.
+              </p>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border: 1px solid #000000; border-radius: 16px; overflow: hidden; background-color: #ffffff; margin-bottom: 24px;">
+                <tr style="background-color: #bfe5ff; border-bottom: 1px solid #000000;">
+                  <td colspan="2" style="padding: 12px 18px; font-size: 12px; font-weight: 800; text-transform: uppercase; color: #000000;">
+                    Your Requested Details
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 16px; font-size: 13px; font-weight: 700; color: #555; width: 40%; border-bottom: 1px solid #e0e0e0;">Package</td>
+                  <td style="padding: 10px 16px; font-size: 13px; font-weight: 800; color: #000; border-bottom: 1px solid #e0e0e0;">${data.package}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 16px; font-size: 13px; font-weight: 700; color: #555; border-bottom: 1px solid #e0e0e0;">Session</td>
+                  <td style="padding: 10px 16px; font-size: 13px; font-weight: 800; color: #000; border-bottom: 1px solid #e0e0e0;">${data.session} Session</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 16px; font-size: 13px; font-weight: 700; color: #555; border-bottom: 1px solid #e0e0e0;">Booking Date</td>
+                  <td style="padding: 10px 16px; font-size: 14px; font-weight: 900; color: #fb4903; border-bottom: 1px solid #e0e0e0;">📅 ${data.bookingDate}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 16px; font-size: 13px; font-weight: 700; color: #555;">Contact Phone</td>
+                  <td style="padding: 10px 16px; font-size: 13px; font-weight: 800; color: #000;">${data.phone}</td>
+                </tr>
+              </table>
+
+              <div style="background-color: #f7f7f7; border: 1px solid #000000; border-radius: 12px; padding: 16px; font-size: 13px; line-height: 1.5; color: #222222; margin-bottom: 24px;">
+                <strong>What&apos;s Included:</strong>
+                <ul style="margin: 8px 0 0 0; padding-left: 20px;">
+                  <li>1:1 Certified PADI Dive Master assistance (zero swimming required)</li>
+                  <li>Boat cruise from Murudeshwar Beach to Netrani Island &amp; back</li>
+                  <li>Complimentary 4K HD underwater action photos &amp; video recording</li>
+                  <li>All scuba gear, sanitized wetsuits, mask, and life vest</li>
+                </ul>
+              </div>
+
+              <div style="text-align: center;">
+                <a href="https://wa.me/917406329777" style="display: inline-block; background-color: #55db9c; color: #000000; text-decoration: none; font-size: 13px; font-weight: 800; padding: 12px 28px; border-radius: 999px; border: 1px solid #000000; text-transform: uppercase;">
+                  💬 Chat With Dive Desk (+91 74063 29777)
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background-color: #fafafa; border-top: 1px solid #000000; padding: 16px 32px; text-align: center; font-size: 11px; color: #666666;">
+              Netrani Scuba Dive • Murudeshwar Beach, Karnataka 581350<br>
+              Helpline: +91 74063 29777 • <a href="https://www.murudeshwarscubadive.in" style="color: #000;">murudeshwarscubadive.in</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+  `.trim();
+}
+
+export function generateCustomerConfirmationText(data: BookingNotificationData): string {
+  return `
+Thank you, ${data.fullName}!
+
+We have received your advance scuba diving booking request for Netrani Island.
+
+Requested Details:
+- Package: ${data.package}
+- Session: ${data.session}
+- Booking Date: ${data.bookingDate}
+- Contact Phone: ${data.phone}
+
+Our certified dive coordinator will call/WhatsApp you shortly to confirm boat seating and give you the Murudeshwar beach reporting directions.
+
+Questions? Call our dive desk at +91 74063 29777 or visit https://www.murudeshwarscubadive.in
+  `.trim();
+}
+
+/**
+ * Dispatches the booking notification email using Resend (with fallback support).
+ *
+ * 1. Primary: Resend API (via resend SDK)
+ * 2. Secondary: SMTP credentials (if configured)
+ * 3. Graceful fallback: Console logging (if neither key is configured)
  */
 export async function sendBookingNotificationEmail(
   data: BookingNotificationData,
   options?: { forceTestAccount?: boolean }
 ): Promise<EmailDispatchResult> {
   const recipient = getOwnerEmail();
+  const fromEmail = getSenderEmail();
   const subject = `🤿 New Scuba Booking Enquiry: ${data.fullName} - ${data.bookingDate} (${data.session})`;
   const html = generateBookingEmailHtml(data);
   const text = generateBookingEmailText(data);
@@ -262,6 +405,7 @@ export async function sendBookingNotificationEmail(
       return {
         success: true,
         delivered: true,
+        provider: "test",
         recipient,
         messageId: info.messageId,
         previewUrl,
@@ -271,13 +415,86 @@ export async function sendBookingNotificationEmail(
       return {
         success: false,
         delivered: false,
+        provider: "test",
         recipient,
         error: err.message || "Failed to dispatch test email",
       };
     }
   }
 
-  // Check for live SMTP configuration
+  // ========================================================
+  // METHOD 1: RESEND (Primary Provider)
+  // ========================================================
+  const resend = getResendClient();
+
+  if (resend) {
+    try {
+      const { data: resendData, error: resendError } = await resend.emails.send({
+        from: fromEmail,
+        to: [recipient],
+        replyTo: data.email,
+        subject,
+        html,
+        text,
+      });
+
+      if (resendError) {
+        console.error("[Resend Error] Failed to dispatch booking email:", resendError);
+        return {
+          success: false,
+          delivered: false,
+          provider: "resend",
+          recipient,
+          error: resendError.message || "Resend email transmission failed",
+          note: `Resend error: ${resendError.name || "Error"} - ${resendError.message}`,
+        };
+      }
+
+      let customerConfirmationSent = false;
+      // Optional: dispatch customer confirmation copy if explicitly enabled or verified domain
+      if (process.env.SEND_CUSTOMER_CONFIRMATION === "true") {
+        try {
+          await resend.emails.send({
+            from: fromEmail,
+            to: [data.email],
+            subject: `🌊 Netrani Scuba Booking Enquiry Received - ${data.bookingDate}`,
+            html: generateCustomerConfirmationHtml(data),
+            text: generateCustomerConfirmationText(data),
+          });
+          customerConfirmationSent = true;
+        } catch (custErr: any) {
+          console.warn("[Resend] Customer confirmation note (non-critical):", custErr?.message);
+        }
+      }
+
+      console.log(
+        `[Resend Success] Booking email sent for ${data.fullName} to ${recipient}. Resend Message ID: ${resendData?.id}`
+      );
+
+      return {
+        success: true,
+        delivered: true,
+        provider: "resend",
+        recipient,
+        messageId: resendData?.id,
+        customerConfirmationSent,
+        note: `Email delivered via Resend. ID: ${resendData?.id}`,
+      };
+    } catch (err: any) {
+      console.error("[Resend Exception] Error sending booking email:", err);
+      return {
+        success: false,
+        delivered: false,
+        provider: "resend",
+        recipient,
+        error: err.message || "Unexpected exception during Resend dispatch",
+      };
+    }
+  }
+
+  // ========================================================
+  // METHOD 2: SMTP FALLBACK (If SMTP credentials configured)
+  // ========================================================
   const smtpHost = process.env.SMTP_HOST;
   const smtpUser = process.env.SMTP_USER;
   const smtpPass = process.env.SMTP_PASS;
@@ -313,6 +530,7 @@ export async function sendBookingNotificationEmail(
       return {
         success: true,
         delivered: true,
+        provider: "smtp",
         recipient,
         messageId: info.messageId,
       };
@@ -321,22 +539,95 @@ export async function sendBookingNotificationEmail(
       return {
         success: false,
         delivered: false,
+        provider: "smtp",
         recipient,
         error: err.message || "SMTP transmission failed",
       };
     }
   }
 
-  // If SMTP is not yet configured, log the notification securely to server console
+  // ========================================================
+  // METHOD 3: CONSOLE LOG FALLBACK (When no email service set)
+  // ========================================================
   console.log(
-    `[Netrani Scuba Dive] Booking Enquiry Received for ${data.fullName} (${data.phone}, ${data.package}, ${data.bookingDate}). Recipient: ${recipient}. Note: Set SMTP_HOST, SMTP_USER, SMTP_PASS in .env.local to dispatch live email.`
+    `[Netrani Scuba Dive] Form submission received for ${data.fullName} (${data.phone}, ${data.package}, ${data.bookingDate}). Recipient: ${recipient}. Note: Set RESEND_API_KEY in .env.local to send live emails via Resend.`
   );
 
   return {
     success: true,
     delivered: false,
+    provider: "console",
+    needsApiKey: true,
     needsSmtpConfig: true,
     recipient,
-    note: "Booking recorded successfully. SMTP credentials (SMTP_HOST, SMTP_USER, SMTP_PASS) required in .env.local for live email dispatch.",
+    note: "Booking recorded successfully. Provide RESEND_API_KEY in .env.local for live email dispatch using Resend.",
   };
+}
+
+/**
+ * Dispatches newsletter subscription notification using Resend.
+ */
+export async function sendNewsletterNotificationEmail(subscriberEmail: string): Promise<EmailDispatchResult> {
+  const recipient = getOwnerEmail();
+  const fromEmail = getSenderEmail();
+  const resend = getResendClient();
+
+  if (!resend) {
+    console.log(`[Resend Newsletter] New subscriber: ${subscriberEmail}. Set RESEND_API_KEY to send notifications.`);
+    return {
+      success: true,
+      delivered: false,
+      provider: "console",
+      needsApiKey: true,
+      recipient,
+      note: "Subscriber registered. Set RESEND_API_KEY for live delivery.",
+    };
+  }
+
+  try {
+    const { data: resendData, error: resendError } = await resend.emails.send({
+      from: fromEmail,
+      to: [recipient],
+      replyTo: subscriberEmail,
+      subject: `📬 New Newsletter Subscriber: ${subscriberEmail}`,
+      html: `
+        <div style="font-family: sans-serif; padding: 24px; background: #e5f4ff;">
+          <div style="max-width: 500px; margin: 0 auto; background: #ffffff; border: 2px solid #000; border-radius: 16px; padding: 24px;">
+            <h2 style="margin-top: 0;">New Netrani Scuba Newsletter Subscriber</h2>
+            <p>A new visitor subscribed for updates on diving conditions and slots:</p>
+            <p style="font-size: 16px; font-weight: bold; background: #ffd731; padding: 8px 12px; border: 1px solid #000; border-radius: 8px;">
+              ${subscriberEmail}
+            </p>
+          </div>
+        </div>
+      `,
+      text: `New Newsletter Subscriber: ${subscriberEmail}`,
+    });
+
+    if (resendError) {
+      return {
+        success: false,
+        delivered: false,
+        provider: "resend",
+        recipient,
+        error: resendError.message,
+      };
+    }
+
+    return {
+      success: true,
+      delivered: true,
+      provider: "resend",
+      recipient,
+      messageId: resendData?.id,
+    };
+  } catch (err: any) {
+    return {
+      success: false,
+      delivered: false,
+      provider: "resend",
+      recipient,
+      error: err.message || "Failed to dispatch newsletter email",
+    };
+  }
 }
