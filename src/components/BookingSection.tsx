@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import ScrollReveal from "@/components/motion/ScrollReveal";
+import { getWhatsAppBookingUrl } from "@/lib/whatsapp";
 
 interface FormData {
   fullName: string;
@@ -43,6 +44,19 @@ export default function BookingSection() {
       setMinDate(today);
     } catch {
       setMinDate(new Date().toISOString().split("T")[0]);
+    }
+
+    // Restore any draft if present in current session
+    if (typeof window !== "undefined") {
+      try {
+        const saved = sessionStorage.getItem("scuba_booking_draft");
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (parsed && typeof parsed === "object") {
+            setFormData((prev) => ({ ...prev, ...parsed }));
+          }
+        }
+      } catch {}
     }
   }, []);
 
@@ -101,7 +115,15 @@ export default function BookingSection() {
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    setFormData((prev) => {
+      const updated = { ...prev, [name]: value };
+      if (typeof window !== "undefined") {
+        try {
+          sessionStorage.setItem("scuba_booking_draft", JSON.stringify(updated));
+        } catch {}
+      }
+      return updated;
+    });
 
     // Real-time error clearing when user edits the field
     if (errors[name as keyof FormData]) {
@@ -152,6 +174,54 @@ export default function BookingSection() {
     }
   };
 
+  const handleWhatsAppSubmit = async () => {
+    if (isSubmitting) return;
+
+    if (!validate()) {
+      return;
+    }
+
+    setIsSubmitting(true);
+    setServerError(null);
+
+    const submissionTimestamp = new Intl.DateTimeFormat("en-IN", {
+      timeZone: "Asia/Kolkata",
+      dateStyle: "full",
+      timeStyle: "medium",
+    }).format(new Date());
+
+    const completeBooking: ConfirmedBooking = {
+      ...formData,
+      submittedAt: submissionTimestamp,
+    };
+
+    // Open WhatsApp directly with complete formatted message containing all entered data
+    const waUrl = getWhatsAppBookingUrl(completeBooking);
+    if (typeof window !== "undefined") {
+      window.open(waUrl, "_blank", "noopener,noreferrer");
+    }
+
+    // Simultaneously send booking notification email via Resend
+    try {
+      const response = await fetch("/api/booking", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const result = await response.json();
+      if (response.ok && result.success) {
+        setConfirmedBooking(result.booking);
+      } else {
+        setConfirmedBooking(completeBooking);
+      }
+    } catch {
+      setConfirmedBooking(completeBooking);
+    } finally {
+      setIsSubmitting(false);
+      setIsSuccess(true);
+    }
+  };
+
   const handleReset = () => {
     setFormData({
       fullName: "",
@@ -161,6 +231,11 @@ export default function BookingSection() {
       session: "",
       bookingDate: "",
     });
+    if (typeof window !== "undefined") {
+      try {
+        sessionStorage.removeItem("scuba_booking_draft");
+      } catch {}
+    }
     setErrors({});
     setIsSuccess(false);
     setConfirmedBooking(null);
@@ -267,9 +342,7 @@ export default function BookingSection() {
                 {/* Action CTA Buttons */}
                 <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
                   <a
-                    href={`https://wa.me/917406329777?text=Hi%2C%20I%20just%20submitted%20a%20booking%20enquiry%20for%20${encodeURIComponent(
-                      confirmedBooking.fullName
-                    )}%20on%20${encodeURIComponent(confirmedBooking.bookingDate)}.`}
+                    href={getWhatsAppBookingUrl(confirmedBooking)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-[#55db9c] hover:bg-[#45cb8c] border border-black text-black px-6 py-3.5 rounded-full font-bold text-xs uppercase tracking-[0.032em] shadow-[3px_3px_0px_#000000] active:scale-95 transition-all"
@@ -511,24 +584,38 @@ export default function BookingSection() {
 
                 {/* Submit Action Area */}
                 <div className="pt-4 flex flex-col items-center text-center space-y-4">
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="w-full md:w-auto min-w-[280px] bg-black hover:bg-neutral-800 text-white font-extrabold text-sm md:text-base py-4 px-10 rounded-full border border-black shadow-[4px_4px_0px_#000000] hover:shadow-[2px_2px_0px_#000000] hover:-translate-y-0.5 active:scale-95 transition-all uppercase tracking-[0.032em] inline-flex items-center justify-center gap-3 cursor-pointer disabled:opacity-75 disabled:cursor-not-allowed"
-                  >
-                    {isSubmitting ? (
-                      <>
-                        <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
-                        <span>Confirming Slot...</span>
-                      </>
-                    ) : (
-                      <>
-                        <span>Book Your Slot</span>
-                        <span className="w-2.5 h-2.5 rounded-full bg-[#55db9c]"></span>
-                        <span>→</span>
-                      </>
-                    )}
-                  </button>
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3 w-full">
+                    {/* Primary Button: Book Slot */}
+                    <button
+                      type="submit"
+                      disabled={isSubmitting}
+                      className="w-full sm:w-auto min-w-[220px] bg-black hover:bg-neutral-800 text-white font-extrabold text-sm md:text-base py-4 px-8 rounded-full border border-black shadow-[4px_4px_0px_#000000] hover:shadow-[2px_2px_0px_#000000] hover:-translate-y-0.5 active:scale-95 transition-all uppercase tracking-[0.032em] inline-flex items-center justify-center gap-3 cursor-pointer disabled:opacity-75 disabled:cursor-not-allowed"
+                    >
+                      {isSubmitting ? (
+                        <>
+                          <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+                          <span>Confirming Slot...</span>
+                        </>
+                      ) : (
+                        <>
+                          <span>Book Your Slot</span>
+                          <span className="w-2.5 h-2.5 rounded-full bg-[#55db9c]"></span>
+                          <span>→</span>
+                        </>
+                      )}
+                    </button>
+
+                    {/* WhatsApp Button: Complete Data Sent Directly */}
+                    <button
+                      type="button"
+                      onClick={handleWhatsAppSubmit}
+                      disabled={isSubmitting}
+                      className="w-full sm:w-auto min-w-[220px] bg-[#55db9c] hover:bg-[#42c988] text-black font-extrabold text-sm md:text-base py-4 px-8 rounded-full border border-black shadow-[4px_4px_0px_#000000] hover:shadow-[2px_2px_0px_#000000] hover:-translate-y-0.5 active:scale-95 transition-all uppercase tracking-[0.032em] inline-flex items-center justify-center gap-2.5 cursor-pointer disabled:opacity-75"
+                    >
+                      <span>Send to WhatsApp</span>
+                      <span className="text-base">💬</span>
+                    </button>
+                  </div>
 
                   <p className="text-black/75 text-xs font-semibold">
                     Prefer direct booking over the phone?{" "}
@@ -540,7 +627,7 @@ export default function BookingSection() {
                     </a>{" "}
                     or{" "}
                     <a
-                      href="https://wa.me/917406329777?text=I%20want%20to%20book%20Scuba%20Diving"
+                      href={getWhatsAppBookingUrl(formData)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-black font-extrabold underline hover:text-[#55db9c] transition-colors"

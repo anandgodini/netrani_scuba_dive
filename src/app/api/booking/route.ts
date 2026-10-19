@@ -154,6 +154,14 @@ export async function POST(request: Request) {
       submittedAt: submissionTimestamp,
     });
 
+    if (!emailResult.delivered) {
+      console.warn(
+        `[Booking API] ⚠️ Email was NOT sent! Provider: ${emailResult.provider}. Reason: ${
+          emailResult.error || emailResult.note || "RESEND_API_KEY is not configured in .env.local"
+        }`
+      );
+    }
+
     return Response.json(
       {
         success: true,
@@ -173,6 +181,7 @@ export async function POST(request: Request) {
         messageId: emailResult.messageId,
         recipient: emailResult.recipient,
         needsApiKey: emailResult.needsApiKey || false,
+        emailError: emailResult.error,
         customerConfirmationSent: emailResult.customerConfirmationSent || false,
         note: emailResult.note,
       },
