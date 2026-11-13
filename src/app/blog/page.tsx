@@ -57,6 +57,8 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "can-non-swimmers-do-scuba-diving-in-murudeshwar",
+    "murudeshwar-to-netrani-island-distance-boat-journey",
     "best-time-scuba-diving-netrani-island",
     "murudeshwar-scuba-diving-packages",
     "scuba-diving-in-murudeshwar",

@@ -18,6 +18,470 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "can-non-swimmers-do-scuba-diving-in-murudeshwar",
+    title: "Can Non-Swimmers Do Scuba Diving in Murudeshwar? Complete Beginner Guide",
+    metaTitle: "Can Non-Swimmers Do Scuba Diving in Murudeshwar? | Netrani Scuba Dive",
+    subtitle: "Do you want to scuba dive near Murudeshwar without knowing how to swim? Discover eligibility rules, safety briefings, beginner try-dives, and essential planning advice.",
+    description: "Learn whether non-swimmers can do scuba diving in Murudeshwar and Netrani Island. Understand introductory dive requirements, water comfort, and safety precautions.",
+    category: "Beginners",
+    tags: [
+          "can non swimmers do scuba diving in murudeshwar",
+          "scuba diving in murudeshwar for non swimmers",
+          "scuba diving without swimming",
+          "murudeshwar scuba diving for beginners",
+          "netrani island intro scuba diving",
+          "scuba diving without knowing swimming",
+          "beginner scuba diving murudeshwar"
+    ],
+    readTime: "7 min read",
+    date: "13 Nov 2026",
+    coverImage: "/images/colorblock/intro-dive.jpg",
+    faq: [
+          {
+                "question": "Can non-swimmers do scuba diving in Murudeshwar?",
+                "answer": "Some non-swimmers may be considered for an introductory scuba experience, depending on the programme, water comfort, medical screening and operator assessment. Not knowing how to swim does not guarantee eligibility."
+          },
+          {
+                "question": "Do you need to know swimming for scuba diving?",
+                "answer": "Requirements depend on the type of diving activity. An introductory try dive may have different requirements from a certification course. PADI recommends that Discover Scuba Diving participants feel comfortable in the water and be able to maintain themselves at the surface. Certification courses have separate swimming requirements."
+          },
+          {
+                "question": "Is scuba diving in Murudeshwar suitable for first-time divers?",
+                "answer": "Introductory diving experiences are designed for eligible beginners who have not previously scuba dived. Participants should complete the required briefing and meet the programme's health and participation requirements."
+          },
+          {
+                "question": "Can someone who is afraid of water try scuba diving?",
+                "answer": "A person who is very uncomfortable or panics in water may not be suitable for an ocean dive. Discuss your concerns with the operator before booking. Never feel pressured to enter the water or continue an activity if you are uncomfortable."
+          },
+          {
+                "question": "Is Netrani Island suitable for beginner scuba diving?",
+                "answer": "Netrani Island is a popular scuba diving destination near Murudeshwar and has introductory diving options. Whether a particular beginner can participate depends on their eligibility, the selected programme and the conditions on the day."
+          }
+    ],
+    content: `# Can Non-Swimmers Do Scuba Diving in Murudeshwar?
+
+Do you want to experience scuba diving but do not know how to swim? You may still be able to try an introductory scuba diving experience near Murudeshwar, Karnataka. However, **scuba diving in Murudeshwar for non swimmers** is not automatically suitable for everyone. Your comfort in the water, medical fitness, ability to follow instructions, the type of dive programme and the operator's assessment all matter.
+
+The popular diving destination near Murudeshwar is Netrani Island, located offshore in the Arabian Sea. Introductory dives are designed for people who want to experience scuba diving without first completing a full certification course.
+
+If you are a beginner or a non-swimmer considering your first dive, this guide explains what to expect, what requirements to check and how to enquire about an introductory experience before travelling.
+
+## Can You Do Scuba Diving Without Knowing Swimming?
+
+Not knowing how to swim does not automatically mean you cannot try every introductory scuba experience. Some operators may consider non-swimmers for a supervised try dive, depending on their water comfort, medical screening, programme requirements and the conditions on the day.
+
+However, there is an important difference between being unable to swim and being uncomfortable in water.
+
+Scuba diving requires you to breathe through a regulator, understand basic instructions and remain calm in an unfamiliar environment. You should be comfortable enough in the water to participate in the activity and meet the requirements of the specific programme.
+
+PADI's Discover Scuba Diving guidance says participants should feel comfortable in the water and be able to maintain themselves at the surface. This is why it is important to discuss your swimming ability honestly before booking.
+
+## Is Scuba Diving Without Swimming the Same as Learning to Dive?
+
+No. An introductory scuba experience and a professional scuba certification course have different requirements.
+
+An introductory experience allows an eligible beginner to try scuba diving under the supervision of a dive professional. It does not make the participant a certified independent diver.
+
+A full Open Water Diver certification course includes specific swimming and water-skills assessments. For example, PADI's standard course requirements include swimming and floating or treading-water assessments.
+
+If you do not know how to swim, ask the operator specifically about an introductory experience rather than assuming that you can enrol directly in a certification course.
+
+## Is Scuba Diving in Murudeshwar Suitable for Beginners?
+
+Murudeshwar is a popular starting point for scuba diving trips to Netrani Island. The island is known for its underwater environment and marine life, making it an interesting destination for first-time divers.
+
+Introductory scuba programmes are intended for people who have little or no previous diving experience. You do not need to be a certified diver to enquire about a suitable try-dive programme.
+
+A beginner experience may be worth considering if you:
+
+* Want to experience breathing underwater for the first time.
+* Have never used scuba equipment.
+* Are interested in exploring marine life.
+* Feel reasonably comfortable in the water.
+* Can listen to and follow the instructor's directions.
+* Meet the operator's medical and participation requirements.
+
+If you are nervous, tell the diving team before making your booking. Ask how the introductory session works and what support is available.
+
+You can explore our [beginner-friendly scuba diving experience](/intro-scuba-diving) to learn more about the Intro Scuba option at Netrani Island.
+
+## How Does a Beginner Scuba Diving Experience Work?
+
+Your first scuba dive can feel unfamiliar because you are using equipment and breathing underwater for the first time. Understanding the general process can help you know what questions to ask before participating.
+
+The exact procedure depends on the operator and the dive programme.
+
+### 1. Registration and Eligibility Checks
+
+The process starts with confirming your booking and checking whether you meet the participation requirements.
+
+You may be asked about your age, swimming ability, water comfort and medical history. Answer these questions honestly.
+
+If you are a non-swimmer, explain this clearly before paying or travelling. Do not wait until you arrive at the diving location to disclose it.
+
+### 2. Equipment Introduction
+
+A beginner scuba experience uses specialist equipment that allows you to breathe underwater.
+
+The dive team should explain the equipment and help you understand its basic purpose. Ask questions if anything is unfamiliar or uncomfortable.
+
+Do not use equipment independently without the necessary instruction.
+
+### 3. Safety and Communication Briefing
+
+Before entering the water, listen carefully to the briefing.
+
+Depending on the programme, the instructor may explain:
+
+* How to breathe through the regulator.
+* How to use basic underwater hand signals.
+* How to communicate discomfort.
+* How to equalise pressure in your ears.
+* What to do if you feel nervous.
+* How to follow the instructor's directions.
+
+Make sure you understand how to signal that you want to pause or stop.
+
+### 4. Guided Water Experience
+
+If you meet the requirements and the instructor approves participation, you can proceed with the introductory experience.
+
+The instructor will guide you according to the programme and conditions. Do not attempt to swim away, change depth or perform unfamiliar movements independently.
+
+If you feel uncomfortable, communicate with your instructor immediately.
+
+### 5. Completing the Experience
+
+After the dive, follow the team's directions when returning to the boat and completing the activity.
+
+You can ask the instructor about the experience, the marine life you observed and whether a future diving course might suit your interests.
+
+Remember that an introductory dive is an opportunity to try scuba diving, not a replacement for professional training and certification.
+
+## What Should Non-Swimmers Know Before Scuba Diving?
+
+If you cannot swim, preparation and honest communication are particularly important.
+
+### 1. Water Comfort Matters
+
+Being unable to swim is not the same as being afraid of water.
+
+If you panic when water reaches your face, struggle to remain calm or feel unable to follow instructions in the water, an ocean dive may not be suitable for you at that time.
+
+Do not feel pressured to participate because friends or family members have booked a dive.
+
+### 2. Eligibility Is Not Automatic
+
+Every participant must meet the requirements of the selected programme.
+
+The operator may consider factors such as:
+
+* Swimming ability and water comfort.
+* Age and physical suitability.
+* Medical screening answers.
+* Ability to understand and follow instructions.
+* Sea and weather conditions.
+* Available supervision and programme requirements.
+
+The diving team should make the final participation decision based on its applicable procedures.
+
+### 3. Disclose Medical Conditions
+
+Before scuba diving, inform the operator about relevant medical conditions, medications, previous injuries or recent surgery.
+
+Conditions affecting the heart, lungs, ears, sinuses or ability to equalise pressure may require medical evaluation. A medical questionnaire may also identify situations where a doctor's assessment is needed.
+
+Never hide a medical condition to avoid being refused participation. If you are unsure whether you are medically fit to dive, seek advice from a qualified medical professional familiar with diving medicine.
+
+### 4. Understand That Scuba Diving Has Risks
+
+Scuba diving is an adventure activity, not a completely risk-free experience.
+
+Proper instruction, appropriate equipment, medical screening and suitable sea conditions are important. Following instructions reduces avoidable risks, but it cannot remove every risk.
+
+### 5. Never Force Yourself to Continue
+
+If you feel uncomfortable before entering the water, tell the instructor.
+
+If you experience discomfort during the activity, communicate it immediately and follow the instructor's directions. Your comfort and willingness to participate matter.
+
+## Is Netrani Island a Place to Experience Scuba Diving?
+
+Yes. Netrani Island is a recognised scuba diving destination off the Karnataka coast, and visitors commonly travel from Murudeshwar to experience its underwater environment.
+
+The island is also known as Pigeon Island. Its surrounding waters offer opportunities to observe marine life and underwater rock and reef formations.
+
+For first-time divers, the important consideration is selecting an appropriate introductory programme and checking eligibility before travelling.
+
+### Why Do Beginners Visit Netrani Island?
+
+Visitors are attracted to Netrani Island because of:
+
+* Its offshore marine environment.
+* Opportunities to observe underwater fish and other marine life.
+* Introductory diving options for eligible beginners.
+* The boat journey from Murudeshwar.
+* The opportunity to combine scuba diving with a coastal holiday.
+
+Marine life sightings and underwater visibility vary with local conditions. No particular fish sighting or visibility level should be treated as guaranteed.
+
+If you are considering a longer recreational dive, you can also review our [Netrani Island scuba diving packages](/netrani-scuba-diving) and compare the available information before enquiring.
+
+## What Should First-Time Divers Prepare Before Their Trip?
+
+A little preparation can make your first diving experience easier to plan.
+
+### Carry the Essentials
+
+Consider bringing:
+
+* Comfortable swimwear.
+* A towel.
+* A change of dry clothes.
+* Sunscreen and sunglasses.
+* Personal medication, if required.
+* A waterproof pouch for personal belongings.
+
+Check with the operator about any identification or other items required for your booking.
+
+### Get Enough Rest
+
+Try to arrive rested rather than planning a tiring journey immediately before your dive.
+
+If you feel unwell on the day, tell the diving team. Do not participate if you are not fit to do so.
+
+### Ask Questions Before Booking
+
+If you are a non-swimmer, ask these questions before confirming:
+
+* Does the selected introductory programme consider non-swimmers?
+* What level of water comfort is required?
+* What medical screening is necessary?
+* How is the beginner experience supervised?
+* What happens if the instructor decides that I am not suitable?
+* What happens if sea conditions are unsuitable on my date?
+
+Getting clear answers before travelling can help you make an informed decision.
+
+## How to Plan Your Scuba Diving Experience in Murudeshwar
+
+Murudeshwar is accessible by road and rail, and travellers can plan a visit as part of a wider Karnataka coastal trip.
+
+Before finalising your travel arrangements, confirm the diving date and reporting details with the operator. Sea activities depend on weather and operating conditions, so avoid making tightly timed onward travel arrangements.
+
+If you are travelling from another city, read our guide on [how to reach Murudeshwar](/how-to-reach-murudeshwar).
+
+### Enquire About an Introductory Dive
+
+If you do not know how to swim but are interested in trying scuba diving, begin by enquiring about the Intro Scuba programme.
+
+Share your swimming ability, comfort in water, age and any relevant medical information. Ask the team to confirm whether the experience is suitable for you before making travel plans.
+
+You can review the [beginner-friendly scuba diving experience](/intro-scuba-diving) and contact the team with your questions.
+
+## Plan Your Non-Swimmer Scuba Experience
+
+Scuba diving in Murudeshwar for non swimmers may be possible through an introductory experience, but it is important to understand that non-swimmers are not automatically eligible.
+
+Your comfort in the water, health, ability to follow instructions and the operator's assessment all play a role. An introductory dive is also different from a certification course, which has separate swimming and water-skills requirements.
+
+If you are interested in trying scuba diving near Murudeshwar, start by discussing your swimming ability and medical suitability with the diving team.
+
+Explore our [beginner-friendly scuba diving experience](/intro-scuba-diving) and [enquire about scuba diving](/contact) to ask whether an introductory Netrani Island dive may be suitable for you.`
+  },
+  {
+    slug: "murudeshwar-to-netrani-island-distance-boat-journey",
+    title: "Murudeshwar to Netrani Island: Distance, Boat Journey and Travel Guide",
+    metaTitle: "Murudeshwar to Netrani Island: Distance, Boat Journey & Travel Guide",
+    subtitle: "Planning a boat trip from Murudeshwar to Netrani Island? Discover exact offshore distances, boat timings, travel stages, reporting locations, and sea safety tips.",
+    description: "Complete guide to travelling from Murudeshwar to Netrani Island. Find exact offshore distance (19.35 km), boat journey timings (1.5 hrs), reporting points, and diving tips.",
+    category: "Travel",
+    tags: [
+          "murudeshwar to netrani island distance",
+          "netrani island boat journey",
+          "how to reach netrani island from murudeshwar",
+          "murudeshwar to netrani island travel time",
+          "netrani island boat timings",
+          "pigeon island murudeshwar boat trip",
+          "netrani island distance from murudeshwar"
+    ],
+    readTime: "8 min read",
+    date: "13 Nov 2026",
+    coverImage: "/images/blog/murudeshwar-dive-boat-departure.jpg",
+    faq: [
+          {
+                "question": "How far is Netrani Island from Murudeshwar?",
+                "answer": "Netrani Island is approximately 19.35 km from Murudeshwar Beach, based on the geographical distance recorded in India's Coastal and Oceanic Island Database. This is an offshore distance, not a road route."
+          },
+          {
+                "question": "How can I reach Netrani Island from Murudeshwar?",
+                "answer": "First travel to Murudeshwar by train, road or onward transport from an airport. Then report to the location confirmed by your boat or activity operator and travel by an arranged boat towards Netrani Island."
+          },
+          {
+                "question": "Where does the Netrani Island boat journey start?",
+                "answer": "The boat trip is arranged from the Murudeshwar area. Netrani Scuba Dive lists its reporting desk on Temple Main Road near Murudeshwar Beach. Confirm the exact boarding point and instructions with the operator for your booking."
+          },
+          {
+                "question": "How long does the boat journey to Netrani Island take?",
+                "answer": "Karnataka Tourism gives an approximate journey time of 1.5 hours from Murudeshwar. The actual time can vary with sea conditions and operating arrangements, so confirm the expected schedule before travelling."
+          },
+          {
+                "question": "Can tourists visit Netrani Island for scuba diving?",
+                "answer": "Visitors can book scuba diving activities in the waters around Netrani Island through an activity operator. Public landing on the island is prohibited, so the trip should be planned as an organised sea excursion rather than an independent island visit."
+          }
+    ],
+    content: `# Murudeshwar to Netrani Island: Distance, Boat Journey and Complete Travel Guide
+
+Planning a trip from Murudeshwar to Netrani Island? Netrani is an offshore island in the Arabian Sea, around 19.35 km from Murudeshwar Beach. Visitors generally travel by an operator-arranged boat from the Murudeshwar area to experience the island’s surrounding waters, particularly scuba diving and snorkelling.
+
+The journey is an important part of the experience, but it needs a little planning. You should know where to report, what to expect on the boat, what to carry and why the final departure instructions should be confirmed with your activity operator.
+
+This guide explains how to reach Netrani Island from Murudeshwar and prepare for your sea trip.
+
+## Where Is Netrani Island Located?
+
+Netrani Island, also known as Pigeon Island, is located in the Arabian Sea off the coast of Karnataka. It lies near Murudeshwar in Uttara Kannada district and is known for the marine environment around its rocky coastline.
+
+Unlike a beach destination connected by road, Netrani is an offshore island. Visitors cannot drive there. The journey involves reaching Murudeshwar first and then travelling by boat towards the island.
+
+The island is uninhabited. Karnataka Tourism also notes that public landing on the island is prohibited because it is a restricted area. Therefore, plan your visit as a guided sea excursion to the surrounding waters rather than as an ordinary island beach visit.
+
+For many travellers, the main reason to make this journey is Netrani Island scuba diving. The surrounding waters are a recognised destination for underwater activities, including introductory dives and snorkelling.
+
+## Distance Between Murudeshwar and Netrani Island
+
+The distance from Murudeshwar Beach to Netrani Island is approximately 19.35 km. This is the geographical offshore distance recorded in India's Coastal and Oceanic Island Database. It is not a road distance.
+
+| Journey detail | Approximate information |
+| :--- | :--- |
+| Murudeshwar Beach to Netrani Island | 19.35 km |
+| Type of distance | Offshore geographical distance |
+| Main transport | Operator-arranged boat |
+| Boat journey estimate | Around 1.5 hours, according to Karnataka Tourism |
+| Road access to the island | Not available |
+
+The actual boat route and travel time can vary. The vessel, boarding arrangements, sea state and weather conditions can all affect the journey. Treat published journey estimates as planning guidance, not a guaranteed arrival time.
+
+It is also useful to distinguish the distance to the island from the distance to your reporting location. If you are staying near Murudeshwar Temple, the railway station or another part of town, you may need a separate local transfer before boarding.
+
+## How to Reach Netrani Island from Murudeshwar
+
+The journey has two main stages: reaching Murudeshwar and joining your confirmed boat trip.
+
+### Step 1: Travel to Murudeshwar
+
+Murudeshwar is accessible by train and road. Travellers can plan their journey using the option that best suits their starting city and arrival time.
+
+* **By train:** Murudeshwar Railway Station is on the Konkan Railway route. From the station, arrange a local transfer to your confirmed reporting location.
+* **By road:** Murudeshwar is connected by National Highway 66. Buses and private vehicles are common options for reaching the town.
+* **By air:** Mangaluru International Airport is one of the airports travellers can consider. You will need onward road or rail transport to Murudeshwar.
+
+If you are travelling from another city, read our guide on [how to reach Murudeshwar](/how-to-reach-murudeshwar) before finalising your travel plan.
+
+### Step 2: Confirm Your Reporting Location
+
+Do not assume that the boat departs directly from your hotel, the railway station or the temple entrance.
+
+The Netrani Scuba Dive website lists its reporting desk at:
+> **Temple Main Road, Murudeshwar Beach, Karnataka 581350**
+
+This is the reporting location published by the operator. Your booking confirmation should provide the relevant instructions for check-in and boarding. Confirm the exact meeting point, reporting time and any local transfer requirements directly with the team.
+
+### Step 3: Board the Arranged Boat
+
+After reporting, follow the operator's check-in and boarding instructions. The boat journey takes you away from the Murudeshwar coastline towards the waters around Netrani Island.
+
+There is no road connection to the island. Do not plan the trip as an independent drive or assume that a regular public ferry is available. Arrange your visit through a verified activity operator and confirm the transport included in your booking.
+
+## Understanding the Boat Journey to Netrani Island
+
+The Netrani Island boat journey is an open-water trip across the Arabian Sea. You leave the Murudeshwar coastline and travel offshore towards the island's surrounding waters.
+
+Karnataka Tourism gives an approximate boat journey of 1.5 hours from Murudeshwar. Actual crossing time may differ according to the day's sea conditions, vessel and operational arrangements. Your operator is the best source for the latest reporting instructions and expected journey time.
+
+### What happens before departure?
+
+Your operator should communicate the reporting and boarding process. Depending on the activity and the day's arrangements, this may include:
+
+* Checking your booking details.
+* Receiving instructions from the crew.
+* Completing any required activity briefing or screening.
+* Organising equipment for the booked activity.
+* Boarding when the crew gives permission.
+
+Arrive at the time specified in your confirmation. Do not rely on an old online schedule or assume that the same departure time applies every day.
+
+### Can the boat journey be affected by weather?
+
+Yes. The route crosses open water, so sea conditions matter. Wind, waves, rainfall and other weather factors can affect departure decisions and the journey itself.
+
+A planned trip may be delayed, changed or not operated if conditions are unsuitable. Confirm the latest status with your operator rather than making a long onward travel connection based on an assumed return time.
+
+## What to Expect During the Netrani Island Trip
+
+The trip is more than a transfer between two points. You get an opportunity to experience the Arabian Sea and the coastal landscape around Murudeshwar.
+
+The exact experience depends on your booking. Some visitors travel for scuba diving, while others may be interested in snorkelling or a sea excursion where offered by the operator.
+
+Keep in mind that Netrani is not a conventional island picnic destination. Public landing is prohibited, so visitors should follow the operator's instructions and the applicable access restrictions. Do not plan to walk around the island or step ashore unless the relevant authorities and operator explicitly permit it.
+
+For a smoother trip, keep your belongings organised and listen to the boat crew. Follow instructions when moving around the vessel and while entering or leaving the water for an activity.
+
+## Can You Experience Scuba Diving at Netrani Island?
+
+Yes. Netrani Island is a well-known scuba diving destination in Karnataka. The boat trip from Murudeshwar gives visitors access to the surrounding diving waters.
+
+If you are planning to dive, choose a package that matches your experience and comfort level. First-time divers can explore an introductory option, while visitors seeking a longer dive can review the available full-dive package.
+
+You can check the details of our [Netrani Island scuba diving packages](/netrani-scuba-diving) before enquiring. Review the listed inclusions and confirm the current arrangements with the booking team.
+
+### Is scuba diving suitable for beginners?
+
+A first-time visitor does not necessarily need previous scuba diving experience to enquire about an introductory dive. However, participation is subject to the activity's requirements, medical screening, water comfort and the operator's assessment.
+
+If this is your first underwater experience, read about our [beginner-friendly scuba diving experience](/intro-scuba-diving). Ask the team about the briefing, equipment, instructor support and what the activity involves before confirming your booking.
+
+Do not assume that every person is eligible for every dive. Share relevant medical information honestly and follow the instructions provided by the dive professionals.
+
+## Best Tips Before Planning Your Netrani Island Trip
+
+A little preparation can make your Murudeshwar to Netrani Island trip easier to manage.
+
+### 1. Confirm the trip before travelling
+Check whether your preferred date is operating and ask for the latest reporting instructions. Boat operations depend on sea and weather conditions.
+
+### 2. Keep enough time in your itinerary
+Do not plan a tight connection immediately after the expected return. Allow time for the boat journey, activity, disembarkation and your onward transfer.
+
+### 3. Carry practical essentials
+Consider carrying:
+* A valid photo ID, if requested by the operator.
+* Sunscreen and a hat for sun exposure.
+* Drinking water, subject to the operator's guidance.
+* Swimwear and a change of clothes if you are participating in a water activity.
+* Any personal medication you may need.
+* Motion-sickness medication if appropriate for you. Check with a healthcare professional or pharmacist if you are unsure whether it is suitable.
+
+Keep valuables and unnecessary luggage to a minimum. Ask the operator what can safely be carried on the boat.
+
+### 4. Follow crew and instructor instructions
+Listen carefully during the boarding and activity briefings. Follow directions from the boat crew and, if diving, your instructor. Never enter the water without permission.
+
+### 5. Check the seasonal operating period
+Sea activities may not operate throughout the year. Your operator's website lists its diving season as October to May and says operations pause during the monsoon period. Confirm the current operating status for your travel dates before making non-refundable travel arrangements.
+
+### 6. Ask questions before booking
+Confirm the reporting location, expected boat journey, activity inclusions, equipment arrangements, return estimate and weather-related changes. Clear answers help you plan realistically.
+
+## Plan Your Netrani Island Boat Trip
+
+Planning your journey from Murudeshwar to Netrani Island starts with understanding the offshore distance, arranging transport to Murudeshwar and confirming the correct reporting and boarding instructions. The island is around 19.35 km from Murudeshwar Beach, and the boat journey is subject to the day's sea conditions and operational arrangements.
+
+If scuba diving is your main reason for visiting, review the activity details and ask your operator about the current trip plan before booking. Explore the [Netrani Island scuba diving packages](/netrani-scuba-diving) and [contact our team for booking details](/contact) to confirm the reporting point, boat arrangements and availability for your preferred date.
+
+A well-planned trip helps you enjoy the journey and make informed decisions before heading out into the Arabian Sea.`
+  },
+  {
     slug: "best-time-scuba-diving-netrani-island",
     title: "Best Time for Scuba Diving in Netrani Island: Season, Weather & Tips",
     metaTitle: "Best Time for Scuba Diving in Netrani Island: Season, Weather & Tips",
