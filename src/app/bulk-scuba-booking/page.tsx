@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     "netrani group dive packages",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/bulk-scuba-booking",
+    canonical: "https://www.netraniscubadive.in/bulk-scuba-booking",
   },
   openGraph: {
     title: "Group & Bulk Scuba Diving with Netrani Scuba Dive: College & Corporate Packages",
     description:
       "Organizing a group dive trip to Netrani Island? Custom discounted packages, dedicated boat charters, and seamless logistics for groups of 10+ divers with Netrani Scuba Dive.",
-    url: "https://www.murudeshwarscubadive.in/bulk-scuba-booking",
+    url: "https://www.netraniscubadive.in/bulk-scuba-booking",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -125,8 +125,8 @@ export default function BulkBooking() {
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://www.murudeshwarscubadive.in/bulk-scuba-booking/#webpage",
-      "url": "https://www.murudeshwarscubadive.in/bulk-scuba-booking",
+      "@id": "https://www.netraniscubadive.in/bulk-scuba-booking/#webpage",
+      "url": "https://www.netraniscubadive.in/bulk-scuba-booking",
       "name": "Group & Bulk Scuba Diving with Netrani Scuba Dive: College & Corporate Packages",
       "description": "Organizing a group dive trip to Netrani Island? Custom discounted packages, dedicated boat charters, and seamless logistics for groups of 10+ divers with Netrani Scuba Dive.",
     },
@@ -138,13 +138,13 @@ export default function BulkBooking() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
+          "item": "https://www.netraniscubadive.in",
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Bulk Scuba Booking",
-          "item": "https://www.murudeshwarscubadive.in/bulk-scuba-booking",
+          "item": "https://www.netraniscubadive.in/bulk-scuba-booking",
         },
       ],
     },

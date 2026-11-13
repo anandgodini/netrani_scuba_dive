@@ -43,12 +43,12 @@ export async function generateMetadata({
       "scuba diving in karnataka",
     ],
     alternates: {
-      canonical: `https://www.murudeshwarscubadive.in/blog/${slug}`,
+      canonical: `https://www.netraniscubadive.in/blog/${slug}`,
     },
     openGraph: {
       title: pageTitle,
       description: pageDescription,
-      url: `https://www.murudeshwarscubadive.in/blog/${slug}`,
+      url: `https://www.netraniscubadive.in/blog/${slug}`,
       siteName: "Netrani Scuba Dive",
       images: [
         {
@@ -459,26 +459,26 @@ export default async function BlogPostPage({ params }: PageProps) {
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "@id": `https://www.murudeshwarscubadive.in/blog/${slug}/#article`,
-      "url": `https://www.murudeshwarscubadive.in/blog/${slug}`,
+      "@id": `https://www.netraniscubadive.in/blog/${slug}/#article`,
+      "url": `https://www.netraniscubadive.in/blog/${slug}`,
       "headline": post.title,
       "description": post.description,
       "datePublished": post.date,
-      "image": `https://www.murudeshwarscubadive.in${post.coverImage || "/images/netrani-scuba-cover.png"}`,
+      "image": `https://www.netraniscubadive.in${post.coverImage || "/images/netrani-scuba-cover.png"}`,
       "author": {
         "@type": "Organization",
         "name": "Netrani Scuba Dive",
-        "url": "https://www.murudeshwarscubadive.in",
+        "url": "https://www.netraniscubadive.in",
       },
       "publisher": {
         "@type": "Organization",
         "name": "Netrani Scuba Dive",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.murudeshwarscubadive.in/logo.png",
+          "url": "https://www.netraniscubadive.in/logo.png",
         },
       },
-      "mainEntityOfPage": `https://www.murudeshwarscubadive.in/blog/${slug}`,
+      "mainEntityOfPage": `https://www.netraniscubadive.in/blog/${slug}`,
     },
     {
       "@context": "https://schema.org",
@@ -488,19 +488,19 @@ export default async function BlogPostPage({ params }: PageProps) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
+          "item": "https://www.netraniscubadive.in",
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://www.murudeshwarscubadive.in/blog",
+          "item": "https://www.netraniscubadive.in/blog",
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": post.title,
-          "item": `https://www.murudeshwarscubadive.in/blog/${slug}`,
+          "item": `https://www.netraniscubadive.in/blog/${slug}`,
         },
       ],
     },
@@ -508,7 +508,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Netrani Scuba Dive",
-      "image": "https://www.murudeshwarscubadive.in/images/netrani-scuba-cover.png",
+      "image": "https://www.netraniscubadive.in/images/netrani-scuba-cover.png",
       "telephone": "+917406329777",
       "email": "murudeshwar.scuba.dive@gmail.com",
       "address": {
@@ -524,7 +524,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         "latitude": 14.0945,
         "longitude": 74.4844,
       },
-      "url": "https://www.murudeshwarscubadive.in",
+      "url": "https://www.netraniscubadive.in",
       "priceRange": "₹1,999 - ₹3,500",
     },
   ];
@@ -723,7 +723,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   </p>
                   <div className="pt-2 flex flex-wrap gap-4">
                     <Link
-                      href="https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com"
+                      href="https://www.netraniscubadive.in/?utm_source=chatgpt.com"
                       className="slush-btn-black text-xs uppercase tracking-[0.032em] px-8 py-4 inline-flex items-center gap-2"
                     >
                       <span>Explore Netrani Scuba Diving</span>

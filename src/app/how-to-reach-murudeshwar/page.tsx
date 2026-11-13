@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     "murudeshwar railway station scuba",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/how-to-reach-murudeshwar",
+    canonical: "https://www.netraniscubadive.in/how-to-reach-murudeshwar",
   },
   openGraph: {
     title: "How to Reach Murudeshwar for Netrani Scuba Dive: Directions, Map & Travel Info",
     description:
       "Easiest ways to reach Murudeshwar for scuba diving with Netrani Scuba Dive. Travel guidelines from Bangalore, Mangalore, Gokarna, and Udupi by bus, train, or road.",
-    url: "https://www.murudeshwarscubadive.in/how-to-reach-murudeshwar",
+    url: "https://www.netraniscubadive.in/how-to-reach-murudeshwar",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -123,8 +123,8 @@ export default function HowToReach() {
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://www.murudeshwarscubadive.in/how-to-reach-murudeshwar/#webpage",
-      "url": "https://www.murudeshwarscubadive.in/how-to-reach-murudeshwar",
+      "@id": "https://www.netraniscubadive.in/how-to-reach-murudeshwar/#webpage",
+      "url": "https://www.netraniscubadive.in/how-to-reach-murudeshwar",
       "name": "How to Reach Murudeshwar for Netrani Scuba Dive: Directions, Map & Travel Info",
       "description": "Easiest ways to reach Murudeshwar for scuba diving with Netrani Scuba Dive. Travel guidelines from Bangalore, Mangalore, Gokarna, and Udupi by bus, train, or road.",
     },
@@ -136,13 +136,13 @@ export default function HowToReach() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
+          "item": "https://www.netraniscubadive.in",
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "How to Reach Murudeshwar",
-          "item": "https://www.murudeshwarscubadive.in/how-to-reach-murudeshwar",
+          "item": "https://www.netraniscubadive.in/how-to-reach-murudeshwar",
         },
       ],
     },

@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     "best time for scuba diving in murudeshwar",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/blog",
+    canonical: "https://www.netraniscubadive.in/blog",
   },
   openGraph: {
     title: "Netrani Scuba Dive Guides (2026): Price, Timings, Age Limit & Booking",
     description:
       "Price, timings, booking, age limit, travel planning, and safety guides for Murudeshwar scuba diving.",
-    url: "https://www.murudeshwarscubadive.in/blog",
+    url: "https://www.netraniscubadive.in/blog",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -81,17 +81,17 @@ export default function BlogListing() {
     {
       "@context": "https://schema.org",
       "@type": "Blog",
-      "@id": "https://www.murudeshwarscubadive.in/blog/#blog",
-      "url": "https://www.murudeshwarscubadive.in/blog",
+      "@id": "https://www.netraniscubadive.in/blog/#blog",
+      "url": "https://www.netraniscubadive.in/blog",
       "name": "Netrani Scuba Dive Guides & Journal",
       "description": "Your ultimate guide to diving in Murudeshwar & Netrani Island. Discover sea conditions, plan travel, and see safety guidelines.",
       "blogPost": posts.map((post) => ({
         "@type": "BlogPosting",
         "headline": post.title,
         "description": post.description,
-        "url": `https://www.murudeshwarscubadive.in/blog/${post.slug}`,
+        "url": `https://www.netraniscubadive.in/blog/${post.slug}`,
         "datePublished": post.date,
-        "image": `https://www.murudeshwarscubadive.in${post.coverImage || '/images/netrani-diver.jpg'}`
+        "image": `https://www.netraniscubadive.in${post.coverImage || '/images/netrani-diver.jpg'}`
       }))
     },
     {
@@ -102,13 +102,13 @@ export default function BlogListing() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in"
+          "item": "https://www.netraniscubadive.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://www.murudeshwarscubadive.in/blog"
+          "item": "https://www.netraniscubadive.in/blog"
         }
       ]
     }

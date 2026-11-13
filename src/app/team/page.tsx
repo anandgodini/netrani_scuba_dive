@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     "safe scuba diving in murudeshwar",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/team",
+    canonical: "https://www.netraniscubadive.in/team",
   },
   openGraph: {
     title: "Meet the Team: PADI Certified Instructors & Guides | Netrani Scuba Dive",
     description:
       "Meet the experienced PADI certified scuba instructors, divemasters, and boat captains at Netrani Scuba Dive.",
-    url: "https://www.murudeshwarscubadive.in/team",
+    url: "https://www.netraniscubadive.in/team",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -77,8 +77,8 @@ export default function Team() {
     {
       "@context": "https://schema.org",
       "@type": "AboutPage",
-      "@id": "https://www.murudeshwarscubadive.in/team/#aboutpage",
-      "url": "https://www.murudeshwarscubadive.in/team",
+      "@id": "https://www.netraniscubadive.in/team/#aboutpage",
+      "url": "https://www.netraniscubadive.in/team",
       "name": "Meet the Team: PADI Certified Instructors & Guides",
       "description": "Meet the experienced PADI certified scuba instructors, divemasters, and boat captains at Netrani Scuba Dive.",
       "mainEntity": {
@@ -92,7 +92,7 @@ export default function Team() {
             "name": m.name,
             "jobTitle": m.role,
             "description": m.desc,
-            "image": `https://www.murudeshwarscubadive.in${m.image}`,
+            "image": `https://www.netraniscubadive.in${m.image}`,
           },
         })),
       },
@@ -105,13 +105,13 @@ export default function Team() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
+          "item": "https://www.netraniscubadive.in",
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Meet the Team",
-          "item": "https://www.murudeshwarscubadive.in/team",
+          "item": "https://www.netraniscubadive.in/team",
         },
       ],
     },

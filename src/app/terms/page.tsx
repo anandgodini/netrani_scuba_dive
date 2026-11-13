@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "netrani scuba refund policy",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/terms",
+    canonical: "https://www.netraniscubadive.in/terms",
   },
   openGraph: {
     title: "Terms and Conditions: Booking & Cancellations | Netrani Scuba Dive",
     description:
       "Review our booking policy, cancellation terms, refund procedures, and weather-related rescheduling guidelines at Netrani Scuba Dive.",
-    url: "https://www.murudeshwarscubadive.in/terms",
+    url: "https://www.netraniscubadive.in/terms",
     siteName: "Netrani Scuba Dive",
     locale: "en_IN",
     type: "website",
@@ -41,13 +41,13 @@ export default function Terms() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
+          "item": "https://www.netraniscubadive.in",
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Terms and Conditions",
-          "item": "https://www.murudeshwarscubadive.in/terms",
+          "item": "https://www.netraniscubadive.in/terms",
         },
       ],
     },

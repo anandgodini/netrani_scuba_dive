@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     "padi scuba diving murudeshwar",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+    canonical: "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
   },
   openGraph: {
     title: "Netrani Scuba Diving Price ₹3,500 | Netrani Scuba Dive",
     description:
       "Check Netrani scuba diving from Murudeshwar from ₹3,500 with inclusion, operator, eligibility, booking and weather-policy checks.",
-    url: "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+    url: "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
     siteName: "Netrani Scuba Dive",
     locale: "en_IN",
     images: [
@@ -60,11 +60,11 @@ export default function ScubaDivingMurudeshwar() {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#faq",
+      "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#faq",
       "name": "Murudeshwar Scuba Diving (Netrani) FAQ",
-      "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#faq",
+      "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#faq",
       "mainEntityOfPage": {
-        "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#webpage",
+        "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#webpage",
       },
       "mainEntity": faqItems.map((faq, idx) => ({
         "@type": "Question",
@@ -72,9 +72,9 @@ export default function ScubaDivingMurudeshwar() {
         "acceptedAnswer": {
           "@type": "Answer",
           "text": faq.answer,
-          "@id": `https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#faq-a${idx + 1}`,
+          "@id": `https://www.netraniscubadive.in/scuba-diving-murudeshwar#faq-a${idx + 1}`,
         },
-        "@id": `https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#faq-q${idx + 1}`,
+        "@id": `https://www.netraniscubadive.in/scuba-diving-murudeshwar#faq-q${idx + 1}`,
       })),
     },
     pageData.webPage,

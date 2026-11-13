@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "scuba dive reporting point murudeshwar",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/contact",
+    canonical: "https://www.netraniscubadive.in/contact",
   },
   openGraph: {
     title: "Contact Netrani Scuba Dive: Phone Number, WhatsApp & Dive Desk",
     description:
       "Direct contact number, WhatsApp desk, map directions, and reporting location details for Netrani Scuba Dive bookings at Netrani Island.",
-    url: "https://www.murudeshwarscubadive.in/contact",
+    url: "https://www.netraniscubadive.in/contact",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -52,8 +52,8 @@ export default function Contact() {
     {
       "@context": "https://schema.org",
       "@type": "ContactPage",
-      "@id": "https://www.murudeshwarscubadive.in/contact/#contactpage",
-      "url": "https://www.murudeshwarscubadive.in/contact",
+      "@id": "https://www.netraniscubadive.in/contact/#contactpage",
+      "url": "https://www.netraniscubadive.in/contact",
       "name": "Contact Netrani Scuba Dive",
       "description": "Direct Netrani scuba diving contact number, WhatsApp desk, map directions, and reporting location details.",
       "contactPoint": {
@@ -73,13 +73,13 @@ export default function Contact() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in"
+          "item": "https://www.netraniscubadive.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Contact",
-          "item": "https://www.murudeshwarscubadive.in/contact"
+          "item": "https://www.netraniscubadive.in/contact"
         }
       ]
     }

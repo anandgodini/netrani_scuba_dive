@@ -43,13 +43,13 @@ export const metadata: Metadata = {
     "netrani scuba packages",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in",
+    canonical: "https://www.netraniscubadive.in",
   },
   openGraph: {
     title: "Netrani Scuba Dive | Packages & Netrani Island Dive Booking",
     description:
       "Experience scuba diving at Netrani Island with Netrani Scuba Dive. Transparent packages from ₹3,500, beginner & non-swimmer guidance, sanitized gear, and free HD underwater photos.",
-    url: "https://www.murudeshwarscubadive.in",
+    url: "https://www.netraniscubadive.in",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -175,12 +175,12 @@ export default function Home() {
     {
       "@context": "https://schema.org",
       "@type": ["LocalBusiness", "SportsActivityLocation"],
-      "@id": "https://www.murudeshwarscubadive.in/#location",
+      "@id": "https://www.netraniscubadive.in/#location",
       "name": "Netrani Scuba Dive",
-      "image": "https://www.murudeshwarscubadive.in/hero.webp",
+      "image": "https://www.netraniscubadive.in/hero.webp",
       "telephone": "+917406329777",
       "email": "murudeshwar.scuba.dive@gmail.com",
-      "url": "https://www.murudeshwarscubadive.in",
+      "url": "https://www.netraniscubadive.in",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Temple Main Road, Murudeshwar Beach",
@@ -220,7 +220,7 @@ export default function Home() {
               "name": "Netrani Island Deep Reef Dive",
               "description":
                 "Full 30-40 minute scuba diving package at Netrani Island with boat transfer, 1:1 divemaster, gear, and free HD media.",
-              "url": "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
+              "url": "https://www.netraniscubadive.in/netrani-scuba-diving",
               "provider": {
                 "@type": "SportsActivityLocation",
                 "name": "Netrani Scuba Dive",
@@ -237,7 +237,7 @@ export default function Home() {
               "name": "VIP Extended Experience",
               "description":
                 "VIP Extended Deep Dive with 45-55 minutes of deep reef bottom time at Netrani Island, 1:1 certified divemaster, boat cruise, gear, surface snorkeling, refreshments, and free HD media.",
-              "url": "https://www.murudeshwarscubadive.in/intro-scuba-diving",
+              "url": "https://www.netraniscubadive.in/intro-scuba-diving",
               "provider": {
                 "@type": "SportsActivityLocation",
                 "name": "Netrani Scuba Dive",
@@ -253,10 +253,10 @@ export default function Home() {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://www.murudeshwarscubadive.in/#organization",
+      "@id": "https://www.netraniscubadive.in/#organization",
       "name": "Netrani Scuba Dive",
-      "url": "https://www.murudeshwarscubadive.in",
-      "logo": "https://www.murudeshwarscubadive.in/logo.png",
+      "url": "https://www.netraniscubadive.in",
+      "logo": "https://www.netraniscubadive.in/logo.png",
       "sameAs": ["https://www.instagram.com/murudeshwar_scuba_dive/"],
       "contactPoint": {
         "@type": "ContactPoint",
@@ -269,8 +269,8 @@ export default function Home() {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": "https://www.murudeshwarscubadive.in/#website",
-      "url": "https://www.murudeshwarscubadive.in",
+      "@id": "https://www.netraniscubadive.in/#website",
+      "url": "https://www.netraniscubadive.in",
       "name": "Netrani Scuba Dive",
       "description":
         "Book scuba diving at Netrani Island with packages starting from ₹3,500.",
@@ -283,7 +283,7 @@ export default function Home() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
+          "item": "https://www.netraniscubadive.in",
         },
       ],
     },

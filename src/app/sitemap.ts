@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/data/posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.murudeshwarscubadive.in";
+  const baseUrl = "https://www.netraniscubadive.in";
 
   // Define static routes with priority and change frequencies
   const staticRoutes: Array<{

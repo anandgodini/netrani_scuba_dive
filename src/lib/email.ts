@@ -41,7 +41,7 @@ export function getOwnerEmail(): string {
 /**
  * Returns the configured sender email address.
  * Resend Sandbox default is onboarding@resend.dev.
- * When domain is verified, use e.g. bookings@murudeshwarscubadive.in
+ * When domain is verified, use e.g. bookings@netraniscubadive.in
  */
 export function getSenderEmail(): string {
   return (
@@ -95,7 +95,7 @@ export function generateBookingEmailHtml(data: BookingNotificationData): string 
                       Netrani Scuba Dive
                     </h1>
                     <p style="margin: 6px 0 0 0; font-size: 13px; color: #0e3b66; font-weight: 600;">
-                      New slot reservation submitted via murudeshwarscubadive.in
+                      New slot reservation submitted via netraniscubadive.in
                     </p>
                   </td>
                 </tr>
@@ -206,7 +206,7 @@ export function generateBookingEmailHtml(data: BookingNotificationData): string 
           <tr>
             <td style="background-color: #fafafa; border-top: 1px solid #000000; padding: 18px 32px; text-align: center; font-size: 11px; color: #666666; line-height: 1.5;">
               <strong>Netrani Scuba Dive</strong> • Murudeshwar Beach, Murudeshwar, Karnataka 581350<br>
-              Helpline: +91 74063 29777 • Official Portal: <a href="https://www.murudeshwarscubadive.in" style="color: #000000; text-decoration: underline;">murudeshwarscubadive.in</a>
+              Helpline: +91 74063 29777 • Official Portal: <a href="https://www.netraniscubadive.in" style="color: #000000; text-decoration: underline;">netraniscubadive.in</a>
             </td>
           </tr>
         </table>
@@ -227,7 +227,7 @@ export function generateBookingEmailText(data: BookingNotificationData): string 
 NEW NETRANI SCUBA DIVE BOOKING ENQUIRY (VIA RESEND)
 =============================================
 
-A new customer booking enquiry was submitted via murudeshwarscubadive.in:
+A new customer booking enquiry was submitted via netraniscubadive.in:
 
 Customer Name:      ${data.fullName}
 Phone Number:       ${data.phone}
@@ -243,7 +243,7 @@ Quick Actions:
 
 Netrani Scuba Dive Booking Desk
 Helpline: +91 74063 29777
-Website: https://www.murudeshwarscubadive.in
+Website: https://www.netraniscubadive.in
 =============================================
   `.trim();
 }
@@ -331,7 +331,7 @@ export function generateCustomerConfirmationHtml(data: BookingNotificationData):
           <tr>
             <td style="background-color: #fafafa; border-top: 1px solid #000000; padding: 16px 32px; text-align: center; font-size: 11px; color: #666666;">
               Netrani Scuba Dive • Murudeshwar Beach, Karnataka 581350<br>
-              Helpline: +91 74063 29777 • <a href="https://www.murudeshwarscubadive.in" style="color: #000;">murudeshwarscubadive.in</a>
+              Helpline: +91 74063 29777 • <a href="https://www.netraniscubadive.in" style="color: #000;">netraniscubadive.in</a>
             </td>
           </tr>
         </table>
@@ -357,7 +357,7 @@ Requested Details:
 
 Our certified dive coordinator will call/WhatsApp you shortly to confirm boat seating and give you the Murudeshwar beach reporting directions.
 
-Questions? Call our dive desk at +91 74063 29777 or visit https://www.murudeshwarscubadive.in
+Questions? Call our dive desk at +91 74063 29777 or visit https://www.netraniscubadive.in
   `.trim();
 }
 

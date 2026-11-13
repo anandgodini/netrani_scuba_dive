@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     "padi scuba netrani island",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
+    canonical: "https://www.netraniscubadive.in/netrani-scuba-diving",
   },
   openGraph: {
     title: "Netrani Island Scuba Diving with Netrani Scuba Dive: Package & Price (₹3,500)",
     description:
       "Book the full Netrani Island scuba diving experience with Netrani Scuba Dive for ₹3,500. Includes 30–40 min reef dive, 1:1 certified instructor, boat trip, gear, and free HD media.",
-    url: "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
+    url: "https://www.netraniscubadive.in/netrani-scuba-diving",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -322,15 +322,15 @@ export default function NetraniScubaDiving() {
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "@id": "https://www.murudeshwarscubadive.in/netrani-scuba-diving/#service",
+      "@id": "https://www.netraniscubadive.in/netrani-scuba-diving/#service",
       "name": "Netrani Island Scuba Diving Package",
       "serviceType": "Scuba Diving Excursion",
-      "image": "https://www.murudeshwarscubadive.in/images/netrani-diver.png",
+      "image": "https://www.netraniscubadive.in/images/netrani-diver.png",
       "description": "Full Netrani Island scuba diving experience with Netrani Scuba Dive. Includes scenic boat crossing, 30-40 mins dive time, gear rental, PADI instructor guidance, and free HD photos & videos.",
       "provider": {
         "@type": "SportsActivityLocation",
         "name": "Netrani Scuba Dive",
-        "url": "https://www.murudeshwarscubadive.in",
+        "url": "https://www.netraniscubadive.in",
         "telephone": "+917406329777",
         "address": {
           "@type": "PostalAddress",
@@ -347,7 +347,7 @@ export default function NetraniScubaDiving() {
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
+        "url": "https://www.netraniscubadive.in/netrani-scuba-diving",
         "priceCurrency": "INR",
         "price": "3500",
         "priceValidUntil": "2027-12-31",
@@ -379,13 +379,13 @@ export default function NetraniScubaDiving() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in"
+          "item": "https://www.netraniscubadive.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Netrani Scuba Diving",
-          "item": "https://www.murudeshwarscubadive.in/netrani-scuba-diving"
+          "item": "https://www.netraniscubadive.in/netrani-scuba-diving"
         }
       ]
     },

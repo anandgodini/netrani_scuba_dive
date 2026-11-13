@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     "scuba diving cost in murudeshwar",
     "scuba diving timings murudeshwar",
   ],
-  metadataBase: new URL("https://www.murudeshwarscubadive.in"),
+  metadataBase: new URL("https://www.netraniscubadive.in"),
   alternates: {
     canonical: "/",
   },
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "Netrani Scuba Dive | Premier Scuba Diving Packages & Netrani Island Booking",
     description:
       "Explore scuba diving at Netrani Island with Netrani Scuba Dive. Transparent package pricing from ₹3,500, beginner & non-swimmer guidance, and free HD underwater photos.",
-    url: "https://www.murudeshwarscubadive.in",
+    url: "https://www.netraniscubadive.in",
     siteName: "Netrani Scuba Dive",
     images: [
       {

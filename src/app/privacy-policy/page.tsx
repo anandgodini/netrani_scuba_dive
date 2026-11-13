@@ -11,13 +11,13 @@ export const metadata: Metadata = {
     "netrani scuba booking privacy",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/privacy-policy",
+    canonical: "https://www.netraniscubadive.in/privacy-policy",
   },
   openGraph: {
     title: "Privacy Policy: Netrani Scuba Dive",
     description:
       "Learn how Netrani Scuba Dive collects, stores, and protects your information when booking scuba diving packages.",
-    url: "https://www.murudeshwarscubadive.in/privacy-policy",
+    url: "https://www.netraniscubadive.in/privacy-policy",
     siteName: "Netrani Scuba Dive",
     locale: "en_IN",
     type: "website",
@@ -40,13 +40,13 @@ export default function PrivacyPolicy() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
+          "item": "https://www.netraniscubadive.in",
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Privacy Policy",
-          "item": "https://www.murudeshwarscubadive.in/privacy-policy",
+          "item": "https://www.netraniscubadive.in/privacy-policy",
         },
       ],
     },

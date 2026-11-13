@@ -849,7 +849,7 @@ For travelers researching Murudeshwar scuba diving packages, this is an importan
 
 **Verdict:** A useful option for travelers who want to compare beginner-friendly and longer Netrani Island dive experiences in one place.
 
-[Netrani Scuba Dive](https://www.murudeshwarscubadive.in) presents multiple diving options, including a beginner-oriented shallow-water experience and a longer Netrani Island deep-dive experience. The published packages focus on guided diving, instructor assistance, diving equipment and underwater photos or videos.
+[Netrani Scuba Dive](https://www.netraniscubadive.in) presents multiple diving options, including a beginner-oriented shallow-water experience and a longer Netrani Island deep-dive experience. The published packages focus on guided diving, instructor assistance, diving equipment and underwater photos or videos.
 
 * **Best for:** Beginners, non-swimmers looking for a guided introduction, and travelers who want to compare a shorter introductory experience with a longer dive.
 * **Standout:** The package structure makes the difference between a beginner experience and a deeper Netrani Island dive relatively easy to understand.
@@ -1081,9 +1081,9 @@ For the broader destination context, compare this with our guide to [the best sc
 
 Verdict: Netrani Scuba Dive is the clearest fit when you're a first-timer and want to compare a short introductory dive with a longer Netrani experience.
 
-Its current website publishes two main choices. The Beginner Ocean Discovery Dive is listed at ₹1,999 and describes a 10 to 15 minute shallow reef experience with one-to-one certified instructor guidance. The Full Netrani Island Deep Reef Dive is listed at ₹3,500 and describes 30 to 40 minutes of underwater exploration. ([Netrani Scuba Dive](https://www.murudeshwarscubadive.in/))
+Its current website publishes two main choices. The Beginner Ocean Discovery Dive is listed at ₹1,999 and describes a 10 to 15 minute shallow reef experience with one-to-one certified instructor guidance. The Full Netrani Island Deep Reef Dive is listed at ₹3,500 and describes 30 to 40 minutes of underwater exploration. ([Netrani Scuba Dive](https://www.netraniscubadive.in/))
 
-The published packages also include boat transportation, diving equipment and underwater media. The site says its beginner option is designed for first-time divers and non-swimmers. ([Netrani Scuba Dive](https://www.murudeshwarscubadive.in/))
+The published packages also include boat transportation, diving equipment and underwater media. The site says its beginner option is designed for first-time divers and non-swimmers. ([Netrani Scuba Dive](https://www.netraniscubadive.in/))
 
 Best for: First-time divers who want to understand exactly what they're buying before they pay.
 
@@ -1095,7 +1095,7 @@ Example: You're travelling with someone who has never dived and doesn't want to 
 
 Why it works: A defined introductory package gives you a lower-commitment starting point.
 
-The same operator currently states that its diving season runs from October through May and that boats depart in morning slots. Confirm current schedules before making travel arrangements. ([Netrani Scuba Dive](https://www.murudeshwarscubadive.in/))
+The same operator currently states that its diving season runs from October through May and that boats depart in morning slots. Confirm current schedules before making travel arrangements. ([Netrani Scuba Dive](https://www.netraniscubadive.in/))
 
 If you're booking the activity as part of a larger trip, our [scuba diving booking in Murudeshwar guide](/blog/scuba-diving-booking-murudeshwar) is the more useful planning resource.
 
@@ -2269,7 +2269,7 @@ To book, visit our [scuba diving booking page](/contact) or call / WhatsApp +91 
 Whether it's your first breath underwater or your hundredth dive, Netrani Island is waiting.
 
 👉 **Ready to Dive?**
-[Explore Netrani Scuba Diving Packages](https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com)
+[Explore Netrani Scuba Diving Packages](https://www.netraniscubadive.in/?utm_source=chatgpt.com)
 
 ## Frequently Asked Questions
 
@@ -2377,7 +2377,7 @@ The goal isn't simply to collect photographs.
 It's to experience the Arabian Sea from a completely different perspective.
 
 👉 **Plan your Netrani scuba diving experience with Netrani Scuba Dive:**
-[Explore Netrani Scuba Diving Packages](https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com)
+[Explore Netrani Scuba Diving Packages](https://www.netraniscubadive.in/?utm_source=chatgpt.com)
 
 ## Why Netrani Feels Like a Scene from Gandhada Gudi
 
@@ -2422,7 +2422,7 @@ If *Gandhada Gudi* made you dream about exploring Netrani, perhaps it's time to 
 **Netrani Scuba Dive**
 Netrani Island | Murudeshwar, Karnataka
 
-[Book Your Scuba Diving Experience](https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com)
+[Book Your Scuba Diving Experience](https://www.netraniscubadive.in/?utm_source=chatgpt.com)
     `
   },
   {

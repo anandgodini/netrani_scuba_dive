@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     "netrani beginner scuba package",
   ],
   alternates: {
-    canonical: "https://www.murudeshwarscubadive.in/intro-scuba-diving",
+    canonical: "https://www.netraniscubadive.in/intro-scuba-diving",
   },
   openGraph: {
     title: "Beginner Scuba Diving with Netrani Scuba Dive: Intro Try Dive (₹1,999)",
     description:
       "Experience beginner scuba diving at Netrani Island with Netrani Scuba Dive for ₹1,999. Ideal entry-level dive for beginners and non-swimmers with 1:1 certified instructor & free HD media.",
-    url: "https://www.murudeshwarscubadive.in/intro-scuba-diving",
+    url: "https://www.netraniscubadive.in/intro-scuba-diving",
     siteName: "Netrani Scuba Dive",
     images: [
       {
@@ -247,15 +247,15 @@ export default function IntroScubaDiving() {
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "@id": "https://www.murudeshwarscubadive.in/intro-scuba-diving/#service",
+      "@id": "https://www.netraniscubadive.in/intro-scuba-diving/#service",
       "name": "Intro Scuba Try Dive Package",
       "serviceType": "Beginner Scuba Diving Experience",
-      "image": "https://www.murudeshwarscubadive.in/images/group-divers.png",
+      "image": "https://www.netraniscubadive.in/images/group-divers.png",
       "description": "Try scuba diving at Netrani Island with Netrani Scuba Dive. Perfect entry package for beginners and non-swimmers. Includes 1:1 instructor guidance, gear rental, and free HD photos & videos.",
       "provider": {
         "@type": "SportsActivityLocation",
         "name": "Netrani Scuba Dive",
-        "url": "https://www.murudeshwarscubadive.in",
+        "url": "https://www.netraniscubadive.in",
         "telephone": "+917406329777",
         "address": {
           "@type": "PostalAddress",
@@ -272,7 +272,7 @@ export default function IntroScubaDiving() {
       },
       "offers": {
         "@type": "Offer",
-        "url": "https://www.murudeshwarscubadive.in/intro-scuba-diving",
+        "url": "https://www.netraniscubadive.in/intro-scuba-diving",
         "priceCurrency": "INR",
         "price": "1999",
         "priceValidUntil": "2027-12-31",
@@ -287,13 +287,13 @@ export default function IntroScubaDiving() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in"
+          "item": "https://www.netraniscubadive.in"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Intro Scuba Try Dive",
-          "item": "https://www.murudeshwarscubadive.in/intro-scuba-diving"
+          "item": "https://www.netraniscubadive.in/intro-scuba-diving"
         }
       ]
     },
