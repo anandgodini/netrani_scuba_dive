@@ -57,6 +57,7 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "netrani-island-scuba-diving-photos-and-videos",
     "netrani-scuba-diving-timings-schedule-guide",
     "can-non-swimmers-do-scuba-diving-in-murudeshwar",
     "murudeshwar-to-netrani-island-distance-boat-journey",

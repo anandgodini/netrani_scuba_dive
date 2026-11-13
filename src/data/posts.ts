@@ -18,6 +18,190 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "netrani-island-scuba-diving-photos-and-videos",
+    title: "Netrani Island Scuba Diving Photos and Videos: Explore the Underwater World",
+    metaTitle: "Netrani Island Scuba Diving Photos & Videos | Netrani Scuba Dive",
+    subtitle: "Explore high-definition underwater photos and action videos from Netrani Island. Discover coral reefs, marine wildlife, first-timer dive moments, and gallery highlights.",
+    description: "Browse authentic Netrani Island scuba diving photos and videos. See coral reefs, exotic marine life, and diver action shots before booking your Murudeshwar dive.",
+    category: "Gallery",
+    tags: [
+          "netrani island scuba diving photos",
+          "netrani scuba diving videos",
+          "murudeshwar scuba diving photos",
+          "netrani underwater pictures",
+          "netrani coral reef photos",
+          "scuba diving in murudeshwar gallery",
+          "netrani scuba photos and videos"
+    ],
+    readTime: "7 min read",
+    date: "13 Nov 2026",
+    coverImage: "/images/murudeshwara/netrani_island_underwater_photography.webp",
+    faq: [
+          {
+                "question": "Where can I see Netrani Island scuba diving photos?",
+                "answer": "You can view underwater photographs of Netrani Island on the official Netrani Scuba Dive Gallery page at /gallery. The gallery includes images of divers, coral reef formations and the underwater environment."
+          },
+          {
+                "question": "Are underwater videos available for Netrani scuba diving?",
+                "answer": "The Netrani Scuba Dive website states that complimentary HD underwater photographs and action video clips are included with its dive packages. You can check the gallery and package pages for the latest published media information."
+          },
+          {
+                "question": "What marine life can I see while scuba diving at Netrani Island?",
+                "answer": "Depending on the dive site and conditions, divers may encounter reef fish, coral formations and other marine organisms. Sightings of particular species are not guaranteed because marine life moves naturally."
+          },
+          {
+                "question": "Are Netrani underwater photos the same on every trip?",
+                "answer": "No. Photographs can look different depending on underwater visibility, lighting, depth, camera position and the marine life present during the dive. Every trip can offer a different visual experience."
+          },
+          {
+                "question": "Can beginners take part in scuba diving at Netrani Island?",
+                "answer": "First-time divers can enquire about an introductory dive. Participation depends on the activity requirements, medical screening, water comfort and the operator's assessment. Review the introductory package details before planning your trip."
+          }
+    ],
+    content: `# Netrani Island Scuba Diving Photos and Videos: Explore the Underwater World
+
+What does scuba diving at Netrani Island actually look like? From colourful reef formations to divers exploring the underwater landscape, photographs and videos offer a glimpse of the experience before you make the trip yourself.
+
+Netrani Island, off the coast of Murudeshwar in Karnataka, is a popular destination for exploring the Arabian Sea underwater. If you are searching for Netrani scuba diving photos and videos, you can explore real underwater captures in our [Netrani scuba diving photo gallery](/gallery).
+
+The gallery gives visitors a closer look at the reef environment, marine life and divers in action. In this guide, we explain what you may see underwater, where to find actual photographs and how to plan your own diving experience.
+
+## Discover the Underwater World of Netrani Island
+
+Netrani Island, also known as Pigeon Island, is located in the Arabian Sea near Murudeshwar. Its surrounding waters are known for rocky underwater formations, coral reef habitats and a variety of marine life.
+
+Unlike photographs taken from the beach, underwater scuba diving pictures show a different side of this coastal destination. They capture the underwater environment that visitors explore during a guided dive.
+
+Depending on the conditions, divers may see:
+
+* Coral formations and reef structures.
+* Schools of small reef fish.
+* Colourful fish moving around rocky areas.
+* Underwater rock formations and reef edges.
+* Other marine organisms living around the reef.
+
+The appearance of the underwater landscape changes with natural conditions. Water clarity, sunlight, depth and the position of marine life can all affect what appears in a photograph or video.
+
+That is why actual photographs from different diving trips are useful for understanding the variety of scenes around Netrani Island.
+
+## What Can You See During a Netrani Scuba Diving Experience?
+
+One of the most interesting parts of exploring Netrani underwater is observing the reef environment at close range.
+
+### Coral reefs and underwater formations
+
+Coral reef areas create habitats for different marine organisms. Underwater photographs can show the shapes, textures and colours of these formations, along with the fish that move around them.
+
+The reef may look different depending on the dive location, lighting and visibility on the day.
+
+### Reef fish and marine life
+
+Netrani's waters support a variety of marine life. Divers may encounter reef fish such as butterflyfish, triggerfish and parrotfish, along with other marine organisms.
+
+Larger animals may occasionally be reported in the wider area, but no particular species can be guaranteed during an individual dive. Marine life moves freely, and sightings depend on natural conditions.
+
+### Divers exploring underwater
+
+Photographs of divers provide a useful idea of what the experience looks like. You can see how a diver uses scuba equipment, explores the reef and follows an instructor underwater.
+
+For someone considering a first dive, these pictures can make the activity easier to understand before arriving in Murudeshwar.
+
+## Explore Netrani Island Scuba Diving Photos
+
+Our gallery brings together underwater photographs from Netrani Island diving trips. Instead of relying only on generic stock images, visitors can browse the photographs published on the Netrani Scuba Dive website.
+
+The gallery includes visual categories such as:
+
+* **Divers in action:** Photographs of divers exploring the underwater environment.
+* **Coral reefs:** Views of reef formations and underwater landscapes.
+* **Marine life:** Images representing the aquatic environment around Netrani.
+* **First-time diving moments:** Photographs showing participants during their underwater experience.
+
+If you want to see what the dive environment looks like before booking, take a moment to [explore our scuba diving photos and videos](/gallery).
+
+Browse the photographs to get a visual impression of the destination, the underwater surroundings and the diving experience offered by the operator.
+
+## Watch Underwater Scuba Diving Videos
+
+Photographs capture individual moments, while videos can show movement and the atmosphere of an underwater dive.
+
+Murudeshwar scuba diving videos may show divers moving through the water, exploring reef areas and observing fish. They can also help first-time visitors understand how an underwater experience looks beyond a single photograph.
+
+The Netrani Scuba Dive website states that **HD underwater photographs and action video clips are included with its dive packages**. The media is intended to help participants keep a visual memory of their experience.
+
+The actual footage will naturally differ from one dive to another. Underwater visibility, lighting, marine life movement and the position of the camera all influence the final result.
+
+For the latest available photographs and gallery content, visit the [Netrani underwater gallery](/gallery).
+
+## What Makes the Netrani Island Underwater Experience Special?
+
+Netrani offers a different experience from ordinary beach sightseeing. The main attraction is the opportunity to explore the marine environment beneath the Arabian Sea.
+
+A few features make the destination interesting for underwater photography and diving.
+
+### A reef environment to explore
+The underwater landscape includes reef formations and rocky structures that create an interesting setting for photographs. These features also provide habitats for marine organisms.
+
+### A different view of coastal Karnataka
+Most visitors experience Murudeshwar from the shore, beach or temple area. A boat trip to Netrani provides an opportunity to explore the coastal region from the sea and experience its underwater environment.
+
+### Memories from your own dive
+Looking at photographs online is one way to understand the experience. Taking part in a guided dive gives you the opportunity to see the underwater environment yourself.
+
+Your photographs and video clips can help you remember the activity after returning to shore.
+
+## Where to Find Real Netrani Scuba Diving Photos and Videos
+
+The best place to start is the official Netrani Scuba Dive Gallery.
+
+The [Netrani scuba diving photo gallery](/gallery) features photographs of reef formations, divers, marine life and underwater exploration around Netrani Island.
+
+Use the gallery to:
+
+* Explore photographs from the underwater environment.
+* See how divers look while exploring the reef.
+* Get a visual impression of the diving surroundings.
+* Understand the kind of moments underwater photography can capture.
+* Decide whether you would like to experience scuba diving yourself.
+
+The gallery is especially useful if you are researching the destination before making a booking. It helps you see actual images published by the business rather than depending entirely on general travel photographs.
+
+## Planning Your Own Scuba Diving Experience
+
+After exploring Netrani underwater photos and videos, you may want to experience the destination yourself.
+
+Scuba diving trips to Netrani Island are organised from the Murudeshwar area. Your trip generally involves reporting to the operator, receiving the necessary instructions, travelling by boat and participating in the booked underwater activity.
+
+### Choosing a suitable dive package
+
+If you are planning your first underwater experience, consider an introductory option. The [beginner-friendly scuba diving experience](/intro-scuba-diving) is designed for people who want to try scuba diving without committing to a longer dive.
+
+Visitors looking for more underwater time can review the available [Netrani Island scuba diving packages](/netrani-scuba-diving).
+
+Read the package details carefully and confirm the current inclusions, activity requirements and availability before booking.
+
+### What should you know before diving?
+
+Before your trip:
+
+* Confirm the reporting instructions and schedule with the operator.
+* Share relevant medical information honestly during screening.
+* Follow the instructor's briefing and underwater instructions.
+* Avoid touching coral or disturbing marine life.
+* Do not chase fish or other animals for photographs.
+* Understand that visibility and wildlife sightings can vary.
+
+Responsible underwater behaviour helps protect the marine environment and allows you to enjoy the experience without disturbing the reef.
+
+## Plan Your Netrani Scuba Experience
+
+Exploring Netrani scuba diving photos and videos is a great way to understand what awaits beneath the Arabian Sea near Murudeshwar. From reef formations and underwater landscapes to divers exploring marine habitats, photographs and videos provide a glimpse of this coastal adventure.
+
+For actual photographs from Netrani Scuba Dive trips, visit our [Netrani scuba diving photo gallery](/gallery). Browse the underwater images, explore the experience and, if you would like to see the reef for yourself, review the available [Netrani Island scuba diving packages](/netrani-scuba-diving) or [contact our booking team](/contact).
+
+Your own underwater experience can become a collection of memories worth revisiting long after the trip.`
+  },
+  {
     slug: "netrani-scuba-diving-timings-schedule-guide",
     title: "Netrani Scuba Diving Timings: Best Time to Plan Your Dive",
     metaTitle: "Netrani Scuba Diving Timings: Best Time to Plan Your Dive",
