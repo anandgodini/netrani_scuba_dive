@@ -57,6 +57,7 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "scuba-diving-vs-snorkelling-netrani-island",
     "netrani-island-scuba-diving-photos-and-videos",
     "netrani-scuba-diving-timings-schedule-guide",
     "can-non-swimmers-do-scuba-diving-in-murudeshwar",
