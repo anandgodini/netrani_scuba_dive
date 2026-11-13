@@ -18,6 +18,249 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "netrani-scuba-diving-explore-underwater-world",
+    title: "Netrani Scuba Diving: Explore the Underwater World of Netrani Island",
+    metaTitle: "Netrani Scuba Diving: Explore the Underwater World of Netrani Island",
+    subtitle: "Discover coral reef formations, marine biodiversity, beginner try-dives, boat trips, and essential booking checklists for Netrani Island scuba diving.",
+    description: "Complete guide to Netrani scuba diving. Explore the underwater coral reefs, marine life sightings, beginner requirements, best seasons, boat travel, and booking tips.",
+    category: "Guides",
+    tags: [
+          "netrani scuba diving",
+          "netrani island scuba dive",
+          "scuba diving in murudeshwar",
+          "pigeon island scuba diving",
+          "scuba diving karnataka",
+          "beginner scuba diving netrani"
+    ],
+    readTime: "9 min read",
+    date: "13 Nov 2026",
+    coverImage: "/images/murudeshwara/netrani_island_coral_reef.webp",
+    faq: [
+          {
+                "question": "Where is Netrani Island located?",
+                "answer": "Netrani Island, also known as Pigeon Island, is located in the Arabian Sea, approximately 19 kilometres off the Murudeshwar coast in Karnataka."
+          },
+          {
+                "question": "Is Netrani scuba diving suitable for first-time divers?",
+                "answer": "Yes. Introductory diving experiences are available for beginners. Participants receive instructions before the dive and must meet the applicable medical and operator requirements."
+          },
+          {
+                "question": "Can non-swimmers do scuba diving at Netrani Island?",
+                "answer": "Some introductory programmes may accept non-swimmers. Eligibility depends on water comfort, medical fitness, the operator's assessment and the programme requirements. Confirm this before booking."
+          },
+          {
+                "question": "What is the best season for Netrani scuba diving?",
+                "answer": "November to May is a commonly recommended period for planning a Netrani Island diving trip. Actual operations depend on weather and sea conditions."
+          },
+          {
+                "question": "How do I reach Netrani Island?",
+                "answer": "Visitors generally travel by boat from Murudeshwar to the diving locations around Netrani Island. First, reach Murudeshwar by road, train or air with onward road transport."
+          },
+          {
+                "question": "How long does a scuba diving trip take?",
+                "answer": "The complete excursion includes reporting, the boat crossing, briefing, dive rotations and the return journey. The exact schedule depends on the operator and sea conditions. Confirm the reporting and return times before booking."
+          },
+          {
+                "question": "Are underwater photos and videos included?",
+                "answer": "Some packages include underwater photographs and videos. Inclusions vary, so check the package details and confirm with the operator before making a reservation."
+          },
+          {
+                "question": "What should I check before booking Netrani scuba diving?",
+                "answer": "Check the package price, underwater duration, boat arrangements, equipment, instructor guidance, media inclusions, medical requirements and cancellation policy."
+          }
+    ],
+    content: `# Netrani Scuba Diving: Explore the Underwater World of Netrani Island
+
+Imagine exploring the underwater world of the Arabian Sea, watching colourful reef fish and discovering natural coral formations beneath the surface. This is what makes **Netrani scuba diving** an exciting experience for adventure lovers visiting the Karnataka coast.
+
+Located off the coast of Murudeshwar, Netrani Island is one of Karnataka's recognised scuba diving destinations. Also known as Pigeon Island, it attracts visitors who want to experience marine life and enjoy a guided underwater adventure.
+
+Whether you are a first-time diver or someone who already enjoys exploring the ocean, Netrani Island offers an opportunity to discover a different side of coastal Karnataka.
+
+In this guide, you will learn about the diving experience, how to reach the island, the best time to visit, beginner requirements and what to check before booking your dive.
+
+## Where Is Netrani Island?
+
+Netrani Island is situated in the Arabian Sea, approximately 19 kilometres off the coast of Murudeshwar in Karnataka's Uttara Kannada district.
+
+The island is also called Pigeon Island because of the birds found in the area. Its rocky landscape and surrounding underwater environment make it a popular destination for scuba diving and snorkelling.
+
+Visitors generally travel from Murudeshwar by boat to reach the diving locations around the island. The boat journey is an important part of the excursion, and the trip duration can vary depending on the vessel and sea conditions.
+
+Netrani is an offshore destination, so visitors should arrange their trip through an established local operator rather than planning an independent island visit.
+
+## Why Is Netrani Scuba Diving Popular?
+
+Netrani Island is known for its underwater landscape and marine environment. It offers a different experience from regular beach activities because visitors get to explore beneath the sea surface.
+
+Here are some reasons people choose Netrani for scuba diving:
+
+### 1. Explore Underwater Reef Areas
+One of the main attractions is the opportunity to observe underwater rock formations and reef areas. The underwater landscape offers an interesting setting for a guided dive. Conditions such as water visibility and currents can vary, so the experience may be different on each visit.
+
+### 2. Observe Marine Life
+The waters around Netrani Island support a variety of marine life. Divers may have opportunities to observe reef fish and other marine creatures during their dive. Every dive is different. Marine-life sightings depend on natural conditions and cannot be guaranteed.
+
+### 3. Experience a Guided Underwater Adventure
+First-time participants can enquire about introductory scuba diving experiences. Before entering the water, participants receive instructions about the equipment, breathing and underwater communication. During the dive, follow the guidance of your assigned dive professional and communicate whenever you feel uncomfortable or need assistance.
+
+### 4. Enjoy the Offshore Boat Journey
+The trip to Netrani Island usually starts from Murudeshwar. The boat journey across the Arabian Sea is part of the overall adventure. Because the island is offshore, plan enough time for the complete excursion, including reporting, boarding, the boat crossing, dive rotations and the return journey.
+
+## What Is the Netrani Scuba Diving Experience Like?
+
+If you are planning your first dive, understanding the usual process can help you feel more prepared:
+
+### Step 1: Reach the Reporting Location
+Your trip begins at the reporting point confirmed by the dive operator in Murudeshwar. Arrive at the scheduled time and complete the booking or check-in formalities. Keep your personal belongings organised and carry only what you need for the excursion.
+
+### Step 2: Attend the Pre-Dive Briefing
+Before entering the water, the dive team explains the basic procedures. The briefing generally covers:
+* How to use the scuba equipment
+* Basic breathing techniques
+* Underwater hand signals
+* Equalising ear pressure
+* How to communicate with the instructor
+* Important safety instructions
+
+Listen carefully and ask questions if anything is unclear.
+
+### Step 3: Travel to Netrani Island
+After the briefing and boarding process, the boat travels towards the diving area around Netrani Island. The crossing time depends on the boat and sea conditions. Follow the crew's instructions during the journey.
+
+### Step 4: Enter the Water for Your Dive
+Once the dive team confirms that conditions are suitable, participants prepare for their underwater experience. Beginners are guided through the introductory process. Follow the instructions provided by your dive professional and never rush into the water before you are ready.
+
+### Step 5: Capture Your Underwater Memories
+Depending on your selected package, underwater photographs and videos may be included. These can help you remember the experience and share your underwater adventure with friends and family. Confirm the exact media inclusions before booking.
+
+## Is Netrani Scuba Diving Suitable for Beginners?
+
+Yes, introductory scuba diving experiences are offered at Netrani Island for people who are new to diving.
+
+You do not necessarily need previous scuba experience to enquire about an introductory dive. However, beginners must meet the operator's participation requirements and follow the instructions of the dive professional.
+
+Before booking, consider these points:
+
+* Be prepared to attend the full pre-dive briefing.
+* Share relevant medical information honestly.
+* Follow the instructor's instructions throughout the activity.
+* Ask about age and medical eligibility.
+* Confirm the requirements for your selected package.
+
+You can learn more about our [beginner-friendly scuba diving experience](/intro-scuba-diving) to understand the introductory try-dive.
+
+### Can Non-Swimmers Try Scuba Diving?
+
+Some introductory scuba diving programmes accept participants who cannot swim. However, non-swimmers are not automatically eligible for every diving programme.
+
+Water comfort, medical fitness, the ability to follow instructions and the operator's assessment all matter.
+
+If you cannot swim, tell the operator before booking. Ask how the introductory experience is conducted and what assistance is provided during the dive.
+
+## Best Time for Netrani Scuba Diving
+
+Weather and sea conditions are important when planning an offshore diving trip.
+
+The commonly recommended diving season is outside the main monsoon period. Karnataka Tourism identifies November to May as a suitable period to plan a visit to Netrani Island.
+
+| Season | Planning advice |
+| :--- | :--- |
+| October to November | Check whether operations have resumed after the monsoon. |
+| December to February | A popular period for planning a coastal diving trip. |
+| March to May | Diving may operate depending on weather and sea conditions. |
+| June to September | Monsoon conditions can affect offshore boat operations. |
+
+The season alone does not guarantee suitable conditions on a particular day. Confirm the trip schedule and sea conditions with your operator before travelling.
+
+## What Is Included in a Netrani Scuba Diving Package?
+
+Package inclusions vary between operators and experience types. Before making a reservation, check exactly what you are paying for.
+
+Your package may include:
+
+* Boat transportation to and from Netrani Island
+* Scuba diving equipment
+* Pre-dive briefing
+* Instructor or divemaster guidance
+* A specified amount of underwater dive time
+* Underwater photographs and videos
+* Surface snorkelling equipment, where included
+* Refreshments during the boat trip, where included
+
+For available experiences and booking information, explore our [Netrani Island scuba diving packages](/netrani-scuba-diving). Review the package page carefully and confirm the latest price, reporting time, availability and inclusions before making payment.
+
+## What Should You Carry for Your Netrani Diving Trip?
+
+Packing a few essentials can make your trip more comfortable:
+
+* Comfortable clothes for travelling.
+* A change of clothes for after the activity.
+* A towel.
+* Sunscreen and a hat.
+* Personal identification.
+* A water bottle.
+* Any personal medication you may need.
+* A waterproof bag for items that need protection.
+
+Follow the operator's advice about what to bring and what to leave behind on shore.
+
+## How to Reach Netrani Island for Scuba Diving
+
+Netrani Island is generally accessed by boat from Murudeshwar. The first step is to reach Murudeshwar, which is connected by road and rail.
+
+* **By Train:** Murudeshwar has a railway station on the Konkan Railway route. Travellers can check train connections from their departure city and plan local transport to the confirmed reporting location.
+* **By Road:** Murudeshwar is connected to other coastal towns and cities through road routes, including National Highway 66. Visitors can travel by private vehicle, bus or taxi.
+* **By Air:** Mangaluru International Airport is one of the nearest major airports. From there, visitors need onward road transport to Murudeshwar.
+
+Read our complete travel guide on [how to reach Murudeshwar](/how-to-reach-murudeshwar) for detailed route advice.
+
+## Safety Tips Before Your Scuba Dive
+
+Scuba diving is an adventure activity that requires proper preparation and attention to instructions. Keep these points in mind:
+
+* Choose an operator that clearly explains its diving procedures.
+* Ask about instructor allocation and supervision.
+* Check the condition and suitability of the equipment.
+* Disclose relevant medical conditions before diving.
+* Follow the pre-dive briefing carefully.
+* Do not dive if you feel unwell or are advised not to participate.
+* Follow the crew's instructions about weather and sea conditions.
+
+No operator can guarantee that sea conditions or underwater visibility will remain the same throughout the day. A responsible decision may sometimes mean postponing a dive.
+
+## Netrani Scuba Diving: What Should You Check Before Booking?
+
+Before confirming your trip, compare the available packages and understand the details:
+
+| What to check | Why it matters |
+| :--- | :--- |
+| Package price | Understand the total cost per person. |
+| Underwater duration | Check the stated dive time. |
+| Boat journey | Confirm departure and return arrangements. |
+| Instructor guidance | Understand how supervision is organised. |
+| Equipment | Confirm which diving equipment is provided. |
+| Photos and videos | Check whether underwater media is included. |
+| Eligibility | Confirm age and medical requirements. |
+| Cancellation policy | Understand what happens if weather affects the trip. |
+
+Clear information before booking helps you plan your day and avoid confusion.
+
+## Make Netrani Island Part of Your Karnataka Trip
+
+A visit to Murudeshwar can include more than temple sightseeing and beach time. Netrani Island offers an opportunity to experience the Arabian Sea from beneath the surface.
+
+You can combine your diving excursion with a visit to Murudeshwar Temple, the famous Shiva statue and the nearby coastal areas. If you want a preview of what the reef and marine creatures look like, browse our [photo and video gallery](/gallery).
+
+## Plan Your Netrani Scuba Diving Experience
+
+Netrani Island is one of Karnataka's recognised destinations for scuba diving. Its offshore location, underwater reef environment and guided diving experiences attract both first-time participants and experienced ocean explorers.
+
+Before booking, check the available packages, current prices, activity timings, medical requirements and sea conditions.
+
+Explore our [Netrani Island scuba diving packages](/netrani-scuba-diving) or [contact our booking team](/contact) to get the information you need to plan your trip. Prepare well, listen to your dive professional and enjoy discovering the underwater world of Netrani Island.`
+  },
+  {
     slug: "murudeshwar-water-sports-guide",
     title: "Murudeshwar Water Sports: Explore Exciting Activities on the Karnataka Coast",
     metaTitle: "Murudeshwar Water Sports: Explore Exciting Activities on the Coast",
