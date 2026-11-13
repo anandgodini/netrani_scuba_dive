@@ -18,6 +18,216 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "netrani-scuba-diving-timings-schedule-guide",
+    title: "Netrani Scuba Diving Timings: Best Time to Plan Your Dive",
+    metaTitle: "Netrani Scuba Diving Timings: Best Time to Plan Your Dive",
+    subtitle: "Planning a scuba diving trip to Netrani Island? Discover daily operating windows (8:00 AM–3:00 PM), reporting times, boat crossing schedules, dive durations, and weather tips.",
+    description: "Complete guide to Netrani scuba diving timings. Learn daily operating windows (8:00 AM to 3:00 PM), boat departure schedules, underwater dive durations, and trip planning tips.",
+    category: "Timings",
+    tags: [
+          "netrani scuba diving timings",
+          "netrani island diving schedule",
+          "murudeshwar scuba diving timings",
+          "netrani boat timings",
+          "scuba diving reporting time murudeshwar",
+          "netrani island trip schedule",
+          "best time for scuba diving in netrani"
+    ],
+    readTime: "8 min read",
+    date: "13 Nov 2026",
+    coverImage: "/images/group-expedition.jpg",
+    faq: [
+          {
+                "question": "What are the Netrani scuba diving timings?",
+                "answer": "Netrani Scuba Dive publishes an overall operating window of 8:00 AM to 3:00 PM during its October to May season. The exact reporting, boarding and return times should be confirmed for your booking date."
+          },
+          {
+                "question": "What time does the boat leave for Netrani Island?",
+                "answer": "The exact boat departure time can depend on the operator's daily arrangements. Confirm your boarding and departure time directly with the booking team before travelling."
+          },
+          {
+                "question": "How long does the Netrani Island boat journey take?",
+                "answer": "Karnataka Tourism gives an approximate journey of 1.5 hours from Murudeshwar. Actual crossing time may vary depending on the vessel and sea conditions."
+          },
+          {
+                "question": "How long does the actual scuba diving session last?",
+                "answer": "The underwater duration depends on the package. The current website lists approximately 10–15 minutes for the Intro Scuba Try Dive and 30–40 minutes for the Full Netrani Dive. These durations are separate from the boat journey and overall trip."
+          },
+          {
+                "question": "Can weather change the Netrani scuba diving schedule?",
+                "answer": "Yes. Wind, waves, rainfall and sea conditions can affect the departure schedule and whether a trip operates. Contact the operator for the latest update before leaving for Murudeshwar Beach."
+          }
+    ],
+    content: `# Netrani Scuba Diving Timings: Best Time to Plan Your Dive
+
+Planning a scuba diving trip to Netrani Island from Murudeshwar? Knowing the **Netrani scuba diving timings** in advance helps you organise your travel, reach the reporting point on time and enjoy the experience without rushing.
+
+The published operating window for Netrani Scuba Dive is **8:00 AM to 3:00 PM** during the October to May diving season. However, this is the overall operating window, not a guaranteed boat departure time or an exact underwater dive slot. Reporting, boarding, boat travel and individual dive sessions happen at different stages of the trip. Confirm the schedule for your chosen date with the booking team before travelling.
+
+This guide explains the usual planning process, the difference between boat and diving timings, how weather can affect the schedule and what first-time visitors should know.
+
+## What Are the Scuba Diving Timings Near Netrani Island?
+
+Netrani Island is located offshore from Murudeshwar, Karnataka. Visitors generally travel by an arranged boat from the Murudeshwar area to experience scuba diving in the surrounding waters.
+
+Netrani Scuba Dive publishes the following overall operating information:
+
+| Schedule detail | Published information |
+| :--- | :--- |
+| Overall dive operating window | 8:00 AM–3:00 PM |
+| Operating days | Daily, during the operating season |
+| Diving season | October to May |
+| Monsoon period | June to September, operations pause |
+| Exact reporting time | Confirm for your booking |
+| Exact boat departure | Confirm for your booking |
+| Expected return time | Confirm for your booking |
+
+These details help you understand the general operating window. They should not be treated as confirmation that every guest boards at 8:00 AM or returns at exactly 3:00 PM.
+
+The actual Netrani scuba diving schedule can depend on the operator's daily arrangements, boat operations and sea conditions. Always follow the time shared in your booking confirmation.
+
+## What Time Does the Netrani Island Diving Trip Start?
+
+Netrani Island trips are planned around a morning sea excursion, but the reporting time and boat departure time are not necessarily the same.
+
+Your day generally involves the following stages:
+
+### 1. Reporting and check-in
+
+Guests first report to the operator's designated meeting location. This allows time for booking verification, required declarations, preparation and instructions.
+
+Netrani Scuba Dive lists its reporting desk on Temple Main Road near Murudeshwar Beach. The exact time you should arrive is confirmed directly with the team for your booking date.
+
+### 2. Boat boarding and departure
+
+After check-in and preparation, guests follow the crew's boarding instructions. The boat then travels from the Murudeshwar area towards Netrani Island.
+
+The exact boarding and departure time is confirmed upon booking by the operator. Do not assume that the boat leaves at the start of the published operating window.
+
+### 3. Arrival and diving activities
+
+After reaching the diving area, guests receive the activity instructions and prepare for their respective sessions. Depending on the package and daily arrangements, participants may enter the water in different turns.
+
+Your personal underwater session is only one part of the complete trip. The boat may remain at the site while other guests participate.
+
+## Understanding the Boat Journey and Diving Schedule
+
+When planning scuba diving timings in Murudeshwar, it is useful to understand four separate time details.
+
+| Timing | What it means | What to confirm |
+| :--- | :--- | :--- |
+| Reporting time | When you must reach the operator's meeting point | Your check-in time |
+| Boat departure | When the boat leaves the shore | Boarding and sailing time |
+| Boat journey duration | Time spent travelling between Murudeshwar and the diving area | Expected crossing time for the day's vessel |
+| Underwater dive time | Time you personally spend underwater | Duration included in your selected package |
+| Total trip duration | The complete outing, including check-in, boat travel, activity and return | Expected shore arrival |
+
+### How long is the boat journey?
+
+Karnataka Tourism describes the boat journey from Murudeshwar to Netrani Island as approximately 1.5 hours. This is a general estimate. Actual travel time can vary according to the vessel, route and sea conditions.
+
+Your operator can provide the most relevant estimate for the boat being used on your selected date.
+
+### How long do you stay underwater?
+
+Underwater time is different from the boat journey and the total excursion.
+
+The current package pages list different underwater durations:
+
+* **Intro Scuba Try Dive:** approximately 10–15 minutes.
+* **Full Netrani Dive:** approximately 30–40 minutes.
+
+These are package descriptions, not guaranteed start times. The actual session can depend on the activity, participant comfort and operational conditions.
+
+If you are comparing options, review the [Netrani Island scuba diving packages](/netrani-scuba-diving) and confirm the package details before booking.
+
+## How Long Should You Plan for Your Scuba Diving Trip?
+
+Treat your Netrani Island diving trip as a substantial part of the day rather than a short beach activity.
+
+Your overall time commitment includes:
+
+* Travelling to the reporting location in Murudeshwar.
+* Booking verification and preparation.
+* Boat boarding and the outward sea journey.
+* Activity briefing and individual diving turns.
+* Waiting time while other participants complete their sessions, where applicable.
+* The return boat journey and disembarkation.
+
+The operator's published schedule gives an overall window of 8:00 AM to 3:00 PM. Plan your day around that window, but confirm the expected reporting and return times for your booking.
+
+Avoid arranging a tight onward train, bus or other connection immediately after the estimated return. A sea excursion can be affected by conditions that are outside the operator's control.
+
+If you are travelling from another city, consider arriving in Murudeshwar the previous evening. You can read our guide on [how to reach Murudeshwar](/how-to-reach-murudeshwar) to plan your train, road or onward airport transfer.
+
+## Does Weather Affect Netrani Scuba Diving Timings?
+
+Yes. Weather and sea conditions are important factors in planning a boat trip to Netrani Island.
+
+The route crosses open water, so conditions may change between the time you make your booking and the day of your trip. Strong winds, rough seas, heavy rainfall or relevant weather advisories may affect boat operations.
+
+This can mean:
+
+* A delay in the planned departure.
+* A change in the day's operating schedule.
+* A decision to postpone or cancel the trip if conditions are unsuitable.
+
+Karnataka Tourism recommends planning Netrani diving outside the monsoon season, generally November to May. Your operator publishes its diving season as October to May and pauses operations during the monsoon period from June to September.
+
+Even during the operating season, a particular date's trip depends on actual conditions. A published schedule does not guarantee that a boat will sail regardless of weather.
+
+## Tips for Planning Your Scuba Diving Trip from Murudeshwar
+
+A few practical steps can make your trip easier to manage:
+
+### 1. Confirm your reporting time
+Ask the booking team for the exact reporting time and location. Do not rely only on an old timetable or an estimated departure mentioned in another travel article.
+
+### 2. Arrive in Murudeshwar with a buffer
+If you are travelling by train or bus, allow time for local transport and unexpected delays. Reaching the town the previous evening can make an early activity day more relaxed.
+
+### 3. Check your package details
+First-time divers and experienced divers may have different activity requirements. Read the package description carefully and ask what is included.
+
+If you are new to scuba diving, explore the [beginner-friendly scuba diving experience](/intro-scuba-diving) to understand the introductory option.
+
+### 4. Prepare your essentials
+Carry swimwear, a towel, a change of clothes, sunscreen and any personal medication you may need. Keep your belongings organised and ask the operator about luggage arrangements.
+
+### 5. Follow the latest sea-condition updates
+Check with the booking team before leaving for the reporting point. If the schedule changes, follow the updated instructions rather than relying on the original estimated time.
+
+### 6. Keep your return plans flexible
+Do not assume that the boat will return at an exact minute. Leave a reasonable buffer before onward travel or other fixed appointments.
+
+## How to Enquire About Scuba Diving Slots?
+
+The easiest way to plan your Netrani Island diving trip is to contact the operator with your preferred date and group details.
+
+Before confirming, ask:
+
+* Is diving operating on my selected date?
+* What is the exact reporting time?
+* Where should I report?
+* What time is the boat expected to depart?
+* How long is the expected boat journey?
+* What underwater duration is included in my chosen package?
+* What is the estimated return time?
+* How will I be informed if weather affects the trip?
+
+You can review the available [Netrani Island scuba diving packages](/netrani-scuba-diving) and then [contact our team for available diving timings](/contact).
+
+Sharing your travel date and number of participants will help the team respond to your schedule enquiry.
+
+## Plan Your Netrani Diving Day
+
+Understanding the Netrani scuba diving timings helps you plan your journey, but remember that the reporting time, boat departure, underwater session and total trip duration are four different things.
+
+Netrani Scuba Dive publishes an overall operating window of 8:00 AM to 3:00 PM during the October to May season. The exact schedule for your date should be confirmed with the booking team, especially if you are travelling from outside Murudeshwar.
+
+If you are ready to plan your underwater experience, explore the [Netrani Island scuba diving packages](/netrani-scuba-diving) and contact the team to confirm the available timings. A little planning before departure can help make your Netrani Island diving day more comfortable and enjoyable.`
+  },
+  {
     slug: "can-non-swimmers-do-scuba-diving-in-murudeshwar",
     title: "Can Non-Swimmers Do Scuba Diving in Murudeshwar? Complete Beginner Guide",
     metaTitle: "Can Non-Swimmers Do Scuba Diving in Murudeshwar? | Netrani Scuba Dive",
