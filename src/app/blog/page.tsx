@@ -57,8 +57,9 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "bulk-booking-scuba-dive-in-murdeshwar",
+    "murdeshwar-scuba-dive-netrani-island",
     "netrani-scuba-diving-explore-underwater-world",
-    "murudeshwar-water-sports-guide",
     "murudeshwar-water-sports-guide",
     "best-scuba-dive-in-murudeshwar",
     "scuba-diving-vs-snorkelling-netrani-island",

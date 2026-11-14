@@ -18,6 +18,434 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "bulk-booking-scuba-dive-in-murdeshwar",
+    title: "Bulk Booking Scuba Dive in Murdeshwar: Plan an Unforgettable Group Adventure",
+    metaTitle: "Bulk Booking Scuba Dive in Murdeshwar | Netrani Scuba Dive",
+    subtitle: "Planning a college, corporate, family, or adventure group dive? Learn how bulk booking scuba dive in Murdeshwar works, tiered rates for 10+ divers, private boat charters, and tips.",
+    description: "Complete guide to bulk booking scuba dive in Murdeshwar. Learn group packages for 10+ divers, corporate retreats, college trips, private boat charters, and planning tips.",
+    category: "Groups",
+    tags: [
+          "bulk booking scuba dive in murdeshwar",
+          "group scuba diving murudeshwar",
+          "corporate scuba diving netrani",
+          "college trip scuba diving murudeshwar",
+          "private boat charter netrani island",
+          "murudeshwar scuba bulk booking"
+    ],
+    readTime: "9 min read",
+    date: "14 Nov 2026",
+    coverImage: "/images/group-divers.jpg",
+    faq: [
+          {
+                "question": "What is the minimum group size for bulk scuba diving booking in Murdeshwar?",
+                "answer": "The Netrani Scuba Dive bulk booking page is designed for groups of 10 or more participants. Contact the coordinator to discuss your group's requirements."
+          },
+          {
+                "question": "Can colleges arrange bulk scuba diving trips?",
+                "answer": "Yes. College groups and student batches can enquire about customised group arrangements, tiered rates and coordinated dive schedules."
+          },
+          {
+                "question": "Are corporate scuba diving packages available in Murdeshwar?",
+                "answer": "Corporate teams can enquire about group scuba diving arrangements, private boat charter options and customised itineraries at Netrani Island."
+          },
+          {
+                "question": "Is a private boat available for large groups?",
+                "answer": "Private boat charter options are listed on the Netrani Scuba Dive group booking page. Availability, capacity and pricing should be confirmed for your preferred date."
+          },
+          {
+                "question": "Can a large group dive together at the same time?",
+                "answer": "Participants may need to dive in organised rotations depending on the group size, equipment, instructor availability and operating conditions. Ask the coordinator for a proposed schedule."
+          },
+          {
+                "question": "How can I get a bulk scuba diving quotation?",
+                "answer": "Share your group size, preferred date and requirements through the bulk scuba booking page or contact the Netrani Scuba Dive group coordinator."
+          },
+          {
+                "question": "Can non-swimmers participate in a group scuba diving trip?",
+                "answer": "Some introductory programmes may accept non-swimmers, subject to medical fitness, water comfort and operator assessment. Confirm eligibility before booking."
+          },
+          {
+                "question": "How far in advance should I book a group scuba diving trip?",
+                "answer": "For larger groups or private boat arrangements, it is sensible to enquire well in advance. The exact lead time depends on the date, group size and availability."
+          }
+    ],
+    content: `# Bulk Booking Scuba Dive in Murdeshwar: Plan an Unforgettable Group Adventure
+
+Planning an adventure trip with friends, colleagues, students or family members? A scuba diving experience can make your group holiday more exciting and memorable. If you are searching for **bulk booking scuba dive in Murdeshwar**, Netrani Island is a destination worth considering.
+
+Located off the coast of Murudeshwar in Karnataka, Netrani Island is known for its underwater reef environment and marine biodiversity. Visitors travel by boat from Murudeshwar to enjoy guided scuba diving experiences around the island.
+
+Group scuba diving is a great way to bring people together for a shared adventure. Whether you are organising a college trip, a corporate outing, a family gathering or a trip with a large group of friends, advance planning can help coordinate the experience.
+
+In this guide, discover how bulk scuba diving bookings work, who can plan a group trip, what to check before confirming and how to enquire about a customised group package.
+
+## Why Choose Murudeshwar for a Group Scuba Diving Trip?
+
+Murudeshwar is a popular coastal destination in Karnataka. Its location near Netrani Island makes it a convenient starting point for visitors interested in scuba diving.
+
+Here are some reasons to consider a group diving trip from Murudeshwar:
+
+* **Shared adventure:** Participants can enjoy a memorable underwater activity together.
+* **A unique destination:** Netrani Island offers an opportunity to explore the underwater environment of the Arabian Sea.
+* **Group coordination:** Advance booking helps the operator plan participant batches and dive rotations.
+* **Options for different groups:** College groups, corporate teams, families and friends can enquire about customised arrangements.
+* **Additional activities:** Group excursions can be planned around diving, surface snorkelling and local sightseeing.
+
+A well-planned group trip can turn an ordinary outing into a memorable coastal adventure.
+
+## What Is Bulk Booking for Scuba Diving?
+
+Bulk booking means arranging scuba diving for a larger number of participants under one group reservation or coordinated booking.
+
+Instead of each person making a separate reservation, one group organiser contacts the operator to discuss the number of participants, preferred date, package requirements and travel schedule.
+
+For Netrani Scuba Dive, the [bulk group booking page](/bulk-scuba-booking) is designed for groups of **10 or more participants**.
+
+Bulk booking can be useful for:
+
+* College and university trips
+* Corporate outings and team-building activities
+* Family reunions
+* Friends' group holidays
+* Adventure clubs
+* Student travel groups
+* Organised tour groups
+
+The group coordinator can discuss pricing structures, boat arrangements and dive schedules based on the group's requirements.
+
+## Who Can Plan a Group Scuba Diving Trip?
+
+### 1. College and University Groups
+A scuba diving trip can be an exciting addition to a college tour or student adventure programme. Students can experience the marine environment and learn about the basics of scuba diving under professional guidance. For college organisers, advance coordination is important. Share the total participant count, preferred travel date and any special requirements when enquiring.
+
+### 2. Corporate Teams
+Looking for a different experience for your next corporate outing? A group scuba diving excursion can be an interesting option for employees who enjoy adventure and outdoor activities. Corporate organisers can enquire about:
+* Tiered group pricing arrangements
+* Private boat charter options
+* Coordinated departure schedules
+* Participant-wise dive rotations
+* Surface activities and action video coverage
+
+### 3. Family Groups
+Planning a holiday with a large family? A group booking can help coordinate the scuba diving experience for relatives travelling together. Family organisers should confirm participant eligibility in advance, particularly where children, older adults or people with medical conditions are part of the group.
+
+### 4. Friends and Adventure Groups
+A scuba diving trip with friends can be a memorable way to celebrate a special occasion or enjoy a holiday together. Instead of arranging individual bookings, a group enquiry helps the operator understand your requirements and discuss a suitable schedule.
+
+## Benefits of Bulk Scuba Diving Booking in Murdeshwar
+
+Booking as a group can make planning easier, particularly when several participants are travelling together:
+
+### 1. Group Pricing Options
+One of the main advantages of bulk booking is the opportunity to enquire about tiered group rates for groups of 10 or more. Contact the group coordinator with your participant count to request a customised quotation.
+
+### 2. Private Boat Charter Options
+For larger groups, an exclusive boat charter may be available. A private charter can help coordinate departure schedules and participant rotations around your group's itinerary.
+
+### 3. Coordinated Dive Rotations
+Scuba diving generally takes place in organised rotations, depending on the available equipment, dive professionals and operating conditions. For a large group, a planned rotation schedule can help manage participants and reduce waiting time.
+
+### 4. Additional Group Activities
+A group excursion may also include surface snorkelling, action video coverage and local sightseeing guidance, depending on the agreed itinerary.
+
+## How Does a Bulk Scuba Diving Booking Work?
+
+Organising a large-group activity is easier when the organiser shares the important information in advance:
+
+* **Step 1: Decide Your Group Size:** Start by preparing an approximate participant count (intended for groups of 10 or more).
+* **Step 2: Choose Your Preferred Date:** Select your preferred travel date and, if possible, keep an alternative date available in case of sea conditions.
+* **Step 3: Share Your Group Requirements:** Contact the group coordinator with your organisation name, participant count, date, and charter preference.
+* **Step 4: Request a Custom Group Quote:** Review the total quotation, inclusions (equipment, instructor allocation, photos/videos), and itinerary.
+* **Step 5: Confirm the Booking:** Finalise the reservation according to the operator's booking process and cancellation/weather policies.
+* **Step 6: Share the Schedule with Participants:** Distribute reporting times, meeting points, packing lists, and medical guidelines to all participants.
+
+## What Should Be Included in a Group Scuba Diving Package?
+
+The inclusions should be confirmed before the group makes a payment:
+
+| Package detail | What to confirm |
+| :--- | :--- |
+| Boat transportation | Departure and return arrangements from Murudeshwar |
+| Scuba equipment | Complete gear provided to each participant |
+| Instructor guidance | One-on-one supervision and participant allocation |
+| Underwater duration | Expected dive time for each participant |
+| Underwater media | Complimentary HD photo and video coverage |
+| Surface snorkelling | Whether equipment and activity are included |
+| Private boat charter | Availability, capacity and cost for exclusive use |
+| Group coordination | Reporting and dive rotation schedule |
+
+## Best Time to Plan a Group Scuba Diving Trip
+
+The recommended period for planning a Netrani Island diving trip is generally outside the main monsoon season. November to May is commonly recommended for visiting Netrani Island.
+
+| Period | Planning advice |
+| :--- | :--- |
+| October to November | Confirm whether operations have resumed after the monsoon. |
+| December to February | A popular period for coastal holidays and group trips. |
+| March to May | Trips may operate depending on sea conditions. |
+| June to September | Monsoon conditions can affect offshore boat operations. |
+
+For a large group, enquire well in advance, particularly if you need a specific date or private boat arrangement.
+
+## Important Safety and Eligibility Information for Group Bookings
+
+When arranging scuba diving for several people, safety and eligibility should be considered before the trip:
+
+* Participants must attend and follow the pre-dive briefing.
+* Relevant medical conditions should be disclosed honestly.
+* Age and participation requirements should be checked in advance.
+* Each participant must follow the instructions of the dive professional.
+* Anyone feeling unwell or uncomfortable should inform the dive team immediately.
+* The group must follow decisions made by the operator based on sea and weather conditions.
+
+### Can Non-Swimmers Join a Group Scuba Diving Trip?
+
+Some introductory scuba diving programmes accept non-swimmers, but eligibility is not automatic. Medical fitness, water comfort, the ability to follow instructions and the operator's assessment are important. If your group includes non-swimmers, inform the coordinator before booking. You can also explore our [beginner-friendly scuba diving guide](/intro-scuba-diving) for more details.
+
+## Tips for Organising a Successful College or Corporate Scuba Trip
+
+* **Appoint one group coordinator:** Have one person handle communication with the operator.
+* **Collect participant details:** Prepare an accurate list of names and participant counts.
+* **Check eligibility early:** Avoid last-minute surprises by asking about medical and age requirements.
+* **Book in advance:** Give the operator enough notice to discuss group arrangements.
+* **Keep an alternative date:** Weather can affect boat operations.
+* **Confirm the complete quotation:** Understand all inclusions and payment milestones.
+* **Share instructions with everyone:** Make sure participants know the reporting time, packing checklist, and meeting point.
+
+## Why Book Your Group Trip with Netrani Scuba Dive?
+
+Netrani Scuba Dive provides a dedicated group and bulk booking option for college tours, corporate retreats and large family gatherings.
+
+The group booking service highlights:
+
+* Tiered group rates for eligible group sizes (10+ participants)
+* Private boat charter options
+* Custom itineraries and coordinated diving rotations
+* Group surface snorkelling arrangements
+* HD Action video coverage and local sightseeing guidance
+
+## Request Your Bulk Scuba Diving Quote in Murdeshwar
+
+Planning a group adventure does not have to be complicated. With advance coordination, your college, company, family or friends' group can plan a scuba diving excursion to Netrani Island from Murudeshwar.
+
+If you are interested in bulk booking scuba dive in Murdeshwar, share your group size, preferred date and requirements with the Netrani Scuba Dive team.
+
+Visit our [bulk scuba booking page](/bulk-scuba-booking) to enquire about group rates, private boat charters and customized itineraries, or [contact our booking team directly](/contact).`
+  },
+  {
+    slug: "murdeshwar-scuba-dive-netrani-island",
+    title: "Murdeshwar Scuba Dive: Explore the Underwater World of Netrani Island",
+    metaTitle: "Murdeshwar Scuba Dive: Explore the Underwater World of Netrani Island",
+    subtitle: "Planning a Murdeshwar scuba dive? Discover Netrani Island reef packages, pricing from ₹3,500, beginner try-dives, safety tips, and travel routes.",
+    description: "Complete guide to Murdeshwar scuba dive trips. Explore Netrani Island coral reefs, deep dive packages from ₹3,500, beginner guidelines, seasons, and booking advice.",
+    category: "Packages",
+    tags: [
+          "murdeshwar scuba dive",
+          "murudeshwar scuba diving",
+          "netrani island scuba dive",
+          "scuba diving in murudeshwar",
+          "scuba diving karnataka",
+          "murdeshwar scuba diving price"
+    ],
+    readTime: "8 min read",
+    date: "14 Nov 2026",
+    coverImage: "/images/murudeshwara/netrani_island_diving_experience.webp",
+    faq: [
+          {
+                "question": "Where can I experience a Murdeshwar scuba dive?",
+                "answer": "Scuba diving trips from Murudeshwar generally take visitors by boat to Netrani Island, located approximately 19 kilometres offshore in the Arabian Sea."
+          },
+          {
+                "question": "Is scuba diving in Murudeshwar suitable for beginners?",
+                "answer": "Yes. Introductory diving experiences are available for beginners. Participants receive instructions before entering the water and must meet the operator's medical and participation requirements."
+          },
+          {
+                "question": "Can non-swimmers try scuba diving at Netrani Island?",
+                "answer": "Some introductory programmes accept non-swimmers, subject to water comfort, medical fitness and operator assessment. Confirm the requirements before booking."
+          },
+          {
+                "question": "How much does scuba diving cost in Murudeshwar?",
+                "answer": "The Netrani Scuba Dive website currently lists its Deep Reef Dive at ₹3,500 per person and VIP Extended Deep Dive at ₹4,500 per person. Confirm the latest price and inclusions before booking."
+          },
+          {
+                "question": "What is the best time for scuba diving in Murudeshwar?",
+                "answer": "November to May is a commonly recommended planning period for Netrani Island scuba diving. Actual trips depend on weather and sea conditions."
+          },
+          {
+                "question": "How do I reach Netrani Island?",
+                "answer": "Visitors generally travel by boat from Murudeshwar to the diving locations around Netrani Island. You should confirm the reporting point and departure schedule with the operator."
+          },
+          {
+                "question": "Are underwater photos and videos included?",
+                "answer": "The packages listed on the Netrani Scuba Dive website include underwater photo and video coverage. Confirm the current inclusions when selecting your package."
+          },
+          {
+                "question": "How long does the complete scuba diving trip take?",
+                "answer": "The complete excursion includes reporting, briefing, the boat journey, dive rotations and the return journey. The exact schedule depends on the operator and sea conditions."
+          }
+    ],
+    content: `# Murdeshwar Scuba Dive: Explore the Underwater World of Netrani Island
+
+Murudeshwar is a beautiful coastal destination in Karnataka, famous for its seaside temple, magnificent Shiva statue and scenic Arabian Sea coastline. But beyond sightseeing and beach visits, it offers another exciting experience for adventure lovers: scuba diving at Netrani Island.
+
+If you are searching for a **murdeshwar scuba dive**, Netrani Island is the destination to explore. Located approximately 19 kilometres off the Murudeshwar coast, this island is known for its underwater reef environment, rocky formations and marine biodiversity.
+
+Whether you are trying scuba diving for the first time or looking for a new underwater adventure, a trip to Netrani Island can add something special to your Murudeshwar holiday.
+
+This guide covers everything you should know before planning your dive, including the experience, packages, beginner requirements, best season and travel arrangements.
+
+## Where Can You Go for a Murdeshwar Scuba Dive?
+
+The main scuba diving destination reached from Murudeshwar is Netrani Island, also known as Pigeon Island.
+
+Situated in the Arabian Sea, Netrani is known for its distinctive rocky landscape and underwater environment. Divers visit the surrounding waters to explore reef formations and observe marine life.
+
+Since the island is located offshore, visitors generally travel by boat from Murudeshwar to reach the diving location. The boat journey, briefing and underwater activity together form a half-day excursion.
+
+Netrani Island is therefore an important destination to consider when planning scuba diving in Murudeshwar.
+
+## Why Choose Netrani Island for Scuba Diving?
+
+Netrani Island offers an opportunity to experience the marine environment away from the mainland beach. Here are some reasons why it attracts scuba diving enthusiasts:
+
+### 1. Discover the Underwater Reef Environment
+One of the main attractions of diving around Netrani Island is exploring its underwater landscape. The area features rocky formations and reef environments that create habitats for different marine species. During a dive, you may get the opportunity to observe reef fish and other underwater creatures. Visibility and underwater conditions change with the weather and sea conditions, so every diving experience can be different.
+
+### 2. Experience Marine Life
+The waters around Netrani Island are known for their marine biodiversity. Divers may encounter different types of reef fish and other marine creatures during their underwater experience. Remember that marine-life sightings are natural and cannot be guaranteed on every trip.
+
+### 3. Enjoy a Guided Diving Experience
+If you have never tried scuba diving, an introductory experience can help you understand the basics. Before entering the water, the dive team explains the equipment, breathing techniques and underwater communication signals. Participants then follow the instructions of their assigned dive professional. Listening carefully to the briefing and communicating any concerns are important parts of the experience.
+
+### 4. Capture Your Underwater Memories
+Underwater photographs and videos are a great way to remember your first dive. The Netrani Scuba Dive packages listed on the website include underwater photo and video coverage. Check the selected package details before booking to confirm the inclusions.
+
+## What Happens During a Scuba Diving Trip from Murudeshwar?
+
+If you are planning your first dive, knowing the general process can make the experience easier to understand:
+
+* **Step 1: Arrive at the Reporting Location:** Your trip starts at the reporting location confirmed by your diving operator in Murudeshwar. Arrive on time, complete the necessary booking formalities and follow the team's instructions before boarding.
+* **Step 2: Attend the Diving Briefing:** Before the dive, the instructor explains how to use the equipment and what to expect underwater, covering equipment, regulator breathing, hand signals, pressure equalisation, and safety.
+* **Step 3: Travel by Boat to Netrani Island:** After boarding, the boat travels from Murudeshwar towards Netrani Island. The journey is an important part of the excursion, taking around 1.5 hours across the Arabian Sea.
+* **Step 4: Prepare for Your Underwater Experience:** Once the boat reaches the diving location and conditions are confirmed suitable, participants prepare their equipment with guidance from dive professionals.
+* **Step 5: Enjoy Your Dive:** During the underwater experience, you get an opportunity to explore the reef environment and observe marine life guided one-on-one by your instructor.
+* **Step 6: Return to Murudeshwar:** After the planned dive rotations and activities, the boat returns to the Murudeshwar shore.
+
+## Is Murdeshwar Scuba Diving Suitable for Beginners?
+
+Yes. Introductory scuba diving experiences are available for people who have never dived before.
+
+You do not need previous scuba diving experience to enquire about a beginner programme. The instructor explains the basics before the activity.
+
+However, beginners must meet the applicable medical, age and participation requirements:
+
+* Share relevant medical information honestly.
+* Ask about the minimum age requirement.
+* Understand the briefing and follow instructions.
+* Confirm the underwater duration of your selected package.
+* Tell the operator if you are nervous or uncomfortable in the water.
+
+You can learn more in our [beginner-friendly scuba diving guide](/intro-scuba-diving).
+
+### Can Non-Swimmers Try Scuba Diving?
+
+Some introductory scuba diving programmes accept non-swimmers, but participation is not automatic for everyone.
+
+Your comfort in the water, medical fitness, ability to follow instructions and the operator's assessment are important.
+
+If you cannot swim, inform the diving team before booking. Ask about the specific programme, supervision and participation requirements.
+
+## Murdeshwar Scuba Dive Packages
+
+Different diving experiences can suit different interests and available time.
+
+The Netrani Scuba Dive website currently lists two main Netrani Island experiences:
+
+| Package | Listed price | Underwater duration |
+| :--- | :--- | :--- |
+| Netrani Island Deep Reef Dive | ₹3,500 per person | 30–40 minutes |
+| VIP Extended Deep Dive | ₹4,500 per person | 45–55 minutes |
+
+The listed packages include a boat journey to Netrani Island, diving equipment, one-on-one instructor guidance, underwater photo and video coverage, and surface snorkelling equipment.
+
+Package prices and inclusions can change. Confirm the current details directly with the operator before making a reservation.
+
+To explore all available options, visit our [Netrani Island scuba diving packages](/netrani-scuba-diving) page.
+
+## Best Time for Scuba Diving in Murudeshwar
+
+Choosing the right season is important because scuba diving at Netrani Island involves an offshore boat journey.
+
+The commonly recommended diving period is outside the main monsoon season. November to May is a suitable general planning window, although operations depend on actual weather and sea conditions.
+
+| Season | Planning advice |
+| :--- | :--- |
+| October to November | Check the latest operating schedule after the monsoon. |
+| December to February | A popular period for planning a diving holiday. |
+| March to May | Trips may operate depending on sea and weather conditions. |
+| June to September | Monsoon conditions can affect or stop offshore diving operations. |
+
+Always confirm the trip schedule with the operator before travelling. A suitable season does not guarantee that the sea will be safe for diving on every date.
+
+## How to Reach Netrani Island from Murudeshwar
+
+The first step is to reach Murudeshwar. From there, visitors generally travel by boat to Netrani Island.
+
+* **By Train:** Murudeshwar Railway Station is connected through the Konkan Railway network. You can check available trains from your city and arrange local transport to the dive operator's reporting location.
+* **By Road:** Murudeshwar is accessible by road through National Highway 66. Visitors can travel by private vehicle, bus or taxi from nearby cities.
+* **By Air:** Mangaluru International Airport is a major airport option for visitors travelling by air. From the airport, you can continue to Murudeshwar by road.
+
+Read our complete guide on [how to reach Murudeshwar](/how-to-reach-murudeshwar) to plan your transit with ease.
+
+## What Should You Carry for Your Diving Trip?
+
+Keep your luggage simple and bring the essentials needed for a boat-based activity:
+
+* Comfortable travel clothes
+* Swimwear or quick-drying clothes
+* A change of dry clothes
+* Towel
+* Sunscreen, sunglasses and a hat
+* Personal identification
+* Water bottle
+* Waterproof bag for your phone
+* Personal medication, if required
+
+## Important Safety Tips Before Your Dive
+
+Scuba diving requires preparation, attention and responsible participation. Keep these points in mind:
+
+* **Choose an established operator:** Understand the operator's diving procedures and supervision arrangements.
+* **Attend the complete briefing:** Do not skip instructions about equipment and underwater communication.
+* **Share medical information:** Inform the team about relevant health conditions before participating.
+* **Check the equipment:** Ask for assistance if anything does not fit or feel right.
+* **Follow your instructor:** Stay within the instructions and limits of your diving programme.
+* **Check sea conditions:** Boat trips and dives should proceed only when conditions are suitable.
+* **Do not rush:** Tell your instructor if you feel anxious or uncomfortable.
+
+Your safety and comfort should always come before completing the activity.
+
+## Other Places to Explore During Your Murudeshwar Trip
+
+You can combine your scuba diving excursion with sightseeing around Murudeshwar:
+
+* **Murudeshwar Temple:** Visit the famous temple overlooking the Arabian Sea.
+* **Shiva Statue:** See the impressive statue beside the coastline.
+* **Murudeshwar Beach:** Spend time enjoying the coastal views.
+* **Raja Gopuram:** Enjoy panoramic views of the surrounding coastline from the temple tower.
+* **Nearby coastal destinations:** Explore Gokarna, Honnavar or other scenic locations in Uttara Kannada.
+
+## Plan Your Murdeshwar Scuba Dive with Netrani Scuba Dive
+
+A scuba diving trip to Netrani Island is an opportunity to discover the underwater side of Karnataka's coastline.
+
+From the boat journey across the Arabian Sea to the guided underwater experience, it can be a memorable addition to your Murudeshwar holiday.
+
+Whether you are a first-time participant or an experienced diver, take time to understand the package, current price, underwater duration, medical requirements and sea conditions before booking.
+
+Explore our [Netrani Island scuba diving packages](/netrani-scuba-diving) and [contact our team for bookings](/contact) to plan your Netrani Island diving experience. Prepare well, follow your instructor's guidance and enjoy discovering the underwater world near Murudeshwar.`
+  },
+  {
     slug: "netrani-scuba-diving-explore-underwater-world",
     title: "Netrani Scuba Diving: Explore the Underwater World of Netrani Island",
     metaTitle: "Netrani Scuba Diving: Explore the Underwater World of Netrani Island",
