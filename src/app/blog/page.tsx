@@ -57,6 +57,8 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "scuba-dive-in-murudeshwar-guide",
+    "bulk-booking-scuba-dive-in-murdeshwar",
     "bulk-booking-scuba-dive-in-murdeshwar",
     "murdeshwar-scuba-dive-netrani-island",
     "netrani-scuba-diving-explore-underwater-world",
