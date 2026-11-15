@@ -57,6 +57,7 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "netrani-island-scuba-diving",
     "reef-adventures-murudeshwar",
     "scubadive-in-netrani-island",
     "scuba-dive-in-murudeshwar-guide",
