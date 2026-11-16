@@ -55,10 +55,10 @@ export default function HeroParallaxHeadline() {
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       >
         <h1 className="slush-display-hero text-black tracking-tight">
-          NETRANI <br className="sm:hidden" />
-          <span className="inline-block relative">
-            SCUBA DIVE
-            <span className="absolute -bottom-2 md:-bottom-3 left-0 right-0 h-3 md:h-6 bg-[#ffd731] border-y border-black -z-10 rounded-full" />
+          <span className="block">SCUBA DIVE IN</span>
+          <span className="inline-block relative mt-1 sm:mt-2">
+            NETRANI ISLAND
+            <span className="absolute -bottom-1.5 sm:-bottom-2 md:-bottom-3 left-0 right-0 h-2.5 sm:h-3.5 md:h-5 lg:h-6 bg-[#ffd731] border-y border-black -z-10 rounded-full" />
           </span>
         </h1>
       </motion.div>

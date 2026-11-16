@@ -231,9 +231,9 @@ body {
 .slush-display-hero {
   font-family: var(--font-lateral);
   font-weight: 800;
-  font-size: clamp(3rem, 9.5vw, 9.5rem);
-  line-height: 0.82;
-  letter-spacing: normal;
+  font-size: clamp(2rem, 6.6vw, 6.6rem);
+  line-height: 0.88;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: var(--color-carbon);
 }
