@@ -59,6 +59,7 @@ export default function BlogListing() {
   const featuredSlugs = [
     "netrani-scuba-dive",
     "netrani-scuba-dive-first-time-guide",
+    "netrani-scuba-dive-underwater-world",
     "netrani-scuba-dive-explore-underwater-beauty",
     "netrani-island-scuba-diving",
     "reef-adventures-murudeshwar",
