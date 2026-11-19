@@ -170,6 +170,7 @@ export default function Team() {
                     src={m.image}
                     alt={`${m.name} - ${m.role} at Netrani Scuba Dive`}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover transition-transform duration-500 hover:scale-105"
                   />
                   <div className="absolute top-3.5 right-3.5 bg-[#ffd731] text-black border border-black px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-[0.032em] shadow-[2px_2px_0px_#000000]">
@@ -181,7 +182,7 @@ export default function Team() {
                     <span className="inline-block text-xs font-bold uppercase tracking-[0.032em] px-3.5 py-1 bg-[#e9ccff] text-black border border-black rounded-full">
                       {m.role}
                     </span>
-                    <h3 className="text-2xl font-bold text-black tracking-tight">{m.name}</h3>
+                    <h2 className="text-2xl font-bold text-black tracking-tight">{m.name}</h2>
                     <p className="text-neutral-800 text-sm leading-relaxed font-medium pt-1">
                       {m.desc}
                     </p>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/data/posts";
+import { getAllPosts, getPostBySlug, formatIsoDate } from "@/data/posts";
 
 interface PageProps {
   params: Promise<{
@@ -60,7 +60,7 @@ export async function generateMetadata({
       ],
       locale: "en_IN",
       type: "article",
-      publishedTime: post.date,
+      publishedTime: formatIsoDate(post.date),
     },
     twitter: {
       card: "summary_large_image",
@@ -463,7 +463,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       "url": `https://www.netraniscubadive.in/blog/${slug}`,
       "headline": post.title,
       "description": post.description,
-      "datePublished": post.date,
+      "datePublished": formatIsoDate(post.date),
       "image": `https://www.netraniscubadive.in${post.coverImage || "/images/netrani-scuba-cover.png"}`,
       "author": {
         "@type": "Organization",
@@ -619,6 +619,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 alt={`${post.title} - Netrani Island Scuba Diving Karnataka`}
                 fill
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 896px"
                 className="object-cover"
               />
             </div>

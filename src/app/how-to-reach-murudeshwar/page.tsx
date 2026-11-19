@@ -188,6 +188,7 @@ export default function HowToReach() {
 
       {/* Travel Modes Section — Paper White (#ffffff) Canvas */}
       <section className="py-20 md:py-28 px-6 relative z-10 max-w-4xl mx-auto space-y-12">
+        <h2 className="sr-only">Travel Options to Murudeshwar</h2>
         {/* Mode list */}
         <div className="grid gap-6">
           {travelModes.map((mode, idx) => (
@@ -223,9 +224,9 @@ export default function HowToReach() {
           </p>
           <div className="bg-[#d8efff] border border-black rounded-[24px] p-6 sm:p-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
             <div className="space-y-1">
-              <h4 className="text-lg md:text-xl font-bold text-black">
+              <h3 className="text-lg md:text-xl font-bold text-black">
                 Netrani Scuba Dive Desk
-              </h4>
+              </h3>
               <p className="text-sm text-neutral-800 font-medium">
                 Temple Main Road, Murudeshwar Beach, Karnataka 581350
               </p>

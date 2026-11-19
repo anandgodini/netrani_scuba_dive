@@ -448,9 +448,9 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <div className="w-3.5 h-3.5 rounded-full bg-[#55db9c] border border-black animate-pulse"></div>
                 <div>
-                  <h3 className="text-black text-sm font-bold tracking-tight uppercase">
+                  <p className="text-black text-sm font-bold tracking-tight uppercase">
                     Guided Netrani Island Diving &amp; Marine Coral Excursions
-                  </h3>
+                  </p>
                   <p className="text-xs text-black/75 font-medium">
                     Murudeshwar, Karnataka • 1:1 PADI Certified Guides • Sanitized Equipment
                   </p>
@@ -588,6 +588,7 @@ export default function Home() {
                     alt="Certified scuba diver swimming near the coral reef of Netrani Island with Netrani Scuba Dive"
                     src="/images/colorblock/boat-expedition.jpg"
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute top-4 right-4 bg-[#ffd731] text-black font-bold text-xs px-3.5 py-1 rounded-full border border-black uppercase tracking-[0.032em]">
@@ -678,6 +679,7 @@ export default function Home() {
                     alt="VIP extended deep dive with certified divemaster at Netrani Island with Netrani Scuba Dive"
                     src="/images/colorblock/intro-dive.jpg"
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute top-4 right-4 bg-[#ffd731] text-black font-bold text-xs px-3.5 py-1 rounded-full border border-black uppercase tracking-[0.032em]">
@@ -1234,6 +1236,7 @@ export default function Home() {
                 alt="First-time scuba diver experiencing Netrani Island coral reef with Netrani Scuba Dive certified guide"
                 src="/images/murudeshwara/netrani_island_scuba_diving.webp"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 600px"
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-8">
@@ -1252,6 +1255,7 @@ export default function Home() {
                 alt="Scuba diver recording underwater memories during a guided Netrani Island dive"
                 src="/images/murudeshwara/murudeshwar_scuba_diving.webp"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
@@ -1270,6 +1274,7 @@ export default function Home() {
                 alt="Diver practicing calm buoyancy and breathing among Netrani reef fish"
                 src="/images/murudeshwara/netrani_island_coral_reef.webp"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
@@ -1288,6 +1293,7 @@ export default function Home() {
                 alt="Pufferfish swimming near rocky coral formations at Netrani Island with Netrani Scuba Dive"
                 src="/images/murudeshwara/netrani_island_marine_life.webp"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
@@ -1306,6 +1312,7 @@ export default function Home() {
                 alt="Dive buddies sharing underwater hand signals during a guided dive session"
                 src="/images/murudeshwara/murudeshwar_diving_experience.webp"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-end p-6">
@@ -1412,6 +1419,7 @@ export default function Home() {
                 alt="Vibrant tropical marine fish species living in the coral reefs of Netrani Island with Netrani Scuba Dive"
                 src="/images/tropical-fish1.png"
                 fill
+                sizes="(max-width: 768px) 256px, 340px"
                 className="object-contain p-6 hover:scale-105 transition-transform duration-700"
               />
               <CheckmarkSticker className="absolute -bottom-3 -left-3 rotate-[-6deg]" />

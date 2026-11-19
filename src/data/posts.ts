@@ -8386,10 +8386,10 @@ For the complete overview, including the main attractions, diving options and pl
   },
   {
     slug: "murudeshwar-scuba-dive-guide",
-    title: "Netrani Scuba Dive: Complete Guide to Netrani Island Scuba Diving",
-    metaTitle: "Netrani Scuba Dive: Complete Guide to Netrani Island Scuba Diving",
-    subtitle: "Planning aMurudeshwar scuba diveduring your next trip to Karnataka?",
-    description: "Planning aMurudeshwar scuba diveduring your next trip to Karnataka?",
+    title: "Murudeshwar Scuba Dive: Complete Guide to Scuba Diving in Murudeshwar",
+    metaTitle: "Murudeshwar Scuba Dive: Complete Guide to Scuba Diving in Murudeshwar",
+    subtitle: "Planning a Murudeshwar scuba dive during your next trip to Karnataka?",
+    description: "Planning a Murudeshwar scuba dive during your next trip to Karnataka?",
     category: "Guides",
     tags: ["Murudeshwar Scuba Diving", "Netrani Island", "Scuba Diving Price", "Karnataka Scuba", "Scuba Packages"],
     readTime: "8 min read",
@@ -9438,8 +9438,8 @@ Plan yourMurudeshwar scuba divingexperience and discover what lies beneath the A
     slug: "netrani-island-scuba-diving-booking-guide",
     title: "Netrani Island Scuba Diving Booking: Price, Packages & Complete Booking Guide",
     metaTitle: "Netrani Island Scuba Diving Booking: Price, Packages & Complete Booking Guide",
-    subtitle: "Planning aNetrani Island scuba diving bookingfor your next adventure?",
-    description: "Planning aNetrani Island scuba diving bookingfor your next adventure?",
+    subtitle: "Planning a Netrani Island scuba diving booking for your next adventure?",
+    description: "Complete booking guide for Netrani Island scuba diving with package prices, operator inclusions, safety tips, and reservation advice.",
     category: "Booking & Tips",
     tags: ["Murudeshwar Scuba Diving", "Netrani Island", "Scuba Diving Price", "Karnataka Scuba", "Scuba Packages"],
     readTime: "8 min read",
@@ -9979,8 +9979,8 @@ For the broader booking information, visit ourScuba Diving Booking in Murudeshwa
     slug: "netrani-island-scuba-diving-booking-how-to-book",
     title: "Netrani Island Scuba Diving Booking: Price, Packages & How to Book",
     metaTitle: "Netrani Island Scuba Diving Booking: Price, Packages & How to Book",
-    subtitle: "Planning aNetrani Island scuba diving bookingfor your next adventure?",
-    description: "Planning aNetrani Island scuba diving bookingfor your next adventure?",
+    subtitle: "Wondering how to book your Netrani Island scuba diving trip?",
+    description: "Step-by-step guide on how to book Netrani Island scuba diving packages, check available slots, compare prices, and prepare for your dive.",
     category: "Booking & Tips",
     tags: ["Murudeshwar Scuba Diving", "Netrani Island", "Scuba Diving Price", "Karnataka Scuba", "Scuba Packages"],
     readTime: "8 min read",
@@ -13684,4 +13684,25 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
 // Full list of all posts
 export function getAllPosts(): BlogPost[] {
   return blogPosts;
+}
+// Convert human-readable date string (e.g., '22 Aug 2026') to ISO 8601 YYYY-MM-DD
+const MONTH_MAP: Record<string, string> = {
+  Jan: "01", Feb: "02", Mar: "03", Apr: "04",
+  May: "05", Jun: "06", Jul: "07", Aug: "08",
+  Sep: "09", Oct: "10", Nov: "11", Dec: "12",
+};
+
+export function formatIsoDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const match = dateStr.trim().match(/^(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})$/);
+  if (match) {
+    const day = match[1].padStart(2, "0");
+    const month = MONTH_MAP[match[2]];
+    const year = match[3];
+    if (month) return `${year}-${month}-${day}`;
+  }
+  if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr.trim())) {
+    return dateStr.trim();
+  }
+  return dateStr;
 }

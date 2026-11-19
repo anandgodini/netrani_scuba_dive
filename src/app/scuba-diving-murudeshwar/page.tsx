@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import FAQAccordion from "./FAQAccordion";
 import "./scuba.css";
 import pageData from "./scuba-diving-data.json";
@@ -293,13 +294,13 @@ export default function ScubaDivingMurudeshwar() {
           <div className="netrani-thumbnail-grid" aria-label="Netrani scuba dive day preview">
             {pageData.diveDayPreviews.map((preview, idx) => (
               <figure key={idx} className="netrani-thumbnail-card">
-                <img
+                <Image
                   alt={preview.alt}
                   loading="lazy"
-                  width={1200}
-                  height={675}
+                  width={600}
+                  height={338}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="netrani-thumbnail-card__img"
-                  style={{ color: "transparent" }}
                   src={preview.img}
                 />
                 <figcaption className="netrani-thumbnail-card__body">
@@ -341,13 +342,13 @@ export default function ScubaDivingMurudeshwar() {
                   </div>
                 </div>
                 <figure className="netrani-split__media netrani-split__figure">
-                  <img
+                  <Image
                     alt="Scuba gear and package clarity for Netrani Island booking"
                     loading="lazy"
-                    width={1200}
-                    height={675}
+                    width={800}
+                    height={450}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="netrani-split__img"
-                    style={{ color: "transparent" }}
                     src="/images/deep-dive.png"
                   />
                   <figcaption className="netrani-split__caption">
@@ -372,13 +373,13 @@ export default function ScubaDivingMurudeshwar() {
               <div className="netrani-testimonial-grid" aria-label="Illustrative scuba booking conversation scenarios">
                 {pageData.bookingScenarios.map((scenario, idx) => (
                   <figure key={idx} className="netrani-testimonial-shot">
-                    <img
+                    <Image
                       alt={scenario.alt}
                       loading="lazy"
-                      width={1080}
-                      height={1620}
+                      width={540}
+                      height={810}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="netrani-testimonial-shot__img"
-                      style={{ color: "transparent" }}
                       src={scenario.img}
                     />
                     <figcaption>{scenario.caption}</figcaption>
@@ -464,12 +465,13 @@ export default function ScubaDivingMurudeshwar() {
                   </div>
                 </div>
                 <div className="netrani-split__media" aria-label="Netrani Island scuba diving photo">
-                  <img
+                  <Image
                     alt="Netrani Island scuba diving from Murudeshwar (beginner-friendly guided dive)"
-                    width={1200}
-                    height={675}
+                    loading="lazy"
+                    width={800}
+                    height={450}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="netrani-split__img"
-                    style={{ color: "transparent" }}
                     src="/images/netrani-diver.png"
                   />
                 </div>
@@ -1176,13 +1178,13 @@ export default function ScubaDivingMurudeshwar() {
                   </p>
                 </div>
                 <figure className="netrani-split__media netrani-split__figure">
-                  <img
+                  <Image
                     alt="Beginner diver with close instructor support at Netrani Island"
                     loading="lazy"
-                    width={1200}
-                    height={675}
+                    width={800}
+                    height={450}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="netrani-split__img"
-                    style={{ color: "transparent" }}
                     src="/images/blog/snorkelling-fish-netrani.jpg"
                   />
                   <figcaption className="netrani-split__caption">
@@ -1515,13 +1517,13 @@ export default function ScubaDivingMurudeshwar() {
                   aria-label={guide.alt}
                   href={guide.href}
                 >
-                  <img
+                  <Image
                     alt={guide.alt}
                     loading="lazy"
-                    width={1200}
-                    height={675}
+                    width={600}
+                    height={338}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="netrani-link-card__img"
-                    style={{ color: "transparent" }}
                     src={guide.img}
                   />
                 </Link>

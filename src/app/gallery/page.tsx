@@ -216,6 +216,9 @@ export default function Gallery() {
                   alt={img.alt}
                   width={800}
                   height={600}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  loading={idx < 4 ? "eager" : "lazy"}
+                  priority={idx < 2}
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>

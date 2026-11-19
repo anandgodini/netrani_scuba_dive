@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { getAllPosts } from "@/data/posts";
+import { getAllPosts, formatIsoDate } from "@/data/posts";
 import {
   InflatableRibbon,
   DiverMaskSticker,
@@ -107,8 +107,22 @@ export default function BlogListing() {
         "headline": post.title,
         "description": post.description,
         "url": `https://www.netraniscubadive.in/blog/${post.slug}`,
-        "datePublished": post.date,
-        "image": `https://www.netraniscubadive.in${post.coverImage || '/images/netrani-diver.jpg'}`
+        "datePublished": formatIsoDate(post.date),
+        "image": `https://www.netraniscubadive.in${post.coverImage || '/images/netrani-diver.jpg'}`,
+        "author": {
+          "@type": "Organization",
+          "name": "Netrani Scuba Dive",
+          "url": "https://www.netraniscubadive.in"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Netrani Scuba Dive",
+          "url": "https://www.netraniscubadive.in",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.netraniscubadive.in/images/netrani-diver.jpg"
+          }
+        }
       }))
     },
     {
@@ -245,6 +259,8 @@ export default function BlogListing() {
                       src={post.coverImage || "/images/netrani-diver.jpg"}
                       alt={post.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      loading="lazy"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute top-3.5 right-3.5 bg-[#ffd731] border border-black px-3 py-1 rounded-full text-[11px] font-bold text-black uppercase tracking-[0.032em]">

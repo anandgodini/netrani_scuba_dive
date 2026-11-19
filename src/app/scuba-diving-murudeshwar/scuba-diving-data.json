@@ -64,40 +64,40 @@
   "breadcrumbList": {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#breadcrumb",
+    "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#breadcrumb",
     "name": "Breadcrumbs",
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.murudeshwarscubadive.in"
+        "item": "https://www.netraniscubadive.in"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Scuba Diving",
-        "item": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar"
+        "item": "https://www.netraniscubadive.in/scuba-diving-murudeshwar"
       }
     ]
   },
   "webPage": {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#webpage",
-    "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+    "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#webpage",
+    "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
     "name": "Scuba Diving in Murudeshwar | Price, Booking and Netrani Guide",
     "description": "Scuba diving in Murudeshwar at Netrani with price guidance, booking help, timing, and dive-day planning for beginners and non-swimmers.",
     "inLanguage": "en-IN",
     "isPartOf": {
-      "@id": "https://www.murudeshwarscubadive.in/#website"
+      "@id": "https://www.netraniscubadive.in/#website"
     },
     "publisher": {
-      "@id": "https://www.murudeshwarscubadive.in/#organization"
+      "@id": "https://www.netraniscubadive.in/#organization"
     },
     "primaryImageOfPage": {
       "@type": "ImageObject",
-      "url": "https://www.murudeshwarscubadive.in/images/netrani-diver.png"
+      "url": "https://www.netraniscubadive.in/images/netrani-diver.png"
     },
     "datePublished": "2024-01-01",
     "dateModified": "2026-08-09"
@@ -106,20 +106,20 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "additionalType": "https://schema.org/SportsActivityLocation",
-    "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#scuba",
-    "name": "Book Murudeshwar Scuba Diving (Netrani Island)",
+    "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#scuba",
+    "name": "Netrani Scuba Dive",
     "description": "Scuba diving in Murudeshwar at Netrani Island with beginner-friendly guidance, local coordination, and clear price support.",
-    "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+    "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
     "telephone": "+917829975777",
-    "image": "https://www.murudeshwarscubadive.in/images/netrani-diver.png",
-    "logo": "https://www.murudeshwarscubadive.in/logo.png",
+    "image": "https://www.netraniscubadive.in/images/netrani-diver.png",
+    "logo": "https://www.netraniscubadive.in/logo.png",
     "email": "murudeshwar.scuba.dive@gmail.com",
     "priceRange": "₹3,500 - ₹4,500",
     "currenciesAccepted": "INR",
     "paymentAccepted": "Cash, UPI",
     "slogan": "Trusted local booking support for Netrani Island scuba slots",
     "parentOrganization": {
-      "@id": "https://www.murudeshwarscubadive.in/#organization"
+      "@id": "https://www.netraniscubadive.in/#organization"
     },
     "address": {
       "@type": "PostalAddress",
@@ -177,7 +177,8 @@
     "description": "Local booking and coordination support for beginner-friendly scuba diving in Murudeshwar at Netrani Island with equipment, briefing, instructor support, and underwater photos/videos.",
     "provider": {
       "@type": "LocalBusiness",
-      "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#scuba"
+      "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#scuba",
+      "name": "Netrani Scuba Dive"
     },
     "areaServed": {
       "@type": "City",
@@ -190,7 +191,7 @@
         "price": "1200",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
         "validFrom": "2026-08-09",
         "description": "Boat ride option for companions who want the offshore Netrani trip without a scuba session."
       },
@@ -200,7 +201,7 @@
         "price": "1500",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
         "validFrom": "2026-08-09",
         "description": "Surface-level snorkeling option for families, companions, and lower-commitment water activity plans."
       },
@@ -210,7 +211,7 @@
         "price": "3500",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
         "validFrom": "2026-08-09",
         "description": "Full-day experience with boat ride, training, equipment, guided dive, and underwater photos/videos (varies by package)."
       },
@@ -220,7 +221,7 @@
         "price": "4000",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
         "validFrom": "2026-08-09",
         "description": "Certified-diver fun dive and PADI-track options depending on certification level, date, and sea conditions."
       }
@@ -229,9 +230,9 @@
   "product": {
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#product",
+    "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#product",
     "name": "Netrani Island Scuba Diving Package",
-    "image": "https://www.murudeshwarscubadive.in/images/netrani-diver.png",
+    "image": "https://www.netraniscubadive.in/images/netrani-diver.png",
     "description": "Beginner-friendly scuba diving package at Netrani Island, Murudeshwar. Includes boat ride, PADI instructor, briefing, equipment, and underwater media.",
     "brand": {
       "@type": "Brand",
@@ -245,7 +246,8 @@
       "offerCount": "4",
       "seller": {
         "@type": "LocalBusiness",
-        "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#scuba"
+        "@id": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#scuba",
+        "name": "Netrani Scuba Dive"
       },
       "offers": [
         {
@@ -253,7 +255,7 @@
           "name": "Discover Scuba Diving (Beginner / Non-swimmer friendly)",
           "price": "3500",
           "priceCurrency": "INR",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+          "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-08-09"
         },
@@ -262,7 +264,7 @@
           "name": "Fun Dive / PADI Track",
           "price": "4000",
           "priceCurrency": "INR",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
+          "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar",
           "availability": "https://schema.org/InStock",
           "validFrom": "2026-08-09"
         }
@@ -296,25 +298,25 @@
         "@type": "HowToStep",
         "name": "Message to confirm slots",
         "text": "Send a WhatsApp message with your date, number of people, and whether anyone is a non-swimmer. We will confirm availability and inclusions.",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#book"
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#book"
       },
       {
         "@type": "HowToStep",
         "name": "Arrive at the meeting point",
         "text": "Reach the assigned Murudeshwar meeting point at the reporting time stated in your written confirmation.",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#meeting-point"
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#meeting-point"
       },
       {
         "@type": "HowToStep",
         "name": "Briefing and training",
         "text": "Complete safety briefing, equipment check, and shallow-water practice with the instructor.",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#safety"
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#safety"
       },
       {
         "@type": "HowToStep",
         "name": "Boat ride and guided dive",
         "text": "Take the boat to Netrani Island and do the guided dive with instructor support.",
-        "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#schedule"
+        "url": "https://www.netraniscubadive.in/scuba-diving-murudeshwar#schedule"
       }
     ]
   },

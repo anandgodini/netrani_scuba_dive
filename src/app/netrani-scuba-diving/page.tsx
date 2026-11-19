@@ -573,7 +573,7 @@ export default function NetraniScubaDiving() {
                     {item.icon}
                   </div>
                   <div className="space-y-1.5">
-                    <h4 className="font-bold text-black text-xl">{item.title}</h4>
+                    <h3 className="font-bold text-black text-xl">{item.title}</h3>
                     <p className="text-neutral-700 text-sm leading-relaxed font-medium">{item.desc}</p>
                   </div>
                 </div>
