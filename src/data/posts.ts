@@ -6875,7 +6875,7 @@ Ready to experience the thrilling side of coastal Karnataka? Contact us to custo
     tags: ["Gokarna to Murudeshwar", "Travel Guide", "Road Trip", "Coastal Karnataka", "Honnavar", "Mirjan Fort", "Distance", "Transit", "Netrani Island"],
     readTime: "12 min read",
     date: "22 Aug 2026",
-    coverImage: "/images/blog/gokarna-murudeshwar.jpg",
+    coverImage: "/images/netrani-diver.jpg",
     faq: [
       {
         question: "What is the distance between Gokarna and Murudeshwar?",
@@ -7012,7 +7012,7 @@ After completing a scenic road trip along the coast and visiting the magnificent
     tags: ["Bangalore to Murudeshwar", "Travel Guide", "Road Trip", "Panchaganga Express", "Jog Falls", "Shimoga", "Bus Travel", "Karnataka Tourism", "Scuba Diving"],
     readTime: "12 min read",
     date: "22 Aug 2026",
-    coverImage: "/images/blog/bangalore-murudeshwar.jpg",
+    coverImage: "/images/colorblock/boat-expedition.jpg",
     faq: [
       {
         question: "What is the distance between Bangalore and Murudeshwar?",
@@ -7144,7 +7144,7 @@ Whether you are a seasoned diver or a complete beginner who has never tried swim
     tags: ["Murudeshwar Itinerary", "Travel Itinerary", "Trip Plan", "Murudeshwar Temple", "Netrani Island", "Scuba Diving", "Honnavar", "Mirjan Fort", "Gokarna"],
     readTime: "12 min read",
     date: "22 Aug 2026",
-    coverImage: "/images/blog/murudeshwar-itinerary.jpg",
+    coverImage: "/images/colorblock/boat-expedition.jpg",
     faq: [
       {
         question: "Is 2 days enough to visit Murudeshwar?",
@@ -7259,7 +7259,7 @@ Netrani Island scuba diving is Karnataka's premier marine attraction, offering c
     tags: ["Places to Visit", "Nearby Attractions", "Murudeshwar Tourism", "Bhatkal", "Honnavar", "Mirjan Fort", "Gokarna", "Jog Falls", "Netrani Island"],
     readTime: "12 min read",
     date: "22 Aug 2026",
-    coverImage: "/images/blog/places-near-murudeshwar.jpg",
+    coverImage: "/images/murudeshwara/netrani_island_scuba_diving.webp",
     faq: [
       {
         question: "What is the best tourist place near Murudeshwar?",
@@ -7367,7 +7367,7 @@ If you are planning your sightseeing itinerary of places near Murudeshwar, addin
     tags: ["Murudeshwar Railway Station", "Transit Guide", "Distance to Temple", "Trains to Murudeshwar", "Auto Fares", "Travel Guide", "Konkan Railway", "Scuba Diving"],
     readTime: "12 min read",
     date: "22 Aug 2026",
-    coverImage: "/images/blog/murudeshwar-railway-station.jpg",
+    coverImage: "/images/netrani-scuba-cover.png",
     faq: [
       {
         question: "What is the station code for Murudeshwar?",

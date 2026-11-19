@@ -64,13 +64,14 @@ export default function Team() {
       image: "/images/gallery/gallery-8.jpg",
       experience: "3,000+ Logged Dives",
     },
-    {
-      name: "Pooja Hegde",
-      role: "PADI Scuba Instructor",
-      desc: "Guiding first-time and beginner divers at Netrani across 5 active seasons, Pooja's patient orientation and reassuring underwater guidance help even hesitant non-swimmers dive with total confidence.",
-      image: "/images/gallery/gallery-9.jpg",
-      experience: "5+ Seasons at Netrani",
-    },
+    // Temporarily hidden: Pending verified photo asset (gallery-9.jpg returns 404)
+    // {
+    //   name: "Pooja Hegde",
+    //   role: "PADI Scuba Instructor",
+    //   desc: "Guiding first-time and beginner divers at Netrani across 5 active seasons, Pooja's patient orientation and reassuring underwater guidance help even hesitant non-swimmers dive with total confidence.",
+    //   image: "/images/gallery/gallery-9.jpg",
+    //   experience: "5+ Seasons at Netrani",
+    // },
   ];
 
   const jsonLd = [

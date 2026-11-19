@@ -1433,8 +1433,8 @@ export default function ScubaDivingMurudeshwar() {
               </p>
               <p className="service-lede service-lede--spaced">
                 If you are planning from Bangalore, use our detailed travel guide:{" "}
-                <Link href="/blog/murudeshwar-trip-from-bangalore">Murudeshwar trip from Bangalore</Link>. For private
-                vehicle planning, <Link href="/blog/bangalore-to-murudeshwar-by-cab">Bangalore to Murudeshwar by cab</Link>{" "}
+                <Link href="/blog/bangalore-to-murudeshwar-travel-guide">Murudeshwar trip from Bangalore</Link>. For private
+                vehicle planning, <Link href="/blog/bangalore-to-murudeshwar-travel-guide">Bangalore to Murudeshwar by cab</Link>{" "}
                 is the practical route and cost guide.
               </p>
               <h3 className="section__title netrani-h2">Transport tips (so you do not miss reporting)</h3>
@@ -1442,7 +1442,7 @@ export default function ScubaDivingMurudeshwar() {
                 Early-morning reporting is the most common reason people feel stressed. If your stay is not walkable
                 to the meeting point, plan transport in advance. You can use our{" "}
                 <Link href="/contact">Murudeshwar taxi service</Link>,{" "}
-                <Link href="/murudeshwar-railway-station-to-temple-taxi">
+                <Link href="/blog/murudeshwar-railway-station-to-temple-transit-guide">
                   Murudeshwar Railway Station to Temple taxi
                 </Link>
                 , or read the detailed fare guide in{" "}
