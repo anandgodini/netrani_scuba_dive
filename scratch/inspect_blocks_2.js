@@ -1,0 +1,13 @@
+const fs = require('fs');
+const blocks = JSON.parse(fs.readFileSync('scratch/blocks_2.json', 'utf8'));
+
+console.log('--- ALL NUMBERED AND SECTION HEADINGS ---');
+blocks.forEach((b, i) => {
+  if (b.type === 'heading') console.log(i, `H${b.level}:`, b.text);
+  else if (b.type === 'paragraph' && /^[0-9]+\.\s+/.test(b.text)) console.log(i, `Numbered P:`, b.text);
+  else if (b.type === 'paragraph' && /FAQ|Frequently Asked Questions/i.test(b.text)) console.log(i, `FAQ P:`, b.text);
+  else if (b.type === 'table') console.log(i, 'TABLE rows:', b.rows.length);
+});
+
+console.log('--- LAST 25 BLOCKS ---');
+blocks.slice(-25).forEach((b, i) => console.log(blocks.length - 25 + i, b.type, JSON.stringify(b.text || b.items || b.rows).slice(0, 80)));
