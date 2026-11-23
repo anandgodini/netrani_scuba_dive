@@ -57,6 +57,7 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "netrani-scuba-dive-beyond-the-first-dive",
     "netrani-scuba-dive",
     "netrani-scuba-dive-first-time-guide",
     "netrani-scuba-dive-underwater-world",
