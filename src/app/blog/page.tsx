@@ -57,6 +57,7 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "netrani-karnataka-underwater-world",
     "netrani-scuba-diving-first-underwater-adventure",
     "netrani-scuba-dive-beyond-the-first-dive",
     "netrani-scuba-dive",
